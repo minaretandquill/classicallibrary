@@ -491,7 +491,12 @@ export const authors = [
   "Multiple Scholars (Commissioned)",
   "Imam al-Zayla'i",
   "Shaykh Zada (Damad Afandi)",
-  "Imam Muhammad al-Shaybani"
+  "Imam Muhammad al-Shaybani",
+  "Imam al-Bukhari",
+  "Imam Muslim ibn al-Hajjaj",
+  "Imam al-Qurtubi",
+  "Imam al-Shafi'i",
+  "Ibn Rushd al-Hafid (Averroes)"
 ];
 
 export const subjects = [
