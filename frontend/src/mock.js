@@ -515,7 +515,12 @@ export const subjects = [
   "Hanafi Jurisprudence - Commentary with Hadith",
   "Hanafi Jurisprudence - Ottoman Standard",
   "Hanafi Jurisprudence - Primary Source",
-  "Comparative Jurisprudence - Contemporary"
+  "Comparative Jurisprudence - Contemporary",
+  "Prophetic Traditions - Most Authentic",
+  "Prophetic Traditions - Authentic Collection",
+  "Quranic Exegesis - Jurisprudential Focus",
+  "Shafi'i Jurisprudence - Foundational Text",
+  "Comparative Jurisprudence"
 ];
 
 export const madhabs = [
