@@ -7,14 +7,42 @@ import {
   SelectValue,
 } from './ui/select';
 import { Label } from './ui/label';
-import { Filter } from 'lucide-react';
+import { Filter, X } from 'lucide-react';
+import { Button } from './ui/button';
 
-const FilterPanel = ({ categories, authors, subjects, selectedFilters, onFilterChange }) => {
+const FilterPanel = ({ 
+  categories, 
+  authors, 
+  subjects, 
+  madhabs,
+  languages,
+  creeds,
+  eras,
+  bookTypes,
+  selectedFilters, 
+  onFilterChange 
+}) => {
+  const hasActiveFilters = Object.entries(selectedFilters).some(
+    ([key, value]) => value !== 'All'
+  );
+
   return (
     <div className="bg-white rounded-lg border border-emerald-100 p-6 space-y-6 shadow-sm">
-      <div className="flex items-center gap-2 text-emerald-800">
-        <Filter className="w-5 h-5" />
-        <h2 className="text-lg font-semibold">Filter Books</h2>
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2 text-emerald-800">
+          <Filter className="w-5 h-5" />
+          <h2 className="text-lg font-semibold">Filter Books</h2>
+        </div>
+        {hasActiveFilters && (
+          <Button
+            onClick={() => onFilterChange('reset', null)}
+            variant="ghost"
+            size="sm"
+            className="text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50"
+          >
+            <X className="w-4 h-4" />
+          </Button>
+        )}
       </div>
 
       <div className="space-y-4">
@@ -32,26 +60,6 @@ const FilterPanel = ({ categories, authors, subjects, selectedFilters, onFilterC
               {categories.map((category) => (
                 <SelectItem key={category} value={category}>
                   {category}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-
-        {/* Author Filter */}
-        <div className="space-y-2">
-          <Label className="text-sm font-medium text-gray-700">Author</Label>
-          <Select
-            value={selectedFilters.author}
-            onValueChange={(value) => onFilterChange('author', value)}
-          >
-            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
-              <SelectValue placeholder="Select author" />
-            </SelectTrigger>
-            <SelectContent className="max-h-60">
-              {authors.map((author) => (
-                <SelectItem key={author} value={author}>
-                  {author}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -78,16 +86,134 @@ const FilterPanel = ({ categories, authors, subjects, selectedFilters, onFilterC
           </Select>
         </div>
 
-        {/* Reset Button */}
-        {(selectedFilters.category !== 'All' || 
-          selectedFilters.author !== 'All' || 
-          selectedFilters.subject !== 'All') && (
-          <button
-            onClick={() => onFilterChange('reset', null)}
-            className="w-full text-sm text-emerald-700 hover:text-emerald-800 font-medium py-2 px-4 rounded-md border border-emerald-300 hover:bg-emerald-50 transition-colors"
+        {/* Author Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Author</Label>
+          <Select
+            value={selectedFilters.author}
+            onValueChange={(value) => onFilterChange('author', value)}
           >
-            Reset Filters
-          </button>
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select author" />
+            </SelectTrigger>
+            <SelectContent className="max-h-60">
+              {authors.map((author) => (
+                <SelectItem key={author} value={author}>
+                  {author}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Madhab Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Madhab</Label>
+          <Select
+            value={selectedFilters.madhab}
+            onValueChange={(value) => onFilterChange('madhab', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select madhab" />
+            </SelectTrigger>
+            <SelectContent>
+              {madhabs.map((madhab) => (
+                <SelectItem key={madhab} value={madhab}>
+                  {madhab}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Language Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Language</Label>
+          <Select
+            value={selectedFilters.language}
+            onValueChange={(value) => onFilterChange('language', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select language" />
+            </SelectTrigger>
+            <SelectContent>
+              {languages.map((language) => (
+                <SelectItem key={language} value={language}>
+                  {language}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Creed Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Creed</Label>
+          <Select
+            value={selectedFilters.creed}
+            onValueChange={(value) => onFilterChange('creed', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select creed" />
+            </SelectTrigger>
+            <SelectContent>
+              {creeds.map((creed) => (
+                <SelectItem key={creed} value={creed}>
+                  {creed}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Era Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Era</Label>
+          <Select
+            value={selectedFilters.era}
+            onValueChange={(value) => onFilterChange('era', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select era" />
+            </SelectTrigger>
+            <SelectContent>
+              {eras.map((era) => (
+                <SelectItem key={era} value={era}>
+                  {era}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Book Type Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Type of Book</Label>
+          <Select
+            value={selectedFilters.bookType}
+            onValueChange={(value) => onFilterChange('bookType', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select book type" />
+            </SelectTrigger>
+            <SelectContent>
+              {bookTypes.map((type) => (
+                <SelectItem key={type} value={type}>
+                  {type}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Reset Button */}
+        {hasActiveFilters && (
+          <Button
+            onClick={() => onFilterChange('reset', null)}
+            className="w-full bg-emerald-600 hover:bg-emerald-700 text-white"
+          >
+            Reset All Filters
+          </Button>
         )}
       </div>
     </div>

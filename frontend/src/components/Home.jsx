@@ -4,7 +4,7 @@ import { Input } from './ui/input';
 import BookCard from './BookCard';
 import BookDetail from './BookDetail';
 import FilterPanel from './FilterPanel';
-import { books, categories, authors, subjects } from '../mock';
+import { books, categories, authors, subjects, madhabs, languages, creeds, eras, bookTypes } from '../mock';
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,7 +13,12 @@ const Home = () => {
   const [filters, setFilters] = useState({
     category: 'All',
     author: 'All',
-    subject: 'All'
+    subject: 'All',
+    madhab: 'All',
+    language: 'All',
+    creed: 'All',
+    era: 'All',
+    bookType: 'All'
   });
 
   const handleFilterChange = (filterType, value) => {
@@ -21,7 +26,12 @@ const Home = () => {
       setFilters({
         category: 'All',
         author: 'All',
-        subject: 'All'
+        subject: 'All',
+        madhab: 'All',
+        language: 'All',
+        creed: 'All',
+        era: 'All',
+        bookType: 'All'
       });
     } else {
       setFilters(prev => ({ ...prev, [filterType]: value }));
@@ -46,7 +56,23 @@ const Home = () => {
       // Subject filter
       const matchesSubject = filters.subject === 'All' || book.subject === filters.subject;
 
-      return matchesSearch && matchesCategory && matchesAuthor && matchesSubject;
+      // Madhab filter
+      const matchesMadhab = filters.madhab === 'All' || book.madhab === filters.madhab;
+
+      // Language filter
+      const matchesLanguage = filters.language === 'All' || book.language === filters.language;
+
+      // Creed filter
+      const matchesCreed = filters.creed === 'All' || book.creed === filters.creed;
+
+      // Era filter
+      const matchesEra = filters.era === 'All' || book.era === filters.era;
+
+      // Book Type filter
+      const matchesBookType = filters.bookType === 'All' || book.bookType === filters.bookType;
+
+      return matchesSearch && matchesCategory && matchesAuthor && matchesSubject && 
+             matchesMadhab && matchesLanguage && matchesCreed && matchesEra && matchesBookType;
     });
   }, [searchQuery, filters]);
 
@@ -92,6 +118,11 @@ const Home = () => {
                 categories={categories}
                 authors={authors}
                 subjects={subjects}
+                madhabs={madhabs}
+                languages={languages}
+                creeds={creeds}
+                eras={eras}
+                bookTypes={bookTypes}
                 selectedFilters={filters}
                 onFilterChange={handleFilterChange}
               />

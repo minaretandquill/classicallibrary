@@ -7,7 +7,7 @@ import {
 } from './ui/dialog';
 import { Badge } from './ui/badge';
 import { ScrollArea } from './ui/scroll-area';
-import { Book, User, Calendar, FileText, Languages, Clock } from 'lucide-react';
+import { Book, User, Calendar, FileText, Languages, Clock, BookMarked, Scale, Heart } from 'lucide-react';
 
 const BookDetail = ({ book, open, onClose }) => {
   if (!book) return null;
@@ -46,7 +46,10 @@ const BookDetail = ({ book, open, onClose }) => {
                     {book.category}
                   </Badge>
                   <Badge variant="outline" className="border-teal-300 text-teal-700">
-                    {book.subject}
+                    {book.bookType}
+                  </Badge>
+                  <Badge variant="outline" className="border-amber-300 text-amber-700">
+                    {book.era}
                   </Badge>
                 </div>
 
@@ -99,7 +102,39 @@ const BookDetail = ({ book, open, onClose }) => {
                     <Book className="w-4 h-4 text-emerald-600" />
                     <div>
                       <p className="text-xs text-gray-500">Subject</p>
-                      <p className="text-sm font-medium">{book.subject}</p>
+                      <p className="text-sm font-medium line-clamp-1">{book.subject}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Scale className="w-4 h-4 text-emerald-600" />
+                    <div>
+                      <p className="text-xs text-gray-500">Madhab</p>
+                      <p className="text-sm font-medium">{book.madhab}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Heart className="w-4 h-4 text-emerald-600" />
+                    <div>
+                      <p className="text-xs text-gray-500">Creed</p>
+                      <p className="text-sm font-medium">{book.creed}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <BookMarked className="w-4 h-4 text-emerald-600" />
+                    <div>
+                      <p className="text-xs text-gray-500">Book Type</p>
+                      <p className="text-sm font-medium">{book.bookType}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-emerald-600" />
+                    <div>
+                      <p className="text-xs text-gray-500">Era</p>
+                      <p className="text-sm font-medium">{book.era}</p>
                     </div>
                   </div>
                 </div>
