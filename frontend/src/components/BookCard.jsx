@@ -17,10 +17,10 @@ const BookCard = ({ book, onClick }) => {
 
   return (
     <Card 
-      className="cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group overflow-hidden border-emerald-100"
+      className="cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group overflow-hidden border-emerald-100"
       onClick={() => onClick(book)}
     >
-      <div className="aspect-[3/4] relative overflow-hidden bg-gradient-to-br from-emerald-50 to-teal-50">
+      <div className="aspect-[2/3] relative overflow-hidden bg-gradient-to-br from-emerald-50 to-teal-50">
         <img
           src={book.coverImage}
           alt={book.title}
