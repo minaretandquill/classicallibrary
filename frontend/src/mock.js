@@ -272,7 +272,19 @@ export const books = [
     description: "An advanced commentary on al-Hidaya, combining fiqh with usul al-fiqh. Known for its depth and analytical rigor.",
     uniqueAspects: "Unique for integrating jurisprudential principles (usul) with applied law (furu'). Ibn al-Humam critically examines evidences and provides independent analysis, making this essential for scholars who want to understand the reasoning behind rulings.",
     coverImage: "https://images.unsplash.com/photo-1590720485412-fc0322a7acb2",
-    isPlaceholder: false
+    isPlaceholder: false,
+    parentWork: 3,
+    hasCommentaries: [],
+    publishedEditions: [
+      {
+        publisher: "Dar al-Fikr",
+        location: "Beirut, Lebanon",
+        year: "1995",
+        volumes: 10,
+        verified: true,
+        link: null
+      }
+    ]
   },
   {
     id: 12,
