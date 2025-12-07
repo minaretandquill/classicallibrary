@@ -343,7 +343,7 @@ export const books = [
     scholarEra: "2nd Century Hijri",
     description: "The foundational work of Hanafi jurisprudence by the direct student of Imam Abu Hanifa. Contains the earliest systematic exposition of Hanafi legal opinions.",
     uniqueAspects: "The primary source text for all later Hanafi works. Direct transmission from Imam Abu Hanifa's students. Essential for understanding the original Hanafi methodology and reasoning. All later Hanafi texts build on this foundation.",
-    coverImage: "https://images.pexels.com/photos/27176661/pexels-photo-27176661.jpeg",
+    coverImage: "https://www.sifatusafwa.com/21756-large_default/al-asl-al-mabsoot-by-imam-ash-shaybani-189h-13-volumes.jpg",
     isPlaceholder: false
   },
   {
