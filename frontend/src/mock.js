@@ -68,7 +68,27 @@ export const books = [
     description: "The most widely taught intermediate text in Hanafi jurisprudence. It has been the primary textbook in Islamic seminaries for centuries and has numerous commentaries written on it.",
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
     coverImage: "https://images.unsplash.com/photo-1622137879013-beaca5144a4b",
-    isPlaceholder: false
+    isPlaceholder: false,
+    parentWork: null,
+    hasCommentaries: [11, 4],
+    publishedEditions: [
+      {
+        publisher: "Dar al-Kotob al-Ilmiyah",
+        location: "Beirut, Lebanon",
+        year: "2000",
+        volumes: 4,
+        verified: true,
+        link: "https://www.sifatusafwa.com"
+      },
+      {
+        publisher: "Dar al-Arqam",
+        location: "Pakistan",
+        year: "2010",
+        volumes: 2,
+        verified: true,
+        link: null
+      }
+    ]
   },
   {
     id: 4,
