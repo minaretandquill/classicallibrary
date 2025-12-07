@@ -190,11 +190,79 @@ const BookDetail = ({ book, open, onClose }) => {
                   <p className="text-gray-800 leading-relaxed">{book.uniqueAspects}</p>
                 </div>
 
+                {/* Related Works Section */}
+                {(book.parentWork || (book.hasCommentaries && book.hasCommentaries.length > 0)) && (
+                  <>
+                    <Separator className="my-4" />
+                    <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                      <h3 className="text-lg font-semibold text-blue-900 mb-3">Related Works</h3>
+                      
+                      {book.parentWork && (
+                        <div className="mb-3">
+                          <p className="text-sm font-medium text-blue-800 mb-1">📖 Commentary on:</p>
+                          <p className="text-sm text-blue-700 pl-4">
+                            This is a commentary on: <span className="font-semibold">Book ID #{book.parentWork}</span>
+                          </p>
+                        </div>
+                      )}
+                      
+                      {book.hasCommentaries && book.hasCommentaries.length > 0 && (
+                        <div>
+                          <p className="text-sm font-medium text-blue-800 mb-1">📚 Has {book.hasCommentaries.length} Commentaries:</p>
+                          <ul className="list-disc list-inside text-sm text-blue-700 pl-4 space-y-1">
+                            {book.hasCommentaries.map(id => (
+                              <li key={id}>Book ID #{id}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  </>
+                )}
+
+                {/* Published Editions Section */}
+                {book.publishedEditions && book.publishedEditions.length > 0 && (
+                  <>
+                    <Separator className="my-4" />
+                    <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                      <h3 className="text-lg font-semibold text-green-900 mb-3">Current Published Editions</h3>
+                      <div className="space-y-3">
+                        {book.publishedEditions.map((edition, index) => (
+                          <div key={index} className="bg-white p-3 rounded border border-green-300">
+                            <div className="flex items-start justify-between">
+                              <div className="flex-1">
+                                <p className="font-semibold text-gray-900">{edition.publisher}</p>
+                                <p className="text-sm text-gray-600">{edition.location} • {edition.year}</p>
+                                <p className="text-sm text-gray-600">{edition.volumes} Volume{edition.volumes > 1 ? 's' : ''}</p>
+                              </div>
+                              {edition.verified && (
+                                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
+                                  ✓ Verified
+                                </span>
+                              )}
+                            </div>
+                            {edition.link && (
+                              <a 
+                                href={edition.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm text-green-600 hover:text-green-700 font-medium mt-2 inline-block"
+                              >
+                                Visit Publisher →
+                              </a>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </>
+                )}
+
                 {/* Placeholder Note */}
                 {book.isPlaceholder && (
                   <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 mt-4">
                     <p className="text-xs text-blue-800">
-                      📎 Note: This is a placeholder image. Upload custom cover via admin panel.
+                      📌 Note: This is a placeholder image. Upload custom cover via admin panel.
                     </p>
                   </div>
                 )}
