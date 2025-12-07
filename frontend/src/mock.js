@@ -21,7 +21,7 @@ export const books = [
     scholarEra: "5th Century Hijri",
     description: "One of the most comprehensive and detailed works in Hanafi jurisprudence. Al-Sarakhsi dictated this monumental 30-volume work from memory while imprisoned, covering virtually every aspect of Islamic law.",
     uniqueAspects: "Unique for being dictated entirely from memory during imprisonment. Known for its extensive legal reasoning and detailed analysis of jurisprudential principles. Considered the encyclopedic reference for advanced Hanafi fiqh.",
-    coverImage: "https://images.unsplash.com/photo-1599493758737-31c5be444eff",
+    coverImage: "https://www.sifatusafwa.com/21756-large_default/al-asl-al-mabsoot-by-imam-ash-shaybani-189h-13-volumes.jpg",
     isPlaceholder: false
   },
   {
