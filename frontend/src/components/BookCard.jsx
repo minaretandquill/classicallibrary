@@ -38,18 +38,17 @@ const BookCard = ({ book, onClick }) => {
           </Badge>
         </div>
       </div>
-      <CardContent className="p-4 space-y-2">
-        <h3 className="font-semibold text-gray-900 line-clamp-2 text-base group-hover:text-emerald-700 transition-colors">
+      <CardContent className="p-3 space-y-1.5">
+        <h3 className="font-semibold text-gray-900 line-clamp-2 text-sm group-hover:text-emerald-700 transition-colors">
           {book.title}
         </h3>
-        <p className="text-sm text-gray-600 font-arabic">{book.arabicTitle}</p>
-        <div className="flex items-center justify-between text-sm">
-          <span className="text-emerald-600 font-medium">{book.author}</span>
-          <span className="text-gray-500 text-xs">{book.publicationYear}</span>
+        <p className="text-xs text-gray-600 font-arabic line-clamp-1">{book.arabicTitle}</p>
+        <div className="flex items-center justify-between text-xs">
+          <span className="text-emerald-600 font-medium line-clamp-1">{book.author}</span>
         </div>
-        <div className="flex items-center gap-2 text-xs text-gray-500">
+        <div className="flex items-center gap-1.5 text-xs text-gray-500">
           <BookOpen className="w-3 h-3" />
-          <span>{book.category}</span>
+          <span className="line-clamp-1">{book.category}</span>
         </div>
       </CardContent>
     </Card>
