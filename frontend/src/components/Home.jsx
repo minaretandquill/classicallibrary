@@ -116,8 +116,7 @@ const Home = () => {
                     book={book}
                     onClick={handleBookClick}
                   />
-                )
-              ))}
+                ))}
               </div>
             ) : (
               <div className="text-center py-16">
