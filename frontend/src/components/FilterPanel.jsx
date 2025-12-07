@@ -19,6 +19,7 @@ const FilterPanel = ({
   creeds,
   eras,
   bookTypes,
+  studyLevels,
   selectedFilters, 
   onFilterChange 
 }) => {
@@ -100,6 +101,26 @@ const FilterPanel = ({
               {authors.map((author) => (
                 <SelectItem key={author} value={author}>
                   {author}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Study Level Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Study Level</Label>
+          <Select
+            value={selectedFilters.studyLevel}
+            onValueChange={(value) => onFilterChange('studyLevel', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select level" />
+            </SelectTrigger>
+            <SelectContent>
+              {studyLevels.map((level) => (
+                <SelectItem key={level} value={level}>
+                  {level}
                 </SelectItem>
               ))}
             </SelectContent>

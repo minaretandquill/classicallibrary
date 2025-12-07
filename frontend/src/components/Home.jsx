@@ -1,15 +1,36 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Library } from 'lucide-react';
+import { Search, Library, ArrowUpDown } from 'lucide-react';
 import { Input } from './ui/input';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from './ui/select';
+import { Label } from './ui/label';
 import BookCard from './BookCard';
 import BookDetail from './BookDetail';
 import FilterPanel from './FilterPanel';
-import { books, categories, authors, subjects, madhabs, languages, creeds, eras, bookTypes } from '../mock';
+import { 
+  books, 
+  categories, 
+  authors, 
+  subjects, 
+  madhabs, 
+  languages, 
+  creeds, 
+  eras, 
+  bookTypes,
+  studyLevels,
+  sortOptions
+} from '../mock';
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBook, setSelectedBook] = useState(null);
   const [isDetailOpen, setIsDetailOpen] = useState(false);
+  const [sortBy, setSortBy] = useState('scholarBirthYear');
   const [filters, setFilters] = useState({
     category: 'All',
     author: 'All',
@@ -18,7 +39,8 @@ const Home = () => {
     language: 'All',
     creed: 'All',
     era: 'All',
-    bookType: 'All'
+    bookType: 'All',
+    studyLevel: 'All'
   });
 
   const handleFilterChange = (filterType, value) => {
@@ -31,15 +53,17 @@ const Home = () => {
         language: 'All',
         creed: 'All',
         era: 'All',
-        bookType: 'All'
+        bookType: 'All',
+        studyLevel: 'All'
       });
     } else {
       setFilters(prev => ({ ...prev, [filterType]: value }));
     }
   };
 
-  const filteredBooks = useMemo(() => {
-    return books.filter(book => {
+  const filteredAndSortedBooks = useMemo(() => {
+    // First filter
+    let result = books.filter(book => {
       // Search filter
       const matchesSearch = searchQuery === '' || 
         book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -71,10 +95,39 @@ const Home = () => {
       // Book Type filter
       const matchesBookType = filters.bookType === 'All' || book.bookType === filters.bookType;
 
+      // Study Level filter
+      const matchesStudyLevel = filters.studyLevel === 'All' || book.studyLevel === filters.studyLevel;
+
       return matchesSearch && matchesCategory && matchesAuthor && matchesSubject && 
-             matchesMadhab && matchesLanguage && matchesCreed && matchesEra && matchesBookType;
+             matchesMadhab && matchesLanguage && matchesCreed && matchesEra && 
+             matchesBookType && matchesStudyLevel;
     });
-  }, [searchQuery, filters]);
+
+    // Then sort
+    result.sort((a, b) => {
+      switch (sortBy) {
+        case 'scholarBirthYear':
+          return a.authorBirthYear - b.authorBirthYear;
+        case 'publicationYear':
+          const yearA = parseInt(a.publicationYear.replace(' AH', ''));
+          const yearB = parseInt(b.publicationYear.replace(' AH', ''));
+          return yearA - yearB;
+        case 'title':
+          return a.title.localeCompare(b.title);
+        case 'author':
+          return a.author.localeCompare(b.author);
+        case 'studyLevel':
+          const levels = ['Beginner', 'Intermediate', 'Upper Intermediate', 'Advanced', 'Specialist'];
+          return levels.indexOf(a.studyLevel) - levels.indexOf(b.studyLevel);
+        case 'pages':
+          return a.pages - b.pages;
+        default:
+          return 0;
+      }
+    });
+
+    return result;
+  }, [searchQuery, filters, sortBy]);
 
   const handleBookClick = (book) => {
     setSelectedBook(book);
@@ -90,7 +143,7 @@ const Home = () => {
             <Library className="w-8 h-8 text-emerald-600" />
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Islamic Classical Library</h1>
-              <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية</p>
+              <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية - Hanafi Madhab Focus</p>
             </div>
           </div>
 
@@ -123,6 +176,7 @@ const Home = () => {
                 creeds={creeds}
                 eras={eras}
                 bookTypes={bookTypes}
+                studyLevels={studyLevels}
                 selectedFilters={filters}
                 onFilterChange={handleFilterChange}
               />
@@ -131,17 +185,35 @@ const Home = () => {
 
           {/* Books Grid */}
           <main className="lg:col-span-3">
-            {/* Results Count */}
-            <div className="mb-6 flex items-center justify-between">
+            {/* Results Count and Sort */}
+            <div className="mb-6 flex items-center justify-between flex-wrap gap-4">
               <p className="text-gray-600">
-                <span className="font-semibold text-emerald-700">{filteredBooks.length}</span> books found
+                <span className="font-semibold text-emerald-700">{filteredAndSortedBooks.length}</span> books found
               </p>
+              
+              {/* Sort Dropdown */}
+              <div className="flex items-center gap-3">
+                <ArrowUpDown className="w-4 h-4 text-gray-500" />
+                <Label className="text-sm text-gray-600">Sort by:</Label>
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-56 border-emerald-200">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {sortOptions.map(option => (
+                      <SelectItem key={option.value} value={option.value}>
+                        {option.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
 
             {/* Books Grid */}
-            {filteredBooks.length > 0 ? (
+            {filteredAndSortedBooks.length > 0 ? (
               <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredBooks.map(book => (
+                {filteredAndSortedBooks.map(book => (
                   <BookCard
                     key={book.id}
                     book={book}
