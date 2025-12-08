@@ -113,9 +113,12 @@ const Home = () => {
       // Study Level filter
       const matchesStudyLevel = filters.studyLevel === 'All' || book.studyLevel === filters.studyLevel;
 
+      // Commentary Of filter
+      const matchesCommentaryOf = filters.commentaryOf === 'All' || book.commentaryOf === filters.commentaryOf;
+
       return matchesSearch && matchesCategory && matchesAuthor && matchesSubject && 
              matchesMadhab && matchesLanguage && matchesCreed && matchesEra && 
-             matchesBookType && matchesStudyLevel;
+             matchesBookType && matchesStudyLevel && matchesCommentaryOf;
     });
 
     // Then sort
