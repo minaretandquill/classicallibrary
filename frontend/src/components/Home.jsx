@@ -189,12 +189,14 @@ const Home = () => {
                 categories={categories}
                 authors={authors}
                 subjects={subjects}
+                availableSubjects={availableSubjects}
                 madhabs={madhabs}
                 languages={languages}
                 creeds={creeds}
                 eras={eras}
                 bookTypes={bookTypes}
                 studyLevels={studyLevels}
+                commentaryOfOptions={commentaryOfOptions}
                 selectedFilters={filters}
                 onFilterChange={handleFilterChange}
               />
