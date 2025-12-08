@@ -191,29 +191,32 @@ const BookDetail = ({ book, open, onClose }) => {
                 </div>
 
                 {/* Related Works Section */}
-                {(book.parentWork || (book.hasCommentaries && book.hasCommentaries.length > 0)) && (
+                {(book.commentaryOf || (book.hasCommentaries && book.hasCommentaries.length > 0)) && (
                   <>
                     <Separator className="my-4" />
                     <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                       <h3 className="text-lg font-semibold text-blue-900 mb-3">Related Works</h3>
                       
-                      {book.parentWork && (
+                      {book.commentaryOf && (
                         <div className="mb-3">
-                          <p className="text-sm font-medium text-blue-800 mb-1">📖 Commentary on:</p>
-                          <p className="text-sm text-blue-700 pl-4">
-                            This is a commentary on: <span className="font-semibold">Book ID #{book.parentWork}</span>
-                          </p>
+                          <p className="text-sm font-medium text-blue-800 mb-2">📖 This is a commentary on:</p>
+                          <div className="bg-white p-3 rounded border border-blue-300 ml-4">
+                            <p className="font-semibold text-gray-900">{book.commentaryOf}</p>
+                          </div>
                         </div>
                       )}
                       
                       {book.hasCommentaries && book.hasCommentaries.length > 0 && (
                         <div>
-                          <p className="text-sm font-medium text-blue-800 mb-1">📚 Has {book.hasCommentaries.length} Commentaries:</p>
-                          <ul className="list-disc list-inside text-sm text-blue-700 pl-4 space-y-1">
-                            {book.hasCommentaries.map(id => (
-                              <li key={id}>Book ID #{id}</li>
+                          <p className="text-sm font-medium text-blue-800 mb-2">📚 Commentaries on this work ({book.hasCommentaries.length}):</p>
+                          <div className="space-y-2 ml-4">
+                            {book.hasCommentaries.map(commentary => (
+                              <div key={commentary.id} className="bg-white p-3 rounded border border-blue-300">
+                                <p className="font-semibold text-gray-900">{commentary.title}</p>
+                                <p className="text-sm text-gray-600">by {commentary.author}</p>
+                              </div>
                             ))}
-                          </ul>
+                          </div>
                         </div>
                       )}
                     </div>
