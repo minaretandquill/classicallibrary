@@ -1037,6 +1037,79 @@ export const authors = [
   "Ibn Rushd al-Hafid (Averroes)"
 ];
 
+// Subjects organized by category
+export const subjectsByCategory = {
+  "Fiqh": [
+    "All",
+    "Comprehensive",
+    "Systematic",
+    "Intermediate Text",
+    "Evidences",
+    "Concise Text",
+    "Ritual Worship",
+    "Encyclopedia",
+    "Selected Topics",
+    "Foundational Text",
+    "Advanced Commentary",
+    "Legal Encyclopedia",
+    "Commentary with Hadith",
+    "Ottoman Standard",
+    "Primary Source",
+    "Comparative Jurisprudence",
+    "Transactions",
+    "Women's Issues",
+    "Contemporary Issues"
+  ],
+  "Hadith": [
+    "All",
+    "Most Authentic",
+    "Authentic Collection",
+    "Hadith Commentary",
+    "Ethics & Spirituality",
+    "Hadith with Fiqh Application"
+  ],
+  "Tafsir": [
+    "All",
+    "Comprehensive Exegesis",
+    "Hadith-based Exegesis",
+    "Jurisprudential Focus"
+  ],
+  "Usul al-Fiqh": [
+    "All",
+    "Principles of Jurisprudence",
+    "Legal Maxims",
+    "Guidelines for Issuing Fatwas"
+  ],
+  "Aqeedah": [
+    "All",
+    "Islamic Creed",
+    "Theological Principles"
+  ],
+  "Seerah": [
+    "All",
+    "Prophetic Biography",
+    "Prophetic Guidance",
+    "Prophetic Excellence"
+  ],
+  "History": [
+    "All",
+    "Islamic History",
+    "Biographical Works"
+  ],
+  "Arabic Language": [
+    "All",
+    "Arabic Grammar",
+    "Arabic Lexicon",
+    "Morphology"
+  ],
+  "Sufism & Spirituality": [
+    "All",
+    "Inner Dimensions",
+    "Spiritual Purification"
+  ]
+};
+
+// Legacy flat list for backwards compatibility
 export const subjects = [
   "All",
   "Hanafi Jurisprudence - Comprehensive",
@@ -1059,6 +1132,18 @@ export const subjects = [
   "Quranic Exegesis - Jurisprudential Focus",
   "Shafi'i Jurisprudence - Foundational Text",
   "Comparative Jurisprudence"
+];
+
+// Commentary base texts for filtering
+export const commentaryOfOptions = [
+  "All",
+  "Mukhtasar al-Quduri",
+  "Al-Hidaya",
+  "Kanz al-Daqa'iq",
+  "Nur al-Idah",
+  "Maraqi al-Falah",
+  "Al-Wiqayah",
+  "Tanwir al-Absar"
 ];
 
 export const madhabs = [
