@@ -42,8 +42,17 @@ const Home = () => {
     creed: 'All',
     era: 'All',
     bookType: 'All',
-    studyLevel: 'All'
+    studyLevel: 'All',
+    commentaryOf: 'All'
   });
+
+  // Get subjects based on selected category
+  const availableSubjects = useMemo(() => {
+    if (filters.category === 'All') {
+      return ['All'];
+    }
+    return subjectsByCategory[filters.category] || ['All'];
+  }, [filters.category]);
 
   const handleFilterChange = (filterType, value) => {
     if (filterType === 'reset') {
