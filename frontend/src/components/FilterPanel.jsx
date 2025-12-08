@@ -69,18 +69,21 @@ const FilterPanel = ({
           </Select>
         </div>
 
-        {/* Subject Filter */}
+        {/* Subject Filter - Nested under Category */}
         <div className="space-y-2">
-          <Label className="text-sm font-medium text-gray-700">Subject</Label>
+          <Label className="text-sm font-medium text-gray-700">
+            Subject {selectedFilters.category !== 'All' && `(${selectedFilters.category})`}
+          </Label>
           <Select
             value={selectedFilters.subject}
             onValueChange={(value) => onFilterChange('subject', value)}
+            disabled={selectedFilters.category === 'All'}
           >
             <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
-              <SelectValue placeholder="Select subject" />
+              <SelectValue placeholder={selectedFilters.category === 'All' ? 'Select category first' : 'Select subject'} />
             </SelectTrigger>
             <SelectContent className="max-h-60">
-              {subjects.map((subject) => (
+              {availableSubjects.map((subject) => (
                 <SelectItem key={subject} value={subject}>
                   {subject}
                 </SelectItem>
