@@ -69,8 +69,11 @@ export const books = [
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
     coverImage: "https://images.unsplash.com/photo-1622137879013-beaca5144a4b",
     isPlaceholder: false,
-    parentWork: null,
-    hasCommentaries: [11, 4],
+    commentaryOf: null,
+    hasCommentaries: [
+      { id: 11, title: "Sharh Fath al-Qadir", author: "Ibn al-Humam" },
+      { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Imam Abdullah ibn Mahmud al-Mawsili" }
+    ],
     publishedEditions: [
       {
         publisher: "Dar al-Kotob al-Ilmiyah",
