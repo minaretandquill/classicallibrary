@@ -232,6 +232,26 @@ const FilterPanel = ({
           </Select>
         </div>
 
+        {/* Commentary Of Filter */}
+        <div className="space-y-2">
+          <Label className="text-sm font-medium text-gray-700">Commentary Of</Label>
+          <Select
+            value={selectedFilters.commentaryOf}
+            onValueChange={(value) => onFilterChange('commentaryOf', value)}
+          >
+            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
+              <SelectValue placeholder="Select base text" />
+            </SelectTrigger>
+            <SelectContent className="max-h-60">
+              {commentaryOfOptions.map((option) => (
+                <SelectItem key={option} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
         {/* Reset Button */}
         {hasActiveFilters && (
           <Button
