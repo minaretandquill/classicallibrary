@@ -16,14 +16,16 @@ import {
   books, 
   categories, 
   authors, 
-  subjects, 
+  subjects,
+  subjectsByCategory,
   madhabs, 
   languages, 
   creeds, 
   eras, 
   bookTypes,
   studyLevels,
-  sortOptions
+  sortOptions,
+  commentaryOfOptions
 } from '../mock';
 
 const Home = () => {
