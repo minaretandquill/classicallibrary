@@ -13,13 +13,15 @@ import { Button } from './ui/button';
 const FilterPanel = ({ 
   categories, 
   authors, 
-  subjects, 
+  subjects,
+  availableSubjects,
   madhabs,
   languages,
   creeds,
   eras,
   bookTypes,
   studyLevels,
+  commentaryOfOptions,
   selectedFilters, 
   onFilterChange 
 }) => {
