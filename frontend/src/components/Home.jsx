@@ -65,8 +65,12 @@ const Home = () => {
         creed: 'All',
         era: 'All',
         bookType: 'All',
-        studyLevel: 'All'
+        studyLevel: 'All',
+        commentaryOf: 'All'
       });
+    } else if (filterType === 'category') {
+      // When category changes, reset subject to 'All'
+      setFilters(prev => ({ ...prev, category: value, subject: 'All' }));
     } else {
       setFilters(prev => ({ ...prev, [filterType]: value }));
     }
