@@ -21,7 +21,7 @@ export const books = [
     scholarEra: "5th Century Hijri",
     description: "One of the most comprehensive and detailed works in Hanafi jurisprudence. Al-Sarakhsi dictated this monumental 30-volume work from memory while imprisoned, covering virtually every aspect of Islamic law.",
     uniqueAspects: "Unique for being dictated entirely from memory during imprisonment. Known for its extensive legal reasoning and detailed analysis of jurisprudential principles. Considered the encyclopedic reference for advanced Hanafi fiqh.",
-    coverImage: "https://www.sifatusafwa.com/21756-large_default/al-asl-al-mabsoot-by-imam-ash-shaybani-189h-13-volumes.jpg",
+    coverImage: "/book_covers/pendingfrontcover.jpg",
     isPlaceholder: false
   },
   {
@@ -1416,13 +1416,17 @@ export const categories = [
   "All",
   "Tafsir",
   "Hadith",
-  "Fiqh",
   "Aqeedah",
+  "Fiqh",
   "Seerah",
+  "Tassawuf",
   "Arabic Language",
   "Usul al-Fiqh",
+  "Usul al-Hadith",
+  "Ulum al-Qur'an",
   "History",
-  "Sufism & Spirituality"
+  "Miscellaneous",
+  "Reference"
 ];
 
 export const authors = [
@@ -1453,54 +1457,49 @@ export const subjectsByCategory = {
   "Fiqh": [
     "All",
     "Comprehensive",
-    "Systematic",
-    "Intermediate Text",
     "Evidences",
     "Concise Text",
-    "Ritual Worship",
     "Encyclopedia",
     "Selected Topics",
-    "Foundational Text",
     "Advanced Commentary",
-    "Legal Encyclopedia",
-    "Commentary with Hadith",
-    "Ottoman Standard",
-    "Primary Source",
-    "Comparative Jurisprudence",
-    "Transactions",
-    "Women's Issues",
+    "Ritual Worship",
+    "Muamalaat",
+    "Other",
     "Contemporary Issues"
   ],
   "Hadith": [
     "All",
-    "Most Authentic",
-    "Authentic Collection",
+    "Sahih Siita",
+    "Other Collections",
     "Hadith Commentary",
-    "Ethics & Spirituality",
-    "Hadith with Fiqh Application"
+    "Hadith with Fiqh"
   ],
   "Tafsir": [
     "All",
-    "Comprehensive Exegesis",
-    "Hadith-based Exegesis",
-    "Jurisprudential Focus"
+    "Comprehensive",
+    "bil-Riwaya",
+    "bil-Dirayah",
+    "Linguistic",
+    "Juridical",
+    "Mystical"
   ],
   "Usul al-Fiqh": [
     "All",
-    "Principles of Jurisprudence",
+    "Legal Theory",
     "Legal Maxims",
-    "Guidelines for Issuing Fatwas"
+    "Ifta"
   ],
   "Aqeedah": [
     "All",
-    "Islamic Creed",
-    "Theological Principles"
+    "Creed",
+    "Kalaam",
+    "Usul ad-din"
   ],
   "Seerah": [
     "All",
     "Prophetic Biography",
-    "Prophetic Guidance",
-    "Prophetic Excellence"
+    "Prophetic Descriptions",
+    "Prophetic Maghazi"
   ],
   "History": [
     "All",
@@ -1509,34 +1508,53 @@ export const subjectsByCategory = {
   ],
   "Arabic Language": [
     "All",
-    "Arabic Grammar",
-    "Arabic Lexicon",
-    "Morphology"
+    "Sarf",
+    "Nahv",
+    "Balagha",
+    "Mantiq",
+    "Dictionary",
+    "Kalaam",
+    "Qiraa'"
   ],
-  "Sufism & Spirituality": [
+  "Tassawuf": [
     "All",
-    "Inner Dimensions",
-    "Spiritual Purification"
+    "Purification",
+    "Mysticism"
   ]
-};
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Miscellaneous": [
+    "All",
+    "Principles"
+  ]
+  "Reference": [
+    "All",
+    "Dictionary"
+  ]
+];
+
 
 // Legacy flat list for backwards compatibility
 export const subjects = [
   "All",
   "Hanafi Jurisprudence - Comprehensive",
-  "Hanafi Jurisprudence - Systematic",
-  "Hanafi Jurisprudence - Intermediate Text",
   "Hanafi Jurisprudence - Evidences",
   "Hanafi Jurisprudence - Concise Text",
   "Hanafi Jurisprudence - Ritual Worship",
+  "Hanafi Jurisprudence - Muamalaat",
   "Hanafi Jurisprudence - Encyclopedia",
   "Hanafi Jurisprudence - Selected Topics",
-  "Hanafi Jurisprudence - Foundational Text",
   "Hanafi Jurisprudence - Advanced Commentary",
-  "Hanafi Jurisprudence - Legal Encyclopedia",
-  "Hanafi Jurisprudence - Commentary with Hadith",
-  "Hanafi Jurisprudence - Ottoman Standard",
-  "Hanafi Jurisprudence - Primary Source",
   "Comparative Jurisprudence - Contemporary",
   "Prophetic Traditions - Most Authentic",
   "Prophetic Traditions - Authentic Collection",
@@ -1565,6 +1583,7 @@ export const madhabs = [
   "Hanbali",
   "Comparative",
   "Independent",
+  "Salafi",
   "N/A"
 ];
 
@@ -1573,9 +1592,8 @@ export const languages = [
   "Arabic",
   "English",
   "Urdu",
-  "Turkish",
   "Persian",
-  "Malay"
+  "Turkish"
 ];
 
 export const creeds = [
@@ -1597,16 +1615,22 @@ export const eras = [
 
 export const bookTypes = [
   "All",
-  "Matn",
-  "Commentary",
-  "Translation",
-  "Epistle",
-  "Compilation",
-  "Reference"
+  "Core text (Matn)",
+  "Commentary (Sharh)",
+  "Gloss (Haashiya)",
+  "Summary (Mukhtasar)",
+  "Risala (Epistle)",
+  "Takhreej (Referenced Edition)",
+  "Tahqeeq (Critical Edition)",
+  "Fatawa (Legal Verdicts)",
+  "Tarjama (Translation)",
+  "Majmu (Collection)",
+  "Mawsua (Reference)"
 ];
 
 export const studyLevels = [
   "All",
+  "Elementary",
   "Beginner",
   "Intermediate",
   "Upper Intermediate",
@@ -1619,6 +1643,5 @@ export const sortOptions = [
   { value: 'publicationYear', label: 'Publication Year' },
   { value: 'title', label: 'Title (A-Z)' },
   { value: 'author', label: 'Author Name' },
-  { value: 'studyLevel', label: 'Study Level' },
-  { value: 'pages', label: 'Number of Pages' }
+  { value: 'studyLevel', label: 'Study Level' }
 ];
