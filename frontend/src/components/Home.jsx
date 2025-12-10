@@ -157,16 +157,34 @@ const Home = () => {
       {/* Header */}
       <header className="bg-white border-b border-emerald-100 shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center gap-3 mb-6">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png" 
-              alt="Minaret and Quill House Logo" 
-              className="w-10 h-10 object-contain"
-            />
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">Islamic Classical Library</h1>
-              <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية</p>
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png" 
+                alt="Minaret and Quill House Logo" 
+                className="w-10 h-10 object-contain"
+              />
+              <div>
+                <h1 className="text-3xl font-bold text-gray-900">Islamic Classical Library</h1>
+                <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية</p>
+              </div>
             </div>
+            <a 
+              href="https://www.minaretandquill.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-50 hover:bg-emerald-100 rounded-lg transition-colors border border-emerald-200"
+            >
+              <img 
+                src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png" 
+                alt="Minaret and Quill House" 
+                className="h-6 w-6 object-contain"
+              />
+              <div className="text-left">
+                <p className="text-xs text-gray-500">Powered by</p>
+                <p className="text-sm font-semibold text-emerald-800">Minaret and Quill House</p>
+              </div>
+            </a>
           </div>
 
           {/* Search Bar */}
