@@ -284,6 +284,26 @@ const Home = () => {
         </div>
       </footer>
 
+      {/* Floating Badge - Bottom Right */}
+      <a
+        href="https://www.minaretandquill.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-white px-3 py-2 rounded-lg shadow-lg border border-emerald-100 hover:shadow-xl transition-all duration-200 hover:scale-105"
+        style={{
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif'
+        }}
+      >
+        <img
+          src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png"
+          alt="Minaret and Quill House"
+          className="w-5 h-5 object-contain"
+        />
+        <span className="text-xs font-medium text-gray-800">
+          Powered by Minaret and Quill
+        </span>
+      </a>
+
       {/* Book Detail Modal */}
       <BookDetail
         book={selectedBook}
