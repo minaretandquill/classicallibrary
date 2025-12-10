@@ -153,15 +153,19 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 flex flex-col">
       {/* Header */}
       <header className="bg-white border-b border-emerald-100 shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center gap-3 mb-6">
-            <Library className="w-8 h-8 text-emerald-600" />
+            <img 
+              src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png" 
+              alt="Minaret and Quill House Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Islamic Classical Library</h1>
-              <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية - Hanafi Madhab Focus</p>
+              <p className="text-sm text-gray-600">المكتبة الإسلامية الكلاسيكية</p>
             </div>
           </div>
 
@@ -180,7 +184,7 @@ const Home = () => {
       </header>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 flex-1">
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Filter Sidebar */}
           <aside className="lg:col-span-1">
@@ -259,6 +263,26 @@ const Home = () => {
           </main>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-emerald-100 py-4 mt-8">
+        <div className="container mx-auto px-4 text-center">
+          <a 
+            href="https://www.minaretandquill.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-emerald-700 transition-colors"
+          >
+            <span className="text-sm">Powered by</span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_turath-explorer/artifacts/foy38jgs_MinaretandQuill.png" 
+              alt="Minaret and Quill House" 
+              className="h-6 w-6 object-contain"
+            />
+            <span className="text-sm font-semibold">Minaret and Quill House</span>
+          </a>
+        </div>
+      </footer>
 
       {/* Book Detail Modal */}
       <BookDetail

@@ -30,8 +30,8 @@ const FilterPanel = ({
   );
 
   return (
-    <div className="bg-white rounded-lg border border-emerald-100 p-6 space-y-6 shadow-sm">
-      <div className="flex items-center justify-between">
+    <div className="bg-white rounded-lg border border-emerald-100 shadow-sm max-h-[calc(100vh-180px)] overflow-hidden flex flex-col">
+      <div className="flex items-center justify-between p-6 border-b border-emerald-100">
         <div className="flex items-center gap-2 text-emerald-800">
           <Filter className="w-5 h-5" />
           <h2 className="text-lg font-semibold">Filter Books</h2>
@@ -48,7 +48,7 @@ const FilterPanel = ({
         )}
       </div>
 
-      <div className="space-y-4">
+      <div className="overflow-y-auto px-6 py-4 space-y-4">
         {/* Category Filter */}
         <div className="space-y-2">
           <Label className="text-sm font-medium text-gray-700">Category</Label>
