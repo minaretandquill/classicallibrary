@@ -1,5 +1,7 @@
 // Mock data for Islamic classical library
 
+// Mock data for Islamic classical library - Focus on Hanafi madhab works
+
 export const books = [
   {
     id: 1,
@@ -3329,19 +3331,2894 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   }
+
+  {
+    id: 58,
+    title: "Mukhtaṣar al-Qudūrī",
+    arabicTitle: "مختصر القدوري",
+    author: "Abū ʾl-Ḥusayn Aḥmad al-Qudūrī",
+    authorArabic: "أبو الحسين أحمد القدوري",
+    authorBirthYear: 428,
+    category: "Fiqh",
+    subject: "Core text (Matn)",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Classical",
+    bookType: "Core text (Matn)",
+    studyLevel: "Intermediate",
+    pages: 200,
+    publicationYear: "450 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A concise text outlining the foundations of Hanafi jurisprudence, widely used as an introductory matn.",
+    uniqueAspects: "Combines clarity and brevity to teach Hanafi fiqh efficiently, still used in traditional curricula.",
+    coverImage: null,
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [
+      { id: "??", title: "Sharḥ Mukhtasar al-Qudūrī", author: "Abū Naṣr Aḥmad al-Aqtaʿ" },
+      { id: "??", title: "Sharḥ Mukhtaṣar al-Karkhī", author: "Abū al-Ḥusayn Aḥmad al-Qudūrī" }
+    ],
+    publishedEditions: []
+  },
+  {
+    id: 59,
+    title: "Mukhtaṣar al-Ṭaḥāwī",
+    arabicTitle: "مختصر الطحاوي",
+    author: "Abū Jaʿfar Aḥmad ibn Muḥammad al-Ṭaḥāwī",
+    authorArabic: "أبو جعفر أحمد الطحاوي",
+    authorBirthYear: 321,
+    category: "Fiqh",
+    subject: "Core text (Matn)",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Classical",
+    bookType: "Core text (Matn)",
+    studyLevel: "Intermediate",
+    pages: 180,
+    publicationYear: "350 AH",
+    scholarEra: "10th Century Hijri",
+    description: "Foundational text in Hanafi fiqh focusing on ritual worship, widely memorized and taught in traditional schools.",
+    uniqueAspects: "Its simplicity and precision make it ideal for beginners and as a base for commentaries.",
+    coverImage: null,
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [
+      { id: "??", title: "Sharḥ Mukhtaṣar al-Ṭaḥāwī", author: "Abū Bakr al-Jaṣṣāṣ" },
+      { id: "??", title: "Sharḥ Mukhtaṣar al-Ṭaḥāwī", author: "al-Qāḍī Abū Naṣr al-Isbījābī" }
+    ],
+    publishedEditions: []
+  }
+  // Continue with all other works sequentially
 ];
+
+
+{
+  id: 89,
+  title: "ʿUmdat al-Riʿāyah",
+  arabicTitle: "عمدة الرعاية",
+  author: "ʿAbd al-Ḥayy al-Laknawī",
+  authorArabic: "عبد الحي اللنكاوي",
+  authorBirthYear: 1304,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1330 AH",
+  scholarEra: "14th Century Hijri",
+  description: "A detailed commentary clarifying complex rulings in the Hanafi tradition, providing practical examples and legal reasoning.",
+  uniqueAspects: "Balances classical sources with contemporary application for students and jurists, widely used in madrasas.",
+  coverImage: "https://example.com/umdat_al_riayah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "??", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1345 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 90,
+  title: "al-Siʿāyah",
+  arabicTitle: "الصياحة",
+  author: "ʿAbd al-Ḥayy al-Laknawī",
+  authorArabic: "عبد الحي اللنكاوي",
+  authorBirthYear: 1304,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 420,
+  publicationYear: "1332 AH",
+  scholarEra: "14th Century Hijri",
+  description: "A comprehensive explanation of Hanafi principles, focusing on clarifying ambiguous points and summarizing previous commentaries.",
+  uniqueAspects: "Integrates cross-references to prior works and highlights practical legal applications for students and judges.",
+  coverImage: "https://example.com/al_siayah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "??", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿArabiyyah",
+      location: "Cairo, Egypt",
+      year: "1348 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 91,
+  title: "Durar al-Ḥukkām Sharḥ Majallat al-Aḥkām",
+  arabicTitle: "درر الحكام شرح مجلّة الأحكام",
+  author: "ʿAlī Ḥaydar Afandī",
+  authorArabic: "علي حيدر أفندي",
+  authorBirthYear: 1321,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 450,
+  publicationYear: "1350 AH",
+  scholarEra: "14th Century Hijri",
+  description: "An extensive commentary on Majallat al-Aḥkām, addressing civil and family law, with explanatory notes and legal derivations.",
+  uniqueAspects: "Provides a practical guide for contemporary application while remaining rooted in classical Hanafi jurisprudence.",
+  coverImage: "https://example.com/durar_al_hukkam.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Majallat al-Aḥkām", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1365 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 92,
+  title: "Taqrīr ʿalā al-Durr al-Mukhtār",
+  arabicTitle: "تقرير على الدرر المختار",
+  author: "ʿAbd al-Qādir al-Rāfiʿī",
+  authorArabic: "عبد القادر الرافعي",
+  authorBirthYear: 1323,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 380,
+  publicationYear: "1360 AH",
+  scholarEra: "14th Century Hijri",
+  description: "A scholarly report clarifying and verifying the rulings in al-Durr al-Mukhtār, providing legal proofs and references.",
+  uniqueAspects: "A key work for post-classical students, bridging classical sources and evolving jurisprudential issues.",
+  coverImage: "https://example.com/taqrir_durr_mukhtar.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 79, title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAli al-Ḥaṣkafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1375 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 93,
+  title: "Sharḥ Majjalat al-Aḥkām",
+  arabicTitle: "شرح مجلّة الأحكام",
+  author: "Muḥammad Khālid al-Atāsī",
+  authorArabic: "محمد خالد الأتاسي",
+  authorBirthYear: 1326,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1380 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Explains the Majallat al-Aḥkām rulings with clarity, providing practical examples and jurisprudential insights.",
+  uniqueAspects: "Serves as a bridge between classical and later Hanafi thought, often used in judicial education.",
+  coverImage: "https://example.com/sharh_majallat_ahkam.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Majallat al-Aḥkām", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1385 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 94,
+  title: "Sabīl al-Falāḥ Sharḥ Nūr al-Īḍāḥ",
+  arabicTitle: "سبيل الفلاح شرح نور الإيضاح",
+  author: "Muḥy al-Dīn ʿAbd al-Ḥamīd",
+  authorArabic: "محى الدين عبد الحميد",
+  authorBirthYear: 1392,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 450,
+  publicationYear: "1410 AH",
+  scholarEra: "15th Century Hijri",
+  description: "A modern commentary on Nūr al-Īḍāḥ, providing updated examples and clarification of difficult Hanafi rulings.",
+  uniqueAspects: "Integrates classical knowledge with modern concerns, making it accessible for contemporary scholars and students.",
+  coverImage: "https://example.com/sabil_falah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 66, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1430 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+
+{
+  id: 85,
+  title: "al-Hāshiyah Ibn ʿĀbidīn ʿalā ʾl-Shurunbulālī",
+  arabicTitle: "هاشية ابن عابدين على الشورنبلالي",
+  author: "Ibn ʿĀbidīn al-Shāmī",
+  authorArabic: "ابن عابدين الشامي",
+  authorBirthYear: 1252,
+  category: "Fiqh",
+  subject: "Gloss (Haashiya)",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Gloss (Haashiya)",
+  studyLevel: "Specialist",
+  pages: 350,
+  publicationYear: "1285 AH",
+  scholarEra: "13th Century Hijri",
+  description: "Marginal notes and clarifications on Shurunbulālī’s Nūr al-Īḍāḥ, enhancing understanding of complex Hanafi rulings.",
+  uniqueAspects: "Synthesizes prior commentaries while adding practical guidance, making it a central reference for scholars.",
+  coverImage: "https://example.com/hasht_ibn_abidin_shurunbulali.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 66, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1310 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 86,
+  title: "Ṭawāliʿ al-Anwār Sharḥ al-Durr al-Mukhtār",
+  arabicTitle: "طوالع الأنوار شرح الدرر المختار",
+  author: "Muḥammad ʿĀbid al-Sindī",
+  authorArabic: "محمد عابد السندي",
+  authorBirthYear: 1257,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1290 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A comprehensive explanation of al-Durr al-Mukhtār, expanding upon Ibn ʿĀbidīn’s clarifications with additional legal insights.",
+  uniqueAspects: "Provides in-depth analysis and cross-references to earlier commentaries, aiding both teaching and research.",
+  coverImage: "https://example.com/tawali_anwar.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 79, title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAli al-Ḥaṣkafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1315 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 87,
+  title: "al-Lubāb fī Sharḥ al-Kitāb",
+  arabicTitle: "اللُبّاب في شرح الكتاب",
+  author: "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
+  authorArabic: "عبد الغني الغنيمي الميداني",
+  authorBirthYear: 1298,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 420,
+  publicationYear: "1320 AH",
+  scholarEra: "13th Century Hijri",
+  description: "Detailed commentary on core Hanafi texts, clarifying legal principles and practical applications.",
+  uniqueAspects: "Focuses on both theoretical and practical dimensions, linking classical rulings to contemporary application.",
+  coverImage: "https://example.com/lubab_sharh.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "al-Kitāb", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1340 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 88,
+  title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
+  arabicTitle: "قرة عيون الأخيار لتكميل رد المحتار",
+  author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn",
+  authorArabic: "محمد علاء الدين ابن عابدين",
+  authorBirthYear: 1306,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 500,
+  publicationYear: "1330 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Completion and elaboration of Ibn ʿĀbidīn’s Radd al-Muḥtār, resolving difficult points and adding contemporary examples.",
+  uniqueAspects: "Extends the authoritative commentary while making it accessible to later generations of students and scholars.",
+  coverImage: "https://example.com/qurrat_uyun.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 84, title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār", author: "Ibn ʿĀbidīn al-Shāmī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1360 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+
+{
+  id: 81,
+  title: "Kashf al-Ramz ʿan Khabāyā al-Kanz",
+  arabicTitle: "كشف الرموز عن خبايا الكنز",
+  author: "al-Ḥamawī",
+  authorArabic: "الحموي",
+  authorBirthYear: 1098,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 380,
+  publicationYear: "1140 AH",
+  scholarEra: "12th Century Hijri",
+  description: "Explains intricate points of Kanz al-Daqāʾiq, revealing deeper insights and resolving ambiguities in Hanafi fiqh.",
+  uniqueAspects: "Focuses on hidden nuances and practical implications of rulings, supplementing previous commentaries.",
+  coverImage: "https://example.com/kashf_ramz.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 61, title: "Kanz al-Daqāʾiq", author: "Abū ʾl-Barakāt Aḥmad ibn Maḥmūd al-Nasafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1995",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 82,
+  title: "Rashaḥāt al-Aqlām Sharḥ Kifāyat al-Ghulām",
+  arabicTitle: "رَشَحات الأقلام شرح كفاية الغلام",
+  author: "ʿAbd al-Ghanī al-Nābulusī",
+  authorArabic: "عبد الغني النابلسي",
+  authorBirthYear: 1143,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 360,
+  publicationYear: "1180 AH",
+  scholarEra: "12th Century Hijri",
+  description: "Provides detailed clarification of Kifāyat al-Ghulām, addressing legal ambiguities and presenting Hanafi reasoning.",
+  uniqueAspects: "Focuses on precision in derivation of rulings and practical guidance for scholars and students.",
+  coverImage: "https://example.com/rashahat_aqlam.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Kifāyat al-Ghulām", author: "??" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "2000",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 83,
+  title: "Ḥāshiyat al-Ṭahṭāwī ʿalā al-Durr",
+  arabicTitle: "هاشية الطهطاوي على الدرر",
+  author: "Aḥmad ibn Muḥammad al-Ṭaḥṭāwī",
+  authorArabic: "أحمد بن محمد الطهطاوي",
+  authorBirthYear: 1231,
+  category: "Fiqh",
+  subject: "Gloss (Haashiya)",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Gloss (Haashiya)",
+  studyLevel: "Specialist",
+  pages: 300,
+  publicationYear: "1270 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A detailed marginalia on al-Durr al-Mukhtār, clarifying complex points and adding explanatory notes.",
+  uniqueAspects: "Enhances accessibility of the core text for advanced students, connecting rulings to practical application.",
+  coverImage: "https://example.com/hashtawiy_durr.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 79, title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAli al-Ḥaṣkafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿArabiyyah",
+      location: "Cairo, Egypt",
+      year: "1300 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 84,
+  title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
+  arabicTitle: "رد المحتار على الدرر المختار",
+  author: "Ibn ʿĀbidīn al-Shāmī",
+  authorArabic: "ابن عابدين الشامي",
+  authorBirthYear: 1252,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 600,
+  publicationYear: "1280 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A cornerstone commentary expanding on al-Durr al-Mukhtār, systematically explaining Hanafi rulings with extensive references.",
+  uniqueAspects: "Widely regarded as the definitive Hanafi reference, bridging classical texts with later legal practice.",
+  coverImage: "https://example.com/radd_muhtar.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 79, title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAli al-Ḥaṣkafī" },
+  hasCommentaries: [
+    { id: "??", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1290 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 77,
+  title: "Majmaʿ al-Anhur Sharḥ Multaqā ʾl-Abḥur",
+  arabicTitle: "مجمع الأنهر شرح ملتقى الأبْحُر",
+  author: "ʿAbd al-Raḥmān ibn Muḥammad Shaykhī Zādah (Dāmād Zādah)",
+  authorArabic: "عبد الرحمن بن محمد شيخى زاده",
+  authorBirthYear: 1078,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 450,
+  publicationYear: "1120 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A detailed commentary on Ibrāhīm al-Ḥalabī’s Multaqā ʾl-Abḥur, explaining Hanafi rulings and clarifying complex legal points.",
+  uniqueAspects: "Combines practical examples with classical reasoning, widely cited in Hanafi advanced studies.",
+  coverImage: "https://example.com/majma_anhor.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1985",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 78,
+  title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq",
+  arabicTitle: "رمز الحقائق في شرح كنز الدقائق",
+  author: "al-Maqdisī",
+  authorArabic: "المقدسي",
+  authorBirthYear: 1087,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1130 AH",
+  scholarEra: "11th-12th Century Hijri",
+  description: "A precise commentary on Kanz al-Daqāʾiq, clarifying legal subtleties and complex Hanafi jurisprudential points.",
+  uniqueAspects: "Focuses on concise explanation of core principles, making it a standard reference for advanced Hanafi students.",
+  coverImage: "https://example.com/ramz_haqa.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 61, title: "Kanz al-Daqāʾiq", author: "Abū ʾl-Barakāt Aḥmad ibn Maḥmūd al-Nasafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1990",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 79,
+  title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
+  arabicTitle: "الدُّرُّ المُختار في شرح تنوير الأبصار",
+  author: "Muḥammad ibn ʿAli al-Ḥaṣkafī",
+  authorArabic: "محمد بن علي الحسكافي",
+  authorBirthYear: 1088,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 420,
+  publicationYear: "1135 AH",
+  scholarEra: "11th-12th Century Hijri",
+  description: "A detailed explanation of al-Tumurtāshī’s Tanwīr al-Abṣār, emphasizing legal reasoning and practical application in Hanafi jurisprudence.",
+  uniqueAspects: "Integrates multiple opinions and provides clarity on disputed issues, widely referenced in advanced study circles.",
+  coverImage: "https://example.com/durr_mukhtar.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 70, title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār", author: "Shams al-Dīn Muḥammad al-Tumurtāshī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1992",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 80,
+  title: "al-Durar al-Muntaqā fī Sharḥ al-Multaqā",
+  arabicTitle: "الدرر المنتقى في شرح الملتقى",
+  author: "Muḥammad ibn ʿAli al-Ḥaṣkafī",
+  authorArabic: "محمد بن علي الحسكافي",
+  authorBirthYear: 1088,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 440,
+  publicationYear: "1136 AH",
+  scholarEra: "11th-12th Century Hijri",
+  description: "A comprehensive commentary on Ibrāhīm al-Ḥalabī’s Multaqā ʾl-Abḥur, providing explanations of complex rulings and elaborating on practical application.",
+  uniqueAspects: "Combines clarity with depth, making it a primary reference for advanced students studying Multaqā ʾl-Abḥur.",
+  coverImage: "https://example.com/durar_muntaqa.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1993",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 73,
+  title: "Sabīl al-Falāḥ Sharḥ Nūr al-Īdāḥ",
+  arabicTitle: "سبيل الفلاح شرح نور الإيضاح",
+  author: "Muḥy al-Dīn ʿAbd al-Ḥamīd",
+  authorArabic: "محى الدين عبد الحميد",
+  authorBirthYear: 1392,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 420,
+  publicationYear: "1410 AH",
+  scholarEra: "14th-15th Century Hijri",
+  description: "A comprehensive commentary on Shurunbulālī’s Nūr al-Īdāḥ, elucidating the Hanafi rulings and providing practical explanations for contemporary application.",
+  uniqueAspects: "Bridges classical Hanafi jurisprudence with modern questions, often cited in contemporary studies of Shurunbulālī’s works.",
+  coverImage: "https://example.com/sabil_falah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1998",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 74,
+  title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īdāḥ",
+  arabicTitle: "إمداد الفتاح شرح نور الإيضاح",
+  author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص حسن الشورنبالي",
+  authorBirthYear: 1069,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1100 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A detailed commentary explaining Nūr al-Īdāḥ, clarifying its rulings and connecting them to classical Hanafi sources.",
+  uniqueAspects: "Provides additional examples and jurisprudential reasoning not found in the original matn, often studied alongside Marāqī al-Falāḥ.",
+  coverImage: "https://example.com/imdād_fattah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1975",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 75,
+  title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īdāḥ",
+  arabicTitle: "مراقي الفلاح بإمداد الفتاح شرح نور الإيضاح",
+  author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص حسن الشورنبالي",
+  authorBirthYear: 1069,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 430,
+  publicationYear: "1105 AH",
+  scholarEra: "11th Century Hijri",
+  description: "An extended commentary combining insights from Imdād al-Fattāḥ and additional clarifications to Nūr al-Īdāḥ, expanding on practical application and jurisprudential debates.",
+  uniqueAspects: "Synthesizes multiple commentaries into a single work, serving as a master reference for advanced students of Shurunbulālī.",
+  coverImage: "https://example.com/maraqī_falah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1980",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 76,
+  title: "Taysīr al-Maqāṣid Sharḥ Naẓm al-Farāʾid",
+  arabicTitle: "تيسير المقاصد شرح نظم الفرائد",
+  author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص حسن الشورنبالي",
+  authorBirthYear: 1069,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 410,
+  publicationYear: "1110 AH",
+  scholarEra: "11th Century Hijri",
+  description: "Explains the Naẓm al-Farāʾid, elaborating on the structured legal maxims within Hanafi inheritance law.",
+  uniqueAspects: "Provides a systematic treatment of inheritance jurisprudence, blending traditional legal theory with practical application.",
+  coverImage: "https://example.com/taysir_faraid.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Naẓm al-Farāʾid", author: "Unknown" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1985",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+
+
+{
+  id: 68,
+  title: "ʿUmdat al-Riʿāyah",
+  arabicTitle: "عمدة الرعاية",
+  author: "ʿAbd al-Ḥayy al-Laknawī",
+  authorArabic: "عبد الحي اللكناوي",
+  authorBirthYear: 1304,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1345 AH",
+  scholarEra: "14th Century Hijri",
+  description: "A detailed commentary on al-Nāfiʿ al-Kabīr, focusing on clarifying complex legal points and bridging gaps between classical rulings and practical application.",
+  uniqueAspects: "Complements al-Nāfiʿ al-Kabīr, offering additional insights and resolving ambiguities for advanced students.",
+  coverImage: "https://example.com/umdat.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 67, title: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr", author: "ʿAbd al-Ḥayy al-Laknawī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1990",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 69,
+  title: "al-Siʿāyah",
+  arabicTitle: "السيّاحة",
+  author: "ʿAbd al-Ḥayy al-Laknawī",
+  authorArabic: "عبد الحي اللكناوي",
+  authorBirthYear: 1304,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 380,
+  publicationYear: "1345 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Another complementary commentary on al-Nāfiʿ al-Kabīr, providing additional clarifications and examples to aid students’ understanding.",
+  uniqueAspects: "Focuses on practical application and problem-solving for complex Hanafi rulings, often paired with ʿUmdat al-Riʿāyah in study.",
+  coverImage: "https://example.com/siaah.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 67, title: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr", author: "ʿAbd al-Ḥayy al-Laknawī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1990",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 70,
+  title: "Durar al-Ḥukkām fī Sharḥ Majallat al-Aḥkām",
+  arabicTitle: "دُرر الحكام في شرح مجلة الأحكام",
+  author: "ʿAlī Ḥaydar Afandī",
+  authorArabic: "علي حيدر أفندي",
+  authorBirthYear: 1321,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 420,
+  publicationYear: "1370 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Commentary on the Ottoman legal code Majallat al-Aḥkām, explaining its principles and connecting them to classical Hanafi jurisprudence.",
+  uniqueAspects: "Provides a bridge between classical fiqh and codified Ottoman law, offering practical guidance for judges and scholars.",
+  coverImage: "https://example.com/durar.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Majallat al-Aḥkām", author: "Unknown" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1985",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 71,
+  title: "Taqrīr ʿalā al-Durr al-Mukhtār",
+  arabicTitle: "تقرير على الدر المختار",
+  author: "ʿAbd al-Qādir al-Rāfiʿī",
+  authorArabic: "عبد القادر الرافعي",
+  authorBirthYear: 1323,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 350,
+  publicationYear: "1375 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Supplementary commentary to Durr al-Mukhtār, clarifying difficult rulings and reconciling interpretations of prior scholars.",
+  uniqueAspects: "Often used as a reference for advanced Hanafi jurisprudence, particularly in South Asia.",
+  coverImage: "https://example.com/taqrir.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1988",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 72,
+  title: "Sharḥ Majjalat al-Aḥkām",
+  arabicTitle: "شرح مجلة الأحكام",
+  author: "Muḥammad Khālid al-Atāsī",
+  authorArabic: "محمد خالد الأطاسي",
+  authorBirthYear: 1326,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1380 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Detailed commentary on the Ottoman legal code Majallat al-Aḥkām, explaining complex provisions and their legal reasoning within the Hanafi framework.",
+  uniqueAspects: "Widely referenced in modern Hanafi scholarship for understanding codified legal texts.",
+  coverImage: "https://example.com/sharh_majallat.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Majallat al-Aḥkām", author: "Unknown" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1992",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 64,
+  title: "Ṭawāliʿ al-Anwār Sharḥ al-Durr al-Mukhtār",
+  arabicTitle: "طوالع الأنوار شرح الدر المختار",
+  author: "Muḥammad ʿĀbid al-Sindī",
+  authorArabic: "محمد عابد السندي",
+  authorBirthYear: 1257,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 450,
+  publicationYear: "1310 AH",
+  scholarEra: "13th Century Hijri",
+  description: "Expands on Durr al-Mukhtār with detailed juristic examples, explaining complex rulings and practical application in Hanafi fiqh.",
+  uniqueAspects: "Highly regarded in South Asia; clarifies ambiguities and reconciles differences among prior Hanafi commentaries.",
+  coverImage: "https://example.com/tawali.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1980",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 65,
+  title: "al-Lubāb fī Sharḥ al-Kitāb",
+  arabicTitle: "اللُبّ في شرح الكتاب",
+  author: "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
+  authorArabic: "عبد الغني الغنيمي الميداني",
+  authorBirthYear: 1298,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 400,
+  publicationYear: "1350 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A commentary on al-Kitāb, focusing on legal methodology and practical rulings, with references to prior Hanafi authorities.",
+  uniqueAspects: "Condenses complex arguments while preserving detailed reasoning, widely used in advanced Hanafi studies.",
+  coverImage: "https://example.com/lubab.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "al-Kitāb", author: "Unknown" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1990",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 66,
+  title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
+  arabicTitle: "قرة أعين الأخيار لتكميل رد المختار",
+  author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn",
+  authorArabic: "محمد علاء الدين ابن عابدين",
+  authorBirthYear: 1306,
+  category: "Fiqh",
+  subject: "Specialist Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 500,
+  publicationYear: "1340 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Completes and clarifies Ibn ʿĀbidīn's commentary on Radd al-Muḥtār, addressing remaining ambiguities and practical applications.",
+  uniqueAspects: "Essential for students aiming to master the Hanafi legal tradition, bridging multiple prior works.",
+  coverImage: "https://example.com/qurrat.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 62, title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār", author: "Ibn ʿĀbidīn al-Shāmī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1995",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 67,
+  title: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
+  arabicTitle: "النافع الكبير لمن يطلع الجامع الصغير",
+  author: "ʿAbd al-Ḥayy al-Laknawī",
+  authorArabic: "عبد الحي اللكناوي",
+  authorBirthYear: 1304,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 450,
+  publicationYear: "1340 AH",
+  scholarEra: "14th Century Hijri",
+  description: "Detailed commentary on Jāmiʿ al-Ṣaghīr, resolving difficult points and providing comprehensive explanations for scholars.",
+  uniqueAspects: "Serves as a bridge between classical texts and practical legal reasoning for contemporary students.",
+  coverImage: "https://example.com/nafi.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: "??", title: "Jāmiʿ al-Ṣaghīr", author: "al-Qāḍī Abū Naṣr al-Isbījābī" },
+  hasCommentaries: [
+    { id: "??", title: "ʿUmdat al-Riʿāyah", author: "ʿAbd al-Ḥayy al-Laknawī" },
+    { id: "??", title: "al-Siʿāyah", author: "ʿAbd al-Ḥayy al-Laknawī" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1985",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 61,
+  title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
+  arabicTitle: "الدُّرّ المُختار في شرح تنوير الأبصار",
+  author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī",
+  authorArabic: "محمد بن علي الحسكافي",
+  authorBirthYear: 1088,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 750,
+  publicationYear: "1100 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A detailed commentary on Tanwīr al-Abṣār, clarifying difficult points, discussing juristic reasoning, and reconciling variant opinions within the Hanafi school.",
+  uniqueAspects: "Integrates multiple prior commentaries, consolidating legal reasoning for practical application.",
+  coverImage: "https://example.com/durr.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 59, title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār", author: "Shams al-Dīn Muḥammad al-Tumurtāshī" },
+  hasCommentaries: [
+    { id: "??", title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār", author: "Ibn ʿĀbidīn al-Shāmī" },
+    { id: "??", title: "Ṭawāliʿ al-Anwār Sharḥ al-Durr al-Mukhtār", author: "Muḥammad ʿĀbid al-Sindī" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1975",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 62,
+  title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
+  arabicTitle: "ردّ المُختار على الدرّ المُختار",
+  author: "Ibn ʿĀbidīn al-Shāmī",
+  authorArabic: "ابن عابدين الشامي",
+  authorBirthYear: 1252,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 900,
+  publicationYear: "1300 AH",
+  scholarEra: "13th Century Hijri",
+  description: "The most authoritative commentary on Durr al-Mukhtār, providing comprehensive legal reasoning, examples, and references to earlier Hanafi texts.",
+  uniqueAspects: "Serves as a standard reference in South Asian and Middle Eastern Hanafi fiqh teaching, often studied alongside practical fatāwā.",
+  coverImage: "https://example.com/radd.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" },
+  hasCommentaries: [
+    { id: "??", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Al-Matbaʿah al-ʿIlmiyyah",
+      location: "Cairo, Egypt",
+      year: "1925",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 63,
+  title: "Ḥāshiyat Ibn ʿĀbidīn ʿalā ʾl-Shurunbulālī",
+  arabicTitle: "حاشية ابن عابدين على الشورنبلالي",
+  author: "Ibn ʿĀbidīn al-Shāmī",
+  authorArabic: "ابن عابدين الشامي",
+  authorBirthYear: 1252,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Gloss (Haashiya)",
+  studyLevel: "Specialist",
+  pages: 300,
+  publicationYear: "1300 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A marginal commentary on the works of al-Shurunbulālī, clarifying key points and resolving ambiguities in the text.",
+  uniqueAspects: "Widely referenced by scholars to understand Nūr al-Īdāḥ and related Hanafi positions.",
+  coverImage: "https://example.com/haashiya.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 60, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" },
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1970",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 58,
+  title: "Multaqā al-Abḥur",
+  arabicTitle: "ملتقى البحور",
+  author: "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+  authorArabic: "إبراهيم بن محمد الحلبي",
+  authorBirthYear: 956,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Upper Intermediate",
+  pages: 600,
+  publicationYear: "1000 AH",
+  scholarEra: "10th-11th Century Hijri",
+  description: "A comprehensive compendium of Hanafi jurisprudence, synthesising multiple prior authorities into a practical legal manual.",
+  uniqueAspects: "Brings together earlier Hanafi positions with practical applications, widely studied in Ottoman and South Asian madrasas.",
+  coverImage: "https://example.com/multaqa.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Majmaʿ al-Anhur Sharḥ Multaqā ʾl-Abḥur", author: "ʿAbd al-Raḥmān ibn Muḥammad Shaykhī Zādah" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "2005",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 59,
+  title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
+  arabicTitle: "تنوير الأبصار وجامع البحار",
+  author: "Shams al-Dīn Muḥammad al-Tumurtāshī",
+  authorArabic: "شمس الدين محمد التمرطاشي",
+  authorBirthYear: 1004,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 700,
+  publicationYear: "1030 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A detailed commentary on Multaqā al-Abḥur, clarifying difficult points and elaborating evidences.",
+  uniqueAspects: "Notable for its rigorous argumentation and incorporation of variant Hanafi opinions.",
+  coverImage: "https://example.com/tanwir.jpg",
+  isPlaceholder: true,
+  commentaryOf: { id: 58, title: "Multaqā al-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" },
+  hasCommentaries: [
+    { id: "??", title: "Minaḥ al-Ghaffār lī Sharḥ Tanwīr al-Abṣār", author: "al-Tumurtāshī" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-ʿArabiyyah",
+      location: "Cairo, Egypt",
+      year: "1970",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+},
+{
+  id: 60,
+  title: "Nūr al-Īdāḥ",
+  arabicTitle: "نور الإيضاح",
+  author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص حسن الشورنبلالي",
+  authorBirthYear: 1069,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 800,
+  publicationYear: "1080 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A major reference work in Hanafi fiqh, covering ritual, transactions, and personal law.",
+  uniqueAspects: "Synthesises previous commentaries and incorporates the author’s critical insights.",
+  coverImage: "https://example.com/nur.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ", author: "Abū ʾl-Ikhlāṣ al-Shurunbulālī" },
+    { id: "??", title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ", author: "Abū ʾl-Ikhlāṣ al-Shurunbulālī" },
+    { id: "??", title: "Sabīl al-Falāḥ Sharḥ Nūr al-Īḍāḥ", author: "Muḥy al-Dīn ʿAbd al-Ḥamīd" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Al-Matbaʿah al-ʿIlmiyyah",
+      location: "Cairo, Egypt",
+      year: "1965",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+}
+
+{
+  id: 70,
+  title: "Fatḥ al-Qadīr fī Sharḥ al-Muqaddima al-Ḥadramiyya",
+  arabicTitle: "فتح القادر في شرح المقدمة الحدرمية",
+  author: "Kamāl al-Dīn Ibn al-Humām",
+  authorArabic: "كمال الدين ابن الحُمم",
+  authorBirthYear: 750,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 2200,
+  publicationYear: "861 AH",
+  scholarEra: "9th Century Hijri",
+  description: "A major juristic commentary by Ibn al-Humām, famed for its deep analysis of evidences and for clarifying complex points in the canonical Hanafi corpus.",
+  uniqueAspects: "Combines meticulous textual criticism with practical fatwa orientation; frequently cited by later Ottoman and South Asian jurists.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Al-Hidayah / earlier core texts (context dependent)",
+  hasCommentaries: [
+    { id: "??", title: "Natā'ij al-Afkār fī Kashf al-Rumūz wa al-Asrār", author: "Qāḍī Zādah" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut, Lebanon", year: "1999", volumes: 6, verified: false }
+  ]
+},
+
+{
+  id: 71,
+  title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq",
+  arabicTitle: "رمز الحقائق في شرح كنزالدقائق",
+  author: "Badr al-Dīn al-ʿAynī",
+  authorArabic: "بدر الدين العيني",
+  authorBirthYear: 757,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 2000,
+  publicationYear: "855 AH",
+  scholarEra: "9th Century Hijri",
+  description: "Al-ʿAyni’s deep analytical gloss on Kanz al-Daqāʾiq; explores legal subtleties and reconciles apparent divergences in the Hanafi corpus.",
+  uniqueAspects: "Famous for its dense marginalia and for being a go-to explanatory apparatus for Kanz readers in Ottoman madrasas.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Kanz al-Daqāʾiq",
+  hasCommentaries: [
+    { id: "??", title: "Minḥat al-Khāliq", author: "Ibn ʿĀbidīn" }
+  ],
+  publishedEditions: [
+    { publisher: "Dār al-Kutub al-ʿArabiyya", location: "Cairo, Egypt", year: "2007", volumes: 4, verified: false }
+  ]
+},
+
+{
+  id: 72,
+  title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq",
+  arabicTitle: "البحر الرائق شرح كنز الدقائق",
+  author: "Zayn al-Dīn Ibn Nujaym",
+  authorArabic: "زين الدين ابن نجيم",
+  authorBirthYear: 900,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 3000,
+  publicationYear: "970 AH",
+  scholarEra: "10th Century Hijri",
+  description: "Ibn Nujaym’s magisterial commentary that became central to Ottoman Hanafi pedagogy; a detailed running explanation of Kanz and related matns.",
+  uniqueAspects: "Often printed alongside Kanz and Ibn ʿĀbidīn’s Radd; key for mufti-level reasoning in the Ottoman tradition.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Kanz al-Daqāʾiq",
+  hasCommentaries: [
+    { id: "??", title: "Radd al-Muhtar", author: "Ibn ʿĀbidīn" }
+  ],
+  publishedEditions: [
+    { publisher: "Dār al-Kutub al-ʿIlmiyyah", location: "Cairo, Egypt", year: "2005", volumes: 5, verified: false }
+  ]
+},
+
+{
+  id: 73,
+  title: "Majrā al-Anhūr ʿalā Multaqā al-Abḥur",
+  arabicTitle: "مجرى الأنهر على منتخب الأبحر",
+  author: "Al-Bāqānī",
+  authorArabic: "الباقاني",
+  authorBirthYear: 940,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 1800,
+  publicationYear: "1003 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A detailed commentary on the Multaqā al-Abḥur focusing on reconciling sources and practical judicial application.",
+  uniqueAspects: "Sought to harmonise multivalent rulings for judicial use in the later Ottoman courts.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Multaqā al-Abḥur",
+  hasCommentaries: [
+    { id: "??", title: "Majmaʿ al-Anhur", author: "Dāmād Zādah" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar Ibn Hazm", location: "Beirut, Lebanon", year: "2006", volumes: 2, verified: false }
+  ]
+},
+
+{
+  id: 74,
+  title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
+  arabicTitle: "منحة الغفار في شرح تنوير الأبصار",
+  author: "Al-Tumurtashi (editorial commentary)",
+  authorArabic: "التمرطاشي",
+  authorBirthYear: 950,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 1200,
+  publicationYear: "1004 AH",
+  scholarEra: "11th Century Hijri",
+  description: "An explanatory work amplifying Tanwīr al-Abṣār and making it accessible for juristic application and teaching.",
+  uniqueAspects: "Bridges the text-to-fatwa transition for Ottoman madrasa instruction.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Tanwīr al-Abṣār",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Fikr", location: "Damascus, Syria", year: "2009", volumes: 1, verified: false }
+  ]
+},
+
+{
+  id: 75,
+  title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq",
+  arabicTitle: "النهر الفائق شرح كنز الدقائق",
+  author: "Sirāj al-Dīn ʿUmar Ibn Nujaym",
+  authorArabic: "سراج الدين عمر ابن نجيم",
+  authorBirthYear: 915,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 2600,
+  publicationYear: "1005 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A dense, jurisprudential explanation building on earlier commentators of Kanz and Wiqāyah, tailored to jurists and judges.",
+  uniqueAspects: "Valued for its synthesis of earlier commentaries and clear fatwa-relevant rulings.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Kanz al-Daqāʾiq",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub", location: "Cairo, Egypt", year: "2010", volumes: 3, verified: false }
+  ]
+},
+
+{
+  id: 76,
+  title: "Fatḥ Bāb al-ʿInāyah Sharḥ Kitāb al-Nuqāyah",
+  arabicTitle: "فتح باب العناية شرح كتاب النقاية",
+  author: "Mullā ʿAlī al-Qārī",
+  authorArabic: "ملا علي القاري",
+  authorBirthYear: 955,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 1400,
+  publicationYear: "1014 AH",
+  scholarEra: "11th Century Hijri",
+  description: "Al-Qari’s clarifying chapter-level commentary on the Nuqāyah (Mukhtasar al-Wiqāyah), used heavily in South Asian and Ottoman scholarship.",
+  uniqueAspects: "Combines pedagogical clarity with juristic precision, making it popular in madrasas.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut, Lebanon", year: "2003", volumes: 1, verified: false }
+  ]
+},
+
+{
+  id: 77,
+  title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
+  arabicTitle: "مراقي الفلاح بإمداد الفتاح شرح نور الإيضاح",
+  author: "Abū al-Ikhlāṣ al-Shurunbulālī (editor/ commentator)",
+  authorArabic: "أبو الإخلاص الشرنبلالي",
+  authorBirthYear: 1000,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 900,
+  publicationYear: "1069 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A commentary expanding Nur al-Idāḥ into a fuller reasoning text for students and muftis.",
+  uniqueAspects: "It turns a short practical matn into an evidence-based teaching text widely used in the Maghreb and Ottoman lands.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Nur al-Idāḥ",
+  hasCommentaries: [
+    { id: "??", title: "Imdād al-Fattāḥ", author: "Abu al-Ikhlāṣ al-Shurunbulālī" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Fikr", location: "Damascus, Syria", year: "2016", volumes: 1, verified: false }
+  ]
+},
+
+{
+  id: 78,
+  title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
+  arabicTitle: "إمداد الفتاح شرح نور الإيضاح",
+  author: "Abū al-Ikhlāṣ al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص الشرنبلالي",
+  authorBirthYear: 1000,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 1100,
+  publicationYear: "1069 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A fuller sharḥ on Nur al-Idāḥ expanding explanations and providing practical rulings for worship and transactions.",
+  uniqueAspects: "Serves as one of the more complete clarifications of an otherwise concise matn, preferred by instructors.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Nur al-Idāḥ",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dār al-Kutub al-ʿArabiyya", location: "Cairo, Egypt", year: "2011", volumes: 1, verified: false }
+  ]
+},
+
+{
+  id: 79,
+  title: "Taysīr al-Maqāṣid Sharḥ Naẓm al-Farāʾid",
+  arabicTitle: "تيسير المقاصد شرح نظم الفوائد / نظم الفرائد",
+  author: "Abū al-Ikhlāṣ al-Shurunbulālī",
+  authorArabic: "أبو الإخلاص الشرنبلالي",
+  authorBirthYear: 1000,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 700,
+  publicationYear: "1069 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A practical explanatory commentary on a didactic poem (naẓm) used to teach inheritance and other precise jurisprudential rules.",
+  uniqueAspects: "Transforms mnemonic poetry into practical juridical instruction; widely taught in madrasas.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Naẓm al-Farāʾid / related didactic poem",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub", location: "Cairo, Egypt", year: "2012", volumes: 1, verified: false }
+  ]
+},
+
+{
+  id: 80,
+  title: "Majmaʿ al-Anhūr Sharḥ Multaqā al-Abḥūr",
+  arabicTitle: "مجمع الأنهر شرح ملتقى الأبحر",
+  author: "ʿAbd al-Raḥmān ibn Muḥammad Shaykhī Zādah (Dāmād Zādah)",
+  authorArabic: "عبد الرحمن بن محمد شيخى زادة (دٓماد زادة)",
+  authorBirthYear: 1020,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 2600,
+  publicationYear: "1078 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A major commentary on the Multaqā al-Abḥur synthesising earlier glosses and adapting them for Ottoman judicial needs.",
+  uniqueAspects: "Highly regarded in Ottoman curricula for its systematic cross-references and citation of precedent.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Multaqā al-Abḥur",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dār al-Maʾārif", location: "Cairo, Egypt", year: "2008", volumes: 3, verified: false }
+  ]
+},
+
+{
+  id: 81,
+  title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
+  arabicTitle: "الدُرّ المُختار في شرح تنوير الأبصار",
+  author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī",
+  authorArabic: "محمد بن علي الحَسكافي",
+  authorBirthYear: 1030,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Specialist",
+  pages: 3200,
+  publicationYear: "1088 AH",
+  scholarEra: "11th Century Hijri",
+  description: "Al-Ḥaṣkafī’s authoritative commentary on Tanwīr al-Abṣār, rich in evidence, comparative discussion and juristic synthesis.",
+  uniqueAspects: "Served as a primary reference for later commentators including al-Ḥaṣkafī’s own students and Ottoman jurists.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Tanwīr al-Abṣār",
+  hasCommentaries: [
+    { id: "??", title: "Al-Durar al-Muntaqā fī Sharḥ al-Multaqā", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" }
+  ],
+  publishedEditions: [
+    { publisher: "Matbaʿat al-ʿIlmiyyah", location: "Istanbul", year: "1910", volumes: 2, verified: false }
+  ]
+}
+
+{
+  id: 69,
+  title: "Al-Binayah Sharh al-Hidayah",
+  arabicTitle: "البناية شرح الهداية",
+  author: "Badr al-Din al-Ayni",
+  authorArabic: "بدر الدين العيني",
+  authorBirthYear: 762,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 9500,
+  publicationYear: "855 AH",
+  scholarEra: "9th Century Hijri",
+  description: "A vast comparative commentary on al-Hidayah with extensive hadith analysis and cross-madhhab discussion.",
+  uniqueAspects: "One of the most detailed integrations of hadith criticism into Hanafi furūʿ literature.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Al-Hidayah",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Beirut",
+      year: "1990",
+      volumes: 10,
+      verified: false
+    }
+  ]
+}
+
+
+{
+  id: 69,
+  title: "Al-Binayah Sharh al-Hidayah",
+  arabicTitle: "البناية شرح الهداية",
+  author: "Badr al-Din al-Ayni",
+  authorArabic: "بدر الدين العيني",
+  authorBirthYear: 762,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 9500,
+  publicationYear: "855 AH",
+  scholarEra: "9th Century Hijri",
+  description: "A vast comparative commentary on al-Hidayah with extensive hadith analysis and cross-madhhab discussion.",
+  uniqueAspects: "One of the most detailed integrations of hadith criticism into Hanafi furūʿ literature.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Al-Hidayah",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Beirut",
+      year: "1990",
+      volumes: 10,
+      verified: false
+    }
+  ]
+}
+
+{
+  id: 58,
+  title: "Sharh Mukhtasar al-Tahawi",
+  arabicTitle: "شرح مختصر الطحاوي",
+  author: "Abu Bakr al-Jassas",
+  authorArabic: "أبو بكر الجصاص",
+  authorBirthYear: 305,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Athari",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 900,
+  publicationYear: "370 AH",
+  scholarEra: "4th Century Hijri",
+  description: "A detailed juristic expansion of Mukhtasar al-Tahawi, explaining evidences, qiyas applications, and legal reasoning within early Hanafi doctrine.",
+  uniqueAspects: "One of the earliest surviving extended Hanafi legal commentaries integrating usul and furūʿ in a single work.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Mukhtasar al-Tahawi",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar Ihya al-Turath al-Arabi",
+      location: "Beirut",
+      year: "1994",
+      volumes: 4,
+      verified: false
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 59,
+  title: "Sharh Mukhtasar al-Karkhi",
+  arabicTitle: "شرح مختصر الكرخي",
+  author: "Abu al-Husayn al-Quduri",
+  authorArabic: "أبو الحسين القدوري",
+  authorBirthYear: 362,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 750,
+  publicationYear: "428 AH",
+  scholarEra: "5th Century Hijri",
+  description: "A juristic commentary on Mukhtasar al-Karkhi that systematizes early Iraqi Hanafi legal positions.",
+  uniqueAspects: "It bridges the early unrestricted riwayah period with structured Hanafi legal codification.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Mukhtasar al-Karkhi",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kutub al-Ilmiyah",
+      location: "Beirut",
+      year: "2002",
+      volumes: 2,
+      verified: false
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 60,
+  title: "Sharh Mukhtasar al-Quduri",
+  arabicTitle: "شرح مختصر القدوري",
+  author: "Abu Nasr al-Aqta'",
+  authorArabic: "أبو نصر الأقطع",
+  authorBirthYear: 415,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 850,
+  publicationYear: "474 AH",
+  scholarEra: "5th Century Hijri",
+  description: "A comprehensive early commentary on Mukhtasar al-Quduri expanding terse legal rulings with evidences.",
+  uniqueAspects: "Preserves some early Hanafi legal transmissions lost in later commentarial traditions.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Mukhtasar al-Quduri",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Maktabah al-Rushd",
+      location: "Riyadh",
+      year: "2010",
+      volumes: 3,
+      verified: false
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 61,
+  title: "Sharh Mukhtasar al-Tahawi",
+  arabicTitle: "شرح مختصر الطحاوي",
+  author: "Abu Nasr al-Isbijabi",
+  authorArabic: "أبو نصر الإسبيجابي",
+  authorBirthYear: 430,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 820,
+  publicationYear: "480 AH",
+  scholarEra: "5th Century Hijri",
+  description: "A juridical explanation of Mukhtasar al-Tahawi rooted in Transoxanian Hanafi transmission.",
+  uniqueAspects: "Represents the eastern Hanafi school’s legal articulation distinct from Iraqi formulations.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Mukhtasar al-Tahawi",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Nawadir",
+      location: "Syria",
+      year: "2014",
+      volumes: 2,
+      verified: false
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 62,
+  title: "Sharh al-Jami' al-Saghir",
+  arabicTitle: "شرح الجامع الصغير",
+  author: "Abu Nasr al-Isbijabi",
+  authorArabic: "أبو نصر الإسبيجابي",
+  authorBirthYear: 430,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 1000,
+  publicationYear: "480 AH",
+  scholarEra: "5th Century Hijri",
+  description: "An explanatory work on Muhammad ibn al-Hasan’s foundational collection of Hanafi legal doctrines.",
+  uniqueAspects: "One of the earliest full commentaries on al-Jamiʿ al-Saghir shaping later Hanafi jurisprudence.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "al-Jami' al-Saghir",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Basha'ir",
+      location: "Damascus",
+      year: "2008",
+      volumes: 4,
+      verified: false
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 63,
+  title: "Sharh al-Jami' al-Saghir",
+  arabicTitle: "شرح الجامع الصغير",
+  author: "Fakhr al-Islam al-Bazdawi",
+  authorArabic: "فخر الإسلام البزدوي",
+  authorBirthYear: 430,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 1200,
+  publicationYear: "482 AH",
+  scholarEra: "5th Century Hijri",
+  description: "An authoritative Central Asian Hanafi commentary on al-Jamiʿ al-Saghir focusing on qiyas and legal coherence.",
+  uniqueAspects: "Its analytical rigor influenced Sarakhsi and later usul-integrated commentarial writing.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "al-Jami' al-Saghir",
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Dar Ibn Hazm",
+      location: "Beirut",
+      year: "2016",
+      volumes: 5,
+      verified: false
+    }
+  ]
+}
+
+{
+  id: 69,
+  title: "Al-Wafi",
+  arabicTitle: "الوافي",
+  author: "Abu al-Barakat Ahmad ibn Mahmud al-Nasafi",
+  authorArabic: "أبو البركات أحمد بن محمود النسفي",
+  authorBirthYear: 640,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 900,
+  publicationYear: "710 AH",
+  scholarEra: "7th Century Hijri",
+  description: "A comprehensive Hanafi legal compendium consolidating the madhhab’s authoritative positions.",
+  uniqueAspects: "It systematised Hanafi fiqh at the peak of Transoxanian scholarship.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2005", volumes: 2, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 70,
+  title: "Kanz al-Daqaʾiq",
+  arabicTitle: "كنز الدقائق",
+  author: "Abu al-Barakat Ahmad ibn Mahmud al-Nasafi",
+  authorArabic: "أبو البركات أحمد بن محمود النسفي",
+  authorBirthYear: 640,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 600,
+  publicationYear: "710 AH",
+  scholarEra: "7th Century Hijri",
+  description: "A highly precise fatwa-oriented Hanafi legal matn distilled from Wiqayat al-Riwayah.",
+  uniqueAspects: "It became the legal backbone of the Ottoman Empire.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Wiqayat al-Riwayah",
+  hasCommentaries: [
+    { id: "??", title: "Al-Bahr al-Raʾiq", author: "Ibn Nujaym" },
+    { id: "??", title: "Radd al-Muhtār", author: "Ibn ʿĀbidīn" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 71,
+  title: "Al-Nuqayah Mukhtasar al-Wiqayah",
+  arabicTitle: "النقاية مختصر الوقاية",
+  author: "Sadr al-Shari'ah al-Asghar",
+  authorArabic: "صدر الشريعة الأصغر",
+  authorBirthYear: 680,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Classical",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Upper Intermediate",
+  pages: 400,
+  publicationYear: "747 AH",
+  scholarEra: "8th Century Hijri",
+  description: "A compressed student-level digest of Wiqāyat al-Riwāyah used widely in madrasah curricula.",
+  uniqueAspects: "It became the teaching core for later Ottoman fiqh education.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Wiqayat al-Riwayah",
+  hasCommentaries: [
+    { id: "??", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Fikr", location: "Beirut", year: "2008", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 72,
+  title: "ʿUyun al-Madhahib",
+  arabicTitle: "عيون المذاهب",
+  author: "Qiwam al-Din Muhammad al-Kaki",
+  authorArabic: "قِوام الدين محمد الكاكي",
+  authorBirthYear: 690,
+  category: "Fiqh",
+  subject: "Comparative",
+  madhab: "Comparative",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Classical",
+  bookType: "Majmu (Collection)",
+  studyLevel: "Specialist",
+  pages: 1100,
+  publicationYear: "749 AH",
+  scholarEra: "8th Century Hijri",
+  description: "A comparative survey of Sunni madhahib with a strong Hanafi analytical base.",
+  uniqueAspects: "It preserves early inter-madhhab reasoning.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Nawadir", location: "Beirut", year: "2014", volumes: 2, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 73,
+  title: "Ghurar al-Ahkam",
+  arabicTitle: "غرر الأحكام",
+  author: "Mawla Khusru",
+  authorArabic: "مولا خسرو",
+  authorBirthYear: 820,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 1400,
+  publicationYear: "885 AH",
+  scholarEra: "9th Century Hijri",
+  description: "A judicial Hanafi code synthesised for Ottoman court application.",
+  uniqueAspects: "It shifted Hanafi fiqh into imperial governance.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Maktabat al-Quds", location: "Cairo", year: "2011", volumes: 2, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 74,
+  title: "Khulasat al-Kaydani",
+  arabicTitle: "خلاصة الكيداني",
+  author: "Lutf Allah al-Nasafi al-Kaydani",
+  authorArabic: "لطف الله النسفي الكيداني",
+  authorBirthYear: 850,
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Beginner",
+  pages: 180,
+  publicationYear: "910 AH",
+  scholarEra: "10th Century Hijri",
+  description: "A short primer on purity, prayer and daily worship.",
+  uniqueAspects: "Used for mosque-level public instruction.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Haramayn", location: "Pakistan", year: "1985", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 75,
+  title: "Mawahib al-Rahman fi Madhhab Abi Hanifah",
+  arabicTitle: "مواهب الرحمن في مذهب أبي حنيفة",
+  author: "Al-Tarabulusi",
+  authorArabic: "الطرابلسي",
+  authorBirthYear: 870,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Majmu (Collection)",
+  studyLevel: "Advanced",
+  pages: 850,
+  publicationYear: "922 AH",
+  scholarEra: "10th Century Hijri",
+  description: "A structured mid-level Hanafi reference manual for jurists.",
+  uniqueAspects: "Balances judiciary usage with teaching needs.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Matbaʿat al-ʿIlmiyyah", location: "Istanbul", year: "1912", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 76,
+  title: "Makhzan al-Fiqh",
+  arabicTitle: "مخزن الفقه",
+  author: "Al-Amasi",
+  authorArabic: "الأماسي",
+  authorBirthYear: 890,
+  category: "Fiqh",
+  subject: "Encyclopedia",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Mawsua (Reference)",
+  studyLevel: "Specialist",
+  pages: 1600,
+  publicationYear: "938 AH",
+  scholarEra: "10th Century Hijri",
+  description: "A massive Hanafi legal encyclopedia.",
+  uniqueAspects: "Among the largest post-classical Hanafi reference works.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 77,
+  title: "Multaqa al-Abhur",
+  arabicTitle: "ملتقى الأبحر",
+  author: "Ibrahim ibn Muhammad al-Halabi",
+  authorArabic: "إبراهيم بن محمد الحلبي",
+  authorBirthYear: 900,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Specialist",
+  pages: 1200,
+  publicationYear: "956 AH",
+  scholarEra: "10th Century Hijri",
+  description: "A merged synthesis of Kanz, Wiqayah, and Mukhtar.",
+  uniqueAspects: "It unified all Ottoman Hanafi legal transmission into one manual.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Kanz al-Daqaʾiq",
+  hasCommentaries: [
+    { id: "??", title: "Radd al-Muhtar", author: "Ibn ʿAbidin" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 78,
+  title: "Tanwir al-Absar wa Jamiʿ al-Bihar",
+  arabicTitle: "تنوير الأبصار وجامع البحار",
+  author: "Shams al-Din Muhammad al-Tumurtashi",
+  authorArabic: "شمس الدين محمد التمرتاشي",
+  authorBirthYear: 950,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 700,
+  publicationYear: "1004 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A refined Ottoman-era Hanafi legal textbook.",
+  uniqueAspects: "Serves as the base text for Radd al-Muhtar.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Radd al-Muhtar", author: "Ibn ʿAbidin" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 79,
+  title: "Nur al-Idah",
+  arabicTitle: "نور الإيضاح",
+  author: "Hasan al-Shurunbulali",
+  authorArabic: "حسن الشرنبلالي",
+  authorBirthYear: 1020,
+  category: "Fiqh",
+  subject: "Ritual Worship",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Core text (Matn)",
+  studyLevel: "Beginner",
+  pages: 200,
+  publicationYear: "1069 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A student manual covering purity, prayer and fasting.",
+  uniqueAspects: "The most taught Hanafi worship text in the modern seminary world.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 80,
+  title: "Maraqi al-Saʿadat",
+  arabicTitle: "مراقي السعادات",
+  author: "Hasan al-Shurunbulali",
+  authorArabic: "حسن الشرنبلالي",
+  authorBirthYear: 1020,
+  category: "Fiqh",
+  subject: "Ritual Worship",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Post-Classical",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Intermediate",
+  pages: 450,
+  publicationYear: "1069 AH",
+  scholarEra: "11th Century Hijri",
+  description: "A pedagogical commentary on Nur al-Idah.",
+  uniqueAspects: "Transforms a basic worship manual into a juristically reasoned guide.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Nur al-Idah",
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Fikr", location: "Damascus", year: "2016", volumes: 1, verified: true }
+  ]
+}
+js
+Copy code
+{
+  id: 81,
+  title: "Ithaf al-Talib",
+  arabicTitle: "إتحاف الطالب",
+  author: "Abu Bakr al-Mulla al-Ahsa'i",
+  authorArabic: "أبو بكر الملا الأحسائي",
+  authorBirthYear: 1210,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Core text (Matn)",
+  studyLevel: "Beginner",
+  pages: 160,
+  publicationYear: "1270 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A simplified Hanafi worship primer.",
+  uniqueAspects: "Designed for non-specialist learners.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 82,
+  title: "Tuhfat al-Mubtadi",
+  arabicTitle: "تحفة المبتدي",
+  author: "Abu Bakr al-Mulla al-Ahsa'i",
+  authorArabic: "أبو بكر الملا الأحسائي",
+  authorBirthYear: 1210,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Beginner",
+  pages: 200,
+  publicationYear: "1270 AH",
+  scholarEra: "13th Century Hijri",
+  description: "An instructional Hanafi fiqh guide for beginners.",
+  uniqueAspects: "Designed for mosque teaching circles.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 83,
+  title: "Al-Hadiyyah al-ʿAla’iyyah",
+  arabicTitle: "الهدية العلائية",
+  author: "Ala al-Din Ibn Abidin",
+  authorArabic: "علاء الدين بن عابدين",
+  authorBirthYear: 1270,
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: 250,
+  publicationYear: "1306 AH",
+  scholarEra: "13th Century Hijri",
+  description: "A specialized Hanafi epistle dealing with applied legal issues.",
+  uniqueAspects: "Reflects late Ottoman legal reform pressures.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 84,
+  title: "Al-Khulasat al-Bahiyyah",
+  arabicTitle: "الخلاصة البهية",
+  author: "Husayn Abd al-Rahman al-Banjawi",
+  authorArabic: "حسين عبد الرحمن البنجاوي",
+  authorBirthYear: 1320,
+  category: "Fiqh",
+  subject: "Ritual Worship",
+  madhab: "Hanafi",
+  language: "Urdu",
+  creed: "N/A",
+  era: "Modern",
+  bookType: "Tarjama (Translation)",
+  studyLevel: "Beginner",
+  pages: 180,
+  publicationYear: "1350 AH",
+  scholarEra: "14th Century Hijri",
+  description: "An instructional Hanafi fiqh teaching text in Urdu.",
+  uniqueAspects: "Part of South Asian Hanafi fiqh standardization.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Nur al-Idah",
+  hasCommentaries: [],
+  publishedEditions: []
+}
+
+{
+  id: 58,
+  title: "Mukhtasar al-Quduri",
+  arabicTitle: "مختصر القدوري",
+  author: "Abu al-Husayn Ahmad al-Quduri",
+  authorArabic: "أبو الحسين أحمد القدوري",
+  authorBirthYear: 362,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Beginner",
+  pages: 250,
+  publicationYear: "428 AH",
+  scholarEra: "5th Century Hijri",
+  description: "A foundational Hanafi legal primer covering all core areas of worship and transactions in a highly condensed format.",
+  uniqueAspects: "It became the primary starter text for Hanafi fiqh worldwide due to its precision, neutrality, and pedagogical clarity.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Al-Lubbab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi" },
+    { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Kotob al-Ilmiyah",
+      location: "Beirut, Lebanon",
+      year: "2003",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 59,
+  title: "Mukhtasar al-Tahawi",
+  arabicTitle: "مختصر الطحاوي",
+  author: "Abu Ja'far Ahmad ibn Muhammad al-Tahawi",
+  authorArabic: "أبو جعفر أحمد بن محمد الطحاوي",
+  authorBirthYear: 239,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Athari",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Intermediate",
+  pages: 450,
+  publicationYear: "321 AH",
+  scholarEra: "4th Century Hijri",
+  description: "A dense legal summary reflecting early Iraqi Hanafi transmission with strong reliance on hadith-based reasoning.",
+  uniqueAspects: "It preserves early Hanafi jurisprudence prior to later systematic codification.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "??", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Basha'ir",
+      location: "Damascus, Syria",
+      year: "1999",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 60,
+  title: "Al-Kafi",
+  arabicTitle: "الكافي",
+  author: "Al-Hakim al-Shahid Abu al-Fadl al-Marwazi",
+  authorArabic: "الحاكم الشهيد أبو الفضل المروزي",
+  authorBirthYear: 270,
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 900,
+  publicationYear: "334 AH",
+  scholarEra: "4th Century Hijri",
+  description: "One of the earliest comprehensive compilations of established Hanafi fiqh positions.",
+  uniqueAspects: "Its structure directly influenced later canonical Hanafi manuals including al-Hidayah.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    {
+      publisher: "Maktabat al-Rushd",
+      location: "Riyadh, Saudi Arabia",
+      year: "2015",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 61,
+  title: "Al-Muntakhab",
+  arabicTitle: "المنتخب",
+  author: "Al-Hakim al-Shahid Abu al-Fadl al-Marwazi",
+  authorArabic: "الحاكم الشهيد أبو الفضل المروزي",
+  authorBirthYear: 270,
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Salaf",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Intermediate",
+  pages: 500,
+  publicationYear: "334 AH",
+  scholarEra: "4th Century Hijri",
+  description: "A distilled selection of authoritative Hanafi rulings derived from early transmission sources.",
+  uniqueAspects: "Acts as a legal bridge between early Iraqi transmission and later Samarqand codification.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 62,
+  title: "Mukhtasar al-Karkhi",
+  arabicTitle: "مختصر الكرخي",
+  author: "Abu al-Hasan Ubayd Allah al-Karkhi",
+  authorArabic: "أبو الحسن عبيد الله الكرخي",
+  authorBirthYear: 260,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Intermediate",
+  pages: 300,
+  publicationYear: "340 AH",
+  scholarEra: "4th Century Hijri",
+  description: "A structured legal manual representing early Hanafi jurisprudential formulation.",
+  uniqueAspects: "Formed the backbone of Iraqi Hanafi legal principles before Transoxanian reformulation.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 63,
+  title: "Tuhfat al-Fuqaha",
+  arabicTitle: "تحفة الفقهاء",
+  author: "Ala al-Din al-Samarqandi",
+  authorArabic: "علاء الدين السمرقندي",
+  authorBirthYear: 480,
+  category: "Fiqh",
+  subject: "Advanced Commentary",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Commentary (Sharh)",
+  studyLevel: "Advanced",
+  pages: 1600,
+  publicationYear: "539 AH",
+  scholarEra: "6th Century Hijri",
+  description: "A detailed analytical expansion of foundational Hanafi rulings.",
+  uniqueAspects: "Serves as the primary source for al-Hidayah’s legal synthesis.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Mukhtasar al-Karkhi",
+  hasCommentaries: [
+    { id: "??", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
+  ],
+  publishedEditions: [
+    {
+      publisher: "Dar al-Fikr",
+      location: "Beirut, Lebanon",
+      year: "1997",
+      volumes: 3,
+      verified: true,
+      link: null
+    }
+  ]
+}
+js
+Copy code
+{
+  id: 64,
+  title: "Bidayat al-Mubtadi",
+  arabicTitle: "بداية المبتدي",
+  author: "Burhan al-Din al-Marghinani",
+  authorArabic: "برهان الدين المرغيناني",
+  authorBirthYear: 537,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Upper Intermediate",
+  pages: 600,
+  publicationYear: "593 AH",
+  scholarEra: "6th Century Hijri",
+  description: "A harmonized digest of Tuhfat al-Fuqaha and al-Jami' al-Saghir.",
+  uniqueAspects: "Serves as the direct base text for al-Hidayah.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Tuhfat al-Fuqaha",
+  hasCommentaries: [
+    { id: "??", title: "Al-Hidayah", author: "Al-Marghinani" }
+  ],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 65,
+  title: "Wiqayat al-Riwayah",
+  arabicTitle: "وقاية الرواية",
+  author: "Taj al-Shari'ah Mahmud ibn Ahmad al-Mahbubi",
+  authorArabic: "تاج الشريعة محمود بن أحمد المحبوبي",
+  authorBirthYear: 620,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Summary (Mukhtasar)",
+  studyLevel: "Upper Intermediate",
+  pages: 500,
+  publicationYear: "673 AH",
+  scholarEra: "7th Century Hijri",
+  description: "A highly refined digest of al-Hidayah.",
+  uniqueAspects: "Later became the base text for Kanz al-Daqaiq.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Al-Hidayah",
+  hasCommentaries: [
+    { id: "??", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
+  ],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 66,
+  title: "Kanz al-Daqaiq",
+  arabicTitle: "كنز الدقائق",
+  author: "Abd Allah ibn Ahmad al-Nasafi",
+  authorArabic: "عبد الله بن أحمد النسفي",
+  authorBirthYear: 630,
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 600,
+  publicationYear: "710 AH",
+  scholarEra: "7th Century Hijri",
+  description: "The most precise Hanafi legal matn for fatwa usage.",
+  uniqueAspects: "Became the backbone of Ottoman judicial law.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: "Wiqayat al-Riwayah",
+  hasCommentaries: [
+    { id: "??", title: "Al-Bahr al-Ra'iq", author: "Ibn Nujaym" }
+  ],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 67,
+  title: "Al-Mukhtar li al-Fatwa",
+  arabicTitle: "المختار للفتوى",
+  author: "Abd Allah ibn Mahmud al-Mawsili",
+  authorArabic: "عبد الله بن محمود الموصلي",
+  authorBirthYear: 599,
+  category: "Fiqh",
+  subject: "Evidences",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: 750,
+  publicationYear: "683 AH",
+  scholarEra: "7th Century Hijri",
+  description: "A fatwa-oriented legal manual.",
+  uniqueAspects: "Its commentary became the most taught fatwa manual in South Asia.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+  ],
+  publishedEditions: []
+}
+js
+Copy code
+{
+  id: 68,
+  title: "Majma' al-Bahrayn",
+  arabicTitle: "مجمع البحرين",
+  author: "Muzaffar al-Din Ahmad Ibn al-Sa'ati",
+  authorArabic: "مظفر الدين أحمد بن الساعاتي",
+  authorBirthYear: 640,
+  category: "Fiqh",
+  subject: "Comparative",
+  madhab: "Comparative",
+  language: "Arabic",
+  creed: "N/A",
+  era: "Khalaf",
+  bookType: "Majmu (Collection)",
+  studyLevel: "Specialist",
+  pages: 1200,
+  publicationYear: "694 AH",
+  scholarEra: "7th Century Hijri",
+  description: "A comparative synthesis of Hanafi and Shafi'i jurisprudence.",
+  uniqueAspects: "One of the earliest systematic bi-madhhab legal harmonizations.",
+  coverImage: null,
+  isPlaceholder: false,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+};
 
 export const categories = [
   "All",
   "Tafsir",
   "Hadith",
-  "Fiqh",
   "Aqeedah",
+  "Fiqh",
   "Seerah",
+  "Tassawuf",
   "Arabic Language",
   "Usul al-Fiqh",
+  "Usul al-Hadith",
+  "Ulum al-Qur'an",
   "History",
-  "Sufism & Spirituality"
+  "Miscellaneous",
+  "Reference"
 ];
 
 export const authors = [
@@ -3372,54 +6249,49 @@ export const subjectsByCategory = {
   "Fiqh": [
     "All",
     "Comprehensive",
-    "Systematic",
-    "Intermediate Text",
     "Evidences",
     "Concise Text",
-    "Ritual Worship",
     "Encyclopedia",
     "Selected Topics",
-    "Foundational Text",
     "Advanced Commentary",
-    "Legal Encyclopedia",
-    "Commentary with Hadith",
-    "Ottoman Standard",
-    "Primary Source",
-    "Comparative Jurisprudence",
-    "Transactions",
-    "Women's Issues",
+    "Ritual Worship",
+    "Muamalaat",
+    "Other",
     "Contemporary Issues"
   ],
   "Hadith": [
     "All",
-    "Most Authentic",
-    "Authentic Collection",
+    "Sahih Siita",
+    "Other Collections",
     "Hadith Commentary",
-    "Ethics & Spirituality",
-    "Hadith with Fiqh Application"
+    "Hadith with Fiqh"
   ],
   "Tafsir": [
     "All",
-    "Comprehensive Exegesis",
-    "Hadith-based Exegesis",
-    "Jurisprudential Focus"
+    "Comprehensive",
+    "bil-Riwaya",
+    "bil-Dirayah",
+    "Linguistic",
+    "Juridical",
+    "Mystical"
   ],
   "Usul al-Fiqh": [
     "All",
-    "Principles of Jurisprudence",
+    "Legal Theory",
     "Legal Maxims",
-    "Guidelines for Issuing Fatwas"
+    "Ifta"
   ],
   "Aqeedah": [
     "All",
-    "Islamic Creed",
-    "Theological Principles"
+    "Creed",
+    "Kalaam",
+    "Usul ad-din"
   ],
   "Seerah": [
     "All",
     "Prophetic Biography",
-    "Prophetic Guidance",
-    "Prophetic Excellence"
+    "Prophetic Descriptions",
+    "Prophetic Maghazi"
   ],
   "History": [
     "All",
@@ -3428,34 +6300,53 @@ export const subjectsByCategory = {
   ],
   "Arabic Language": [
     "All",
-    "Arabic Grammar",
-    "Arabic Lexicon",
-    "Morphology"
+    "Sarf",
+    "Nahv",
+    "Balagha",
+    "Mantiq",
+    "Dictionary",
+    "Kalaam",
+    "Qiraa'"
   ],
-  "Sufism & Spirituality": [
+  "Tassawuf": [
     "All",
-    "Inner Dimensions",
-    "Spiritual Purification"
+    "Purification",
+    "Mysticism"
   ]
-};
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Miscellaneous": [
+    "All",
+    "Principles"
+  ]
+  "Reference": [
+    "All",
+    "Dictionary"
+  ]
+];
+
 
 // Legacy flat list for backwards compatibility
 export const subjects = [
   "All",
   "Hanafi Jurisprudence - Comprehensive",
-  "Hanafi Jurisprudence - Systematic",
-  "Hanafi Jurisprudence - Intermediate Text",
   "Hanafi Jurisprudence - Evidences",
   "Hanafi Jurisprudence - Concise Text",
   "Hanafi Jurisprudence - Ritual Worship",
+  "Hanafi Jurisprudence - Muamalaat",
   "Hanafi Jurisprudence - Encyclopedia",
   "Hanafi Jurisprudence - Selected Topics",
-  "Hanafi Jurisprudence - Foundational Text",
   "Hanafi Jurisprudence - Advanced Commentary",
-  "Hanafi Jurisprudence - Legal Encyclopedia",
-  "Hanafi Jurisprudence - Commentary with Hadith",
-  "Hanafi Jurisprudence - Ottoman Standard",
-  "Hanafi Jurisprudence - Primary Source",
   "Comparative Jurisprudence - Contemporary",
   "Prophetic Traditions - Most Authentic",
   "Prophetic Traditions - Authentic Collection",
@@ -3484,6 +6375,7 @@ export const madhabs = [
   "Hanbali",
   "Comparative",
   "Independent",
+  "Salafi",
   "N/A"
 ];
 
@@ -3492,9 +6384,8 @@ export const languages = [
   "Arabic",
   "English",
   "Urdu",
-  "Turkish",
   "Persian",
-  "Malay"
+  "Turkish"
 ];
 
 export const creeds = [
@@ -3516,16 +6407,22 @@ export const eras = [
 
 export const bookTypes = [
   "All",
-  "Matn",
-  "Commentary",
-  "Translation",
-  "Epistle",
-  "Compilation",
-  "Reference"
+  "Core text (Matn)",
+  "Commentary (Sharh)",
+  "Gloss (Haashiya)",
+  "Summary (Mukhtasar)",
+  "Risala (Epistle)",
+  "Takhreej (Referenced Edition)",
+  "Tahqeeq (Critical Edition)",
+  "Fatawa (Legal Verdicts)",
+  "Tarjama (Translation)",
+  "Majmu (Collection)",
+  "Mawsua (Reference)"
 ];
 
 export const studyLevels = [
   "All",
+  "Elementary",
   "Beginner",
   "Intermediate",
   "Upper Intermediate",
@@ -3538,6 +6435,5 @@ export const sortOptions = [
   { value: 'publicationYear', label: 'Publication Year' },
   { value: 'title', label: 'Title (A-Z)' },
   { value: 'author', label: 'Author Name' },
-  { value: 'studyLevel', label: 'Study Level' },
-  { value: 'pages', label: 'Number of Pages' }
+  { value: 'studyLevel', label: 'Study Level' }
 ];
