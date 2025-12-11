@@ -21,7 +21,7 @@ export const books = [
     scholarEra: "5th Century Hijri",
     description: "One of the most comprehensive and detailed works in Hanafi jurisprudence. Al-Sarakhsi dictated this monumental 30-volume work from memory while imprisoned, covering virtually every aspect of Islamic law.",
     uniqueAspects: "Unique for being dictated entirely from memory during imprisonment. Known for its extensive legal reasoning and detailed analysis of jurisprudential principles. Considered the encyclopedic reference for advanced Hanafi fiqh.",
-    coverImage: "https://www.sifatusafwa.com/21756-large_default/al-asl-al-mabsoot-by-imam-ash-shaybani-189h-13-volumes.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-mabsut.jpg",
     isPlaceholder: false
   },
   {
@@ -44,7 +44,7 @@ export const books = [
     scholarEra: "6th Century Hijri",
     description: "A systematic and well-organized exposition of Hanafi fiqh. Known for its clear methodology and logical presentation of legal opinions with their evidences.",
     uniqueAspects: "Stands out for its systematic organization and clarity. The author arranges topics logically and presents evidences with exceptional precision. Written as a commentary on his teacher's work, making complex issues accessible.",
-    coverImage: "https://images.unsplash.com/photo-1744957280831-8d30f63914b8",
+    coverImage: "https://library.minaretandquill.com/book_covers/badai-al-sanai.jpg",
     isPlaceholder: false
   },
   {
@@ -67,30 +67,27 @@ export const books = [
     scholarEra: "6th Century Hijri",
     description: "The most widely taught intermediate text in Hanafi jurisprudence. It has been the primary textbook in Islamic seminaries for centuries and has numerous commentaries written on it.",
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
-    coverImage: "https://images.unsplash.com/photo-1622137879013-beaca5144a4b",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-hidaya.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [
-      { id: 11, title: "Sharh Fath al-Qadir", author: "Ibn al-Humam" },
-      { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Imam Abdullah ibn Mahmud al-Mawsili" }
-    ],
+    hasCommentaries: [{"id":11,"title":"Sharh Fath al-Qadir","author":"Ibn al-Humam"},{"id":4,"title":"Al-Ikhtiyar li Ta'lil al-Mukhtar","author":"Imam Abdullah ibn Mahmud al-Mawsili"}],
     publishedEditions: [
-      {
-        publisher: "Dar al-Kotob al-Ilmiyah",
-        location: "Beirut, Lebanon",
-        year: "2000",
-        volumes: 4,
-        verified: true,
-        link: "https://www.sifatusafwa.com"
-      },
-      {
-        publisher: "Dar al-Arqam",
-        location: "Pakistan",
-        year: "2010",
-        volumes: 2,
-        verified: true,
-        link: null
-      }
+          {
+                "publisher": "Dar al-Kotob al-Ilmiyah",
+                "location": "Beirut, Lebanon",
+                "year": "2000",
+                "volumes": 4,
+                "verified": true,
+                "link": "https://www.sifatusafwa.com"
+          },
+          {
+                "publisher": "Dar al-Arqam",
+                "location": "Pakistan",
+                "year": "2010",
+                "volumes": 2,
+                "verified": true,
+                "link": null
+          }
     ]
   },
   {
@@ -113,7 +110,7 @@ export const books = [
     scholarEra: "7th Century Hijri",
     description: "A valuable commentary explaining the evidences behind Hanafi rulings. Particularly useful for understanding the reasoning behind legal positions.",
     uniqueAspects: "Distinguished by its focus on explaining the 'why' behind rulings rather than just stating them. Provides scriptural evidences and rational arguments, making it essential for students who want to understand jurisprudential reasoning.",
-    coverImage: "https://images.unsplash.com/photo-1590720367388-6cdfc716b933",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-ikhtiyar-li-talil-al-mukhtar.jpg",
     isPlaceholder: false
   },
   {
@@ -136,7 +133,7 @@ export const books = [
     scholarEra: "8th Century Hijri",
     description: "A concise and precise compilation of Hanafi fiqh rulings. Despite its brevity, it covers essential topics with remarkable precision.",
     uniqueAspects: "Known for its extreme precision and economy of words. Every sentence is carefully crafted to convey maximum legal content. Popular in Ottoman and Indian seminaries. Its brevity makes it ideal for memorization.",
-    coverImage: "https://images.unsplash.com/photo-1764509422504-f9aee0a1dd76",
+    coverImage: "https://library.minaretandquill.com/book_covers/kanz-al-daqaiq.jpg",
     isPlaceholder: false
   },
   {
@@ -159,7 +156,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "A clear and accessible primer on ritual worship according to the Hanafi school. Widely used as a first text for beginning students.",
     uniqueAspects: "The most popular beginner text in Hanafi fiqh globally. Its clarity and focus on practical matters of worship make it perfect for new students. Covers prayer, fasting, zakat, and hajj in clear, simple language.",
-    coverImage: "https://images.unsplash.com/photo-1597505495109-7fc35bb64d8e",
+    coverImage: "https://library.minaretandquill.com/book_covers/nur-al-idah.jpg",
     isPlaceholder: false
   },
   {
@@ -182,7 +179,7 @@ export const books = [
     scholarEra: "13th Century Hijri",
     description: "The most authoritative reference work in Hanafi jurisprudence for fatwa. This multi-volume supercommentary is indispensable for muftis and advanced scholars.",
     uniqueAspects: "Considered the final word in Hanafi fiqh. Ibn 'Abidin's encyclopedic knowledge and ability to synthesize centuries of scholarship make this the go-to reference for complex legal questions. Essential for anyone issuing fatwas.",
-    coverImage: "https://images.unsplash.com/photo-1627337840960-d55af60bf8e3",
+    coverImage: "https://library.minaretandquill.com/book_covers/radd-al-muhtar-ala-al-durr-al-mukhtar.jpg",
     isPlaceholder: false
   },
   {
@@ -205,7 +202,7 @@ export const books = [
     scholarEra: "20th-21st Century",
     description: "A comprehensive modern encyclopedia of Islamic jurisprudence with detailed evidences. While comparative, it primarily follows the Hanafi school with extensive references to other madhabs.",
     uniqueAspects: "Bridges classical scholarship with contemporary issues. Unique for its detailed citation of evidences and comparison of all madhabs. Written in modern Arabic, making classical fiqh accessible to contemporary readers.",
-    coverImage: "https://images.unsplash.com/photo-1641816514743-d264c1481585",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-fiqh-al-islami-wa-adillatuhu.jpg",
     isPlaceholder: false
   },
   {
@@ -228,7 +225,7 @@ export const books = [
     scholarEra: "13th Century Hijri",
     description: "A shorter collection of Ibn 'Abidin's treatises on specific legal topics. Covers important contemporary issues that arose during his time.",
     uniqueAspects: "Contains Ibn 'Abidin's fatwas on novel issues of his era. Demonstrates how classical principles apply to new situations, making it valuable for understanding Islamic legal methodology.",
-    coverImage: "https://images.unsplash.com/photo-1724441647620-9fdfb540d968",
+    coverImage: "https://library.minaretandquill.com/book_covers/hashiyat-ibn-abidin-al-sughra.jpg",
     isPlaceholder: false
   },
   {
@@ -251,7 +248,7 @@ export const books = [
     scholarEra: "4th-5th Century Hijri",
     description: "The foundational primer in Hanafi jurisprudence. For centuries, this has been the first fiqh text studied by students in the Hanafi tradition.",
     uniqueAspects: "The starting point for Hanafi fiqh education. Its simple language and clear structure make it perfect for beginners. Despite its brevity, it covers all essential rulings. Al-Hidaya was actually written as a commentary on this text.",
-    coverImage: "https://images.unsplash.com/photo-1590720478291-aaabf8d53c49",
+    coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-quduri.jpg",
     isPlaceholder: false
   },
   {
@@ -274,19 +271,19 @@ export const books = [
     scholarEra: "9th Century Hijri",
     description: "An advanced commentary on al-Hidaya, combining fiqh with usul al-fiqh. Known for its depth and analytical rigor.",
     uniqueAspects: "Unique for integrating jurisprudential principles (usul) with applied law (furu'). Ibn al-Humam critically examines evidences and provides independent analysis, making this essential for scholars who want to understand the reasoning behind rulings.",
-    coverImage: "https://images.unsplash.com/photo-1590720485412-fc0322a7acb2",
+    coverImage: "https://library.minaretandquill.com/book_covers/sharh-fath-al-qadir.jpg",
     isPlaceholder: false,
     commentaryOf: "Al-Hidaya",
     hasCommentaries: [],
     publishedEditions: [
-      {
-        publisher: "Dar al-Fikr",
-        location: "Beirut, Lebanon",
-        year: "1995",
-        volumes: 10,
-        verified: true,
-        link: null
-      }
+          {
+                "publisher": "Dar al-Fikr",
+                "location": "Beirut, Lebanon",
+                "year": "1995",
+                "volumes": 10,
+                "verified": true,
+                "link": null
+          }
     ]
   },
   {
@@ -309,7 +306,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "A comprehensive compilation of Hanafi legal opinions commissioned by the Mughal emperor Aurangzeb. Compiled by a team of leading scholars.",
     uniqueAspects: "A unique collective work representing the consensus of Hanafi scholarship in the Indian subcontinent. Organized systematically for easy reference. Widely used for fatwa in South Asia and beyond.",
-    coverImage: "https://images.unsplash.com/photo-1626092811141-34babe0cb353",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-fatawa-al-hindiyya.jpg",
     isPlaceholder: false
   },
   {
@@ -332,7 +329,7 @@ export const books = [
     scholarEra: "8th Century Hijri",
     description: "A detailed commentary on Kanz al-Daqa'iq with extensive hadith references. Bridges the gap between Hanafi fiqh and its hadith foundations.",
     uniqueAspects: "Stands out for meticulously tracing Hanafi positions back to hadith sources. Essential for those who want to understand the hadith basis of Hanafi rulings. Contains valuable hadith analysis and authentication.",
-    coverImage: "https://images.pexels.com/photos/8164399/pexels-photo-8164399.jpeg",
+    coverImage: "https://library.minaretandquill.com/book_covers/tabyin-al-haqaiq.jpg",
     isPlaceholder: false
   },
   {
@@ -355,7 +352,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "A widely-used text in the Ottoman Empire, combining multiple earlier works. Known for its clarity and practical approach.",
     uniqueAspects: "Synthesizes multiple classical texts into one accessible work. Popular in Ottoman institutions for its balance between detail and readability. Includes both established positions and practical applications.",
-    coverImage: "https://images.pexels.com/photos/14513945/pexels-photo-14513945.jpeg",
+    coverImage: "https://library.minaretandquill.com/book_covers/majma-al-anhur.jpg",
     isPlaceholder: false
   },
   {
@@ -378,7 +375,7 @@ export const books = [
     scholarEra: "2nd Century Hijri",
     description: "The foundational work of Hanafi jurisprudence by the direct student of Imam Abu Hanifa. Contains the earliest systematic exposition of Hanafi legal opinions.",
     uniqueAspects: "The primary source text for all later Hanafi works. Direct transmission from Imam Abu Hanifa's students. Essential for understanding the original Hanafi methodology and reasoning. All later Hanafi texts build on this foundation.",
-    coverImage: "https://www.sifatusafwa.com/21756-large_default/al-asl-al-mabsoot-by-imam-ash-shaybani-189h-13-volumes.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/fiqh-al-imam-kitab-al-asl.jpg",
     isPlaceholder: false
   },
   {
@@ -401,7 +398,7 @@ export const books = [
     scholarEra: "3rd Century Hijri",
     description: "The most authentic collection of Hadith in Islam. Imam Bukhari spent 16 years selecting these narrations from over 600,000 hadiths, applying the strictest criteria of authentication.",
     uniqueAspects: "Represents the pinnacle of hadith authentication methodology. Every hadith has an unbroken chain of reliable narrators. Organized by jurisprudential topics, making it both a hadith and fiqh reference. The foundation upon which Islamic law is built.",
-    coverImage: "https://www.sifatusafwa.com/28122-large_default/sahih-al-bukhari-in-9-volumes-with-original-checking-by-sheikh-saleh-alu-ash-sheikh-صحيح-البخاري-9-مجلدات-تحقيق-آل-الشيخ.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/sahih-al-bukhari.jpg",
     isPlaceholder: false
   },
   {
@@ -424,7 +421,7 @@ export const books = [
     scholarEra: "3rd Century Hijri",
     description: "The second most authentic hadith collection, known for its superior organization and thematic arrangement. Imam Muslim presents hadiths on the same topic together with all their variations.",
     uniqueAspects: "Superior organization compared to Bukhari - groups all variants of a hadith together. More focused on authenticity than jurisprudential arrangement. Essential complement to Sahih Bukhari, together forming the 'Two Sahihs' (الصحيحان).",
-    coverImage: "https://www.sifatusafwa.com/28123-large_default/sahih-muslim-in-5-volumes-with-original-checking-by-sheikh-saleh-alu-ash-sheikh-صحيح-مسلم-5-مجلدات-تحقيق-آل-الشيخ.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/sahih-muslim.jpg",
     isPlaceholder: false
   },
   {
@@ -447,7 +444,7 @@ export const books = [
     scholarEra: "7th Century Hijri",
     description: "A comprehensive tafsir focused on extracting legal rulings from the Quran. Known as 'Al-Jami' li-Ahkam al-Quran' (The Compendium of Quranic Rulings), it presents various scholarly opinions on jurisprudential matters.",
     uniqueAspects: "Unique for its focus on fiqh rulings derived from verses. Presents opinions from all four madhabs. Combines linguistic analysis with legal extraction. Essential for understanding how jurists derive rulings from Quranic verses.",
-    coverImage: "https://www.sifatusafwa.com/8819-large_default/tafsir-al-jami-li-ahkam-al-quran-of-imam-al-qurtubi-in-24-volumes-الجامع-لأحكام-القرآن-للقرطبي.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/tafsir-al-qurtubi.jpg",
     isPlaceholder: false
   },
   {
@@ -470,7 +467,7 @@ export const books = [
     scholarEra: "2nd-3rd Century Hijri",
     description: "The primary jurisprudential work of Imam al-Shafi'i, the founder of one of the four Sunni schools of law. Contains his mature legal opinions and demonstrates his methodology in deriving rulings.",
     uniqueAspects: "Direct words of the founder of the Shafi'i madhab. Shows the practical application of usul al-fiqh principles. Contains Imam Shafi'i's new opinions (qaul jadid) formulated in Egypt. The foundation upon which the entire Shafi'i school is built.",
-    coverImage: "https://www.sifatusafwa.com/23885-large_default/al-umm-by-imam-ash-shafii-in-11-volumes-الأم-للإمام-الشافعي-11-مجلد.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-umm.jpg",
     isPlaceholder: false
   },
   {
@@ -493,7 +490,7 @@ export const books = [
     scholarEra: "6th Century Hijri",
     description: "A masterpiece of comparative Islamic jurisprudence. Ibn Rushd systematically presents different opinions on each legal issue, along with the evidences and reasoning behind each position.",
     uniqueAspects: "Unparalleled in comparative fiqh methodology. Presents all four madhabs' opinions with their evidences objectively. Shows the underlying principles behind legal differences. Essential for understanding ikhtilaf (jurisprudential disagreement) and training mujtahids.",
-    coverImage: "https://www.sifatusafwa.com/17877-large_default/bidayat-al-mujtahid-wa-nihayat-al-muqtasid-of-ibn-rushd-in-4-volumes-بداية-المجتهد-ونهاية-المقتصد-لابن-رشد.jpg",
+    coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mujtahid.jpg",
     isPlaceholder: false
   },
   {
@@ -516,7 +513,7 @@ export const books = [
     scholarEra: "7th-8th Century Hijri",
     description: "A concise primer on the rulings of prayer according to the Hanafi school. Covers essential matters every Muslim needs to know about salah.",
     uniqueAspects: "One of the most widely memorized texts on prayer in the Hanafi tradition. Its brevity and clarity make it ideal for beginners. Forms the foundation for understanding more detailed prayer rulings.",
-    coverImage: "https://images.unsplash.com/photo-1590720478291-aaabf8d53c49",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -539,7 +536,7 @@ export const books = [
     scholarEra: "Contemporary",
     description: "A simplified modern presentation of Hanafi fiqh designed for contemporary students. Presents rulings in accessible language with modern examples.",
     uniqueAspects: "Bridges classical scholarship with modern life. Uses contemporary language while maintaining adherence to traditional Hanafi positions. Ideal for those new to Islamic jurisprudence.",
-    coverImage: "https://images.unsplash.com/photo-1597505495109-7fc35bb64d8e",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -562,7 +559,7 @@ export const books = [
     scholarEra: "8th-9th Century Hijri",
     description: "A detailed commentary on al-Wiqayah, an important intermediate text in Hanafi jurisprudence. Explains legal reasoning and provides extensive analysis.",
     uniqueAspects: "Known for its systematic approach to explaining legal principles. Widely studied in South Asian madrasas. Bridges the gap between intermediate and advanced study.",
-    coverImage: "https://images.unsplash.com/photo-1622137879013-beaca5144a4b",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -585,7 +582,7 @@ export const books = [
     scholarEra: "10th Century Hijri",
     description: "A specialized treatise on the rulings related to menstruation, post-natal bleeding, and related matters. An essential reference for women's fiqh.",
     uniqueAspects: "One of the most detailed and practical guides on this important topic. Widely used by female scholars and students. Addresses common questions with clarity and precision.",
-    coverImage: "https://images.unsplash.com/photo-1764509422504-f9aee0a1dd76",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -608,7 +605,7 @@ export const books = [
     scholarEra: "13th-14th Century Hijri",
     description: "A massive 30-volume collection of legal verdicts covering contemporary issues faced by Muslims in the Indian subcontinent. Addresses modern challenges while adhering to classical Hanafi methodology.",
     uniqueAspects: "Unique for its comprehensive treatment of modern issues. Combines deep classical knowledge with practical application. Essential reference for South Asian Hanafi scholars dealing with contemporary questions.",
-    coverImage: "https://images.unsplash.com/photo-1627337840960-d55af60bf8e3",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -631,7 +628,7 @@ export const books = [
     scholarEra: "14th Century Hijri",
     description: "A comprehensive Hanafi fiqh manual in Urdu covering all aspects of Islamic law. Written for the general Muslim public, combining accessibility with scholarly rigor.",
     uniqueAspects: "Most popular Hanafi fiqh book in Urdu. Presents complex rulings in simple language. Widely used by laypeople and students alike in South Asia. Includes practical examples from daily life.",
-    coverImage: "https://images.unsplash.com/photo-1641816514743-d264c1481585",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -654,7 +651,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "The author's own commentary on his primer Nur al-Idah. Explains the rulings of worship with additional detail and evidences.",
     uniqueAspects: "Perfect combination of brevity and detail. The author explains his own matn, ensuring accuracy. Widely studied as the next step after Nur al-Idah. Essential for understanding worship acts.",
-    coverImage: "https://images.unsplash.com/photo-1590720367388-6cdfc716b933",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -677,7 +674,7 @@ export const books = [
     scholarEra: "11th-12th Century Hijri",
     description: "A concise text on transactions and dealings according to the Hanafi school. Covers business, marriage, and other social contracts.",
     uniqueAspects: "Complements Nur al-Idah by focusing on mu'amalat (transactions) rather than 'ibadat (worship). Essential for understanding Islamic commercial law.",
-    coverImage: "https://images.unsplash.com/photo-1724441647620-9fdfb540d968",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -700,7 +697,7 @@ export const books = [
     scholarEra: "10th Century Hijri",
     description: "A comprehensive legal manual that became the basis for Ottoman legal codes. Synthesizes multiple earlier Hanafi works into one coherent text.",
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
-    coverImage: "https://images.unsplash.com/photo-1590720485412-fc0322a7acb2",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -723,7 +720,7 @@ export const books = [
     scholarEra: "13th Century Hijri",
     description: "An important gloss (hashiya) on Maraqi al-Falah, adding further explanation and contemporary relevance to the text.",
     uniqueAspects: "Bridges classical text with modern understanding. Addresses questions that arose after the original commentary. Essential for advanced students studying Maraqi al-Falah.",
-    coverImage: "https://images.unsplash.com/photo-1626092811141-34babe0cb353",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -746,7 +743,7 @@ export const books = [
     scholarEra: "13th-14th Century Hijri",
     description: "A work on legal maxims (qawa'id fiqhiyya) and their application in Hanafi jurisprudence. Explains the principles underlying legal rulings.",
     uniqueAspects: "Excellent introduction to legal theory. Shows how broad principles generate specific rulings. Essential for understanding the logic of Islamic law.",
-    coverImage: "https://images.pexels.com/photos/8164399/pexels-photo-8164399.jpeg",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -769,7 +766,7 @@ export const books = [
     scholarEra: "6th Century Hijri",
     description: "A scholarly commentary on Mukhtasar al-Quduri, explaining the reasoning behind the rulings with evidences and comparisons.",
     uniqueAspects: "One of the earliest and most respected commentaries on Quduri. Known for its balanced approach and clear explanations. Foundation for later commentaries.",
-    coverImage: "https://images.pexels.com/photos/14513945/pexels-photo-14513945.jpeg",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -792,7 +789,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A comprehensive matn covering all chapters of Hanafi fiqh. Forms the base text for al-Durr al-Mukhtar and Radd al-Muhtar.",
     uniqueAspects: "The foundational matn upon which Ibn 'Abidin's famous works are built. Comprehensive yet concise. Essential for understanding advanced Hanafi scholarship.",
-    coverImage: "https://images.pexels.com/photos/27176661/pexels-photo-27176661.jpeg",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -815,7 +812,7 @@ export const books = [
     scholarEra: "7th-8th Century Hijri",
     description: "A work comparing different opinions within the Hanafi school, particularly focusing on variations between Iraqi and Transoxanian scholars.",
     uniqueAspects: "Unique for its focus on intra-madhab differences. Shows the diversity of opinion within Hanafi scholarship. Essential for understanding regional variations.",
-    coverImage: "https://images.unsplash.com/photo-1599493758737-31c5be444eff",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -838,7 +835,7 @@ export const books = [
     scholarEra: "Contemporary",
     description: "A modern explanation of the major legal maxims (qawa'id) in Islamic jurisprudence, with contemporary examples and applications.",
     uniqueAspects: "Makes classical legal theory accessible to modern readers. Uses contemporary examples to illustrate timeless principles. Essential for understanding how rulings are derived.",
-    coverImage: "https://images.unsplash.com/photo-1744957280831-8d30f63914b8",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -861,7 +858,7 @@ export const books = [
     scholarEra: "Contemporary",
     description: "A modern introduction to the Hanafi school of law, its methodology, development, and key features. Written by a renowned contemporary scholar.",
     uniqueAspects: "Perfect orientation to the Hanafi madhab for new students. Explains historical development and unique characteristics. Shows relevance of classical scholarship today.",
-    coverImage: "https://images.unsplash.com/photo-1701344176376-b0157fe85beb",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -884,7 +881,7 @@ export const books = [
     scholarEra: "Contemporary",
     description: "A comprehensive collection of contemporary fatwas addressing modern issues faced by Muslims. Combines classical principles with contemporary application.",
     uniqueAspects: "Addresses 20th and 21st century questions. Shows how classical Hanafi principles apply to modern life. Essential reference for contemporary issues.",
-    coverImage: "https://images.unsplash.com/photo-1670852738736-c9e4a6889012",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -907,7 +904,7 @@ export const books = [
     scholarEra: "3rd-4th Century Hijri",
     description: "A comprehensive work explaining hadiths and their legal implications according to the Hanafi school. Shows how Hanafi positions are derived from hadith.",
     uniqueAspects: "Essential for understanding the hadith basis of Hanafi fiqh. Reconciles apparently contradictory narrations. Demonstrates Hanafi methodology in hadith interpretation.",
-    coverImage: "https://images.unsplash.com/photo-1590720478291-aaabf8d53c49",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -930,7 +927,7 @@ export const books = [
     scholarEra: "14th Century Hijri",
     description: "A collection of legal verdicts addressing issues specific to the Indian subcontinent in the early 20th century.",
     uniqueAspects: "Valuable for understanding how classical Hanafi law was applied to colonial-era challenges. Addresses unique South Asian questions.",
-    coverImage: "https://images.unsplash.com/photo-1764509422504-f9aee0a1dd76",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -953,7 +950,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "An abridgment of the famous al-Wiqayah text, making it more accessible for students while maintaining essential content.",
     uniqueAspects: "Condensed by a master scholar known for his expertise. Retains the essential rulings while removing redundancy. Popular in Ottoman and Mughal educational systems.",
-    coverImage: "https://images.unsplash.com/photo-1597505495109-7fc35bb64d8e",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -976,7 +973,7 @@ export const books = [
     scholarEra: "8th Century Hijri",
     description: "A poetic work outlining the major differences between the Hanafi school and other madhabs. Designed for memorization.",
     uniqueAspects: "Unique for being in verse form (nazm). Makes comparative fiqh easier to memorize. Shows respect for other madhabs while explaining Hanafi positions.",
-    coverImage: "https://images.unsplash.com/photo-1627337840960-d55af60bf8e3",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -999,7 +996,7 @@ export const books = [
     scholarEra: "13th Century Hijri",
     description: "A treatise on the etiquette and methodology of issuing Islamic legal opinions (fatwas). Essential for anyone engaged in juristic reasoning.",
     uniqueAspects: "The authoritative guide on fatwa methodology in the Hanafi school. Outlines qualifications needed and procedures to follow. Essential for muftis.",
-    coverImage: "https://images.unsplash.com/photo-1641816514743-d264c1481585",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true
   },
   {
@@ -1022,19 +1019,19 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A multi-volume encyclopedic collection of lives, sayings, and reports about early pious figures, ascetics and proto-Sufi masters. Abu Nu'aym compiled hundreds of short biographies to defend and document the piety of early ascetics, distinguishing genuine pious practice from heterodox fringes.",
     uniqueAspects: "Its combination of hadith transmission apparatus and hagiographical narrative makes it a primary bridge between hadith scholarship and early Sufi literature. Abu Nu'aym composed it partly to rebut critics who painted all ascetics as heterodox. One of the foundational sources for the history of early Sufism and renunciation (zuhd).",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
-      {
-        publisher: "Dar al-Kotob al-Ilmiyah",
-        location: "Beirut, Lebanon",
-        year: "2000",
-        volumes: 10,
-        verified: true,
-        link: null
-      }
+          {
+                "publisher": "Dar al-Kotob al-Ilmiyah",
+                "location": "Beirut, Lebanon",
+                "year": "2000",
+                "volumes": 10,
+                "verified": true,
+                "link": null
+          }
     ]
   },
   {
@@ -1057,7 +1054,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A thematic compilation centering on the virtues and signs of Prophet Muhammad, useful for devotional reading and as a source base for later compilations on the Prophet's merits. It gathers narrations, Quranic proofs, and reports used in later devotional literature.",
     uniqueAspects: "One of the early compendia devoted solely to the Prophet's merits and signs. The work was later expanded and reworked by other scholars including al-Bayhaqi who produced a larger work on similar themes.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1083,7 +1080,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A collection of historical notices, announcements and biographies related to the city and region of Isfahan. Serves as a local source for events and personalities, documenting the scholarly and cultural life of this important center of Islamic learning.",
     uniqueAspects: "One of the earliest comprehensive local histories of an Islamic city. Provides invaluable information about the scholarly networks and intellectual life of Isfahan during the classical period.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1109,7 +1106,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A catalogue of weak transmitters and narrators; a tool for assessing hadith reliability. Used by hadith students and scholars who research narrator reliability.",
     uniqueAspects: "Essential reference for hadith criticism (ilm al-rijal). Provides critical assessments of narrators whose reliability was questioned, helping scholars evaluate the authenticity of hadith chains.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1135,7 +1132,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A compilation of reports and virtues about the first rightly-guided caliphs and other prominent companions. Used as a source for later works on the merits of the caliphs.",
     uniqueAspects: "Provides balanced treatment of all four rightly-guided caliphs, useful for understanding early Islamic history and the virtues literature genre (fada'il).",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1161,7 +1158,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A work listing companions' biographies and virtues. Used by students of hadith and seerah. It served as a model for later compilers such as Ibn Abd al-Barr and Ibn al-Athir.",
     uniqueAspects: "One of the earliest comprehensive biographical dictionaries of the Prophet's companions. Became a foundational reference for later works on the Sahaba.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1187,7 +1184,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A transmission and compilation of hadith material associated with Imam Abu Hanifa's circle. Useful for comparative hadith study and understanding the hadith foundations of early Hanafi jurisprudence.",
     uniqueAspects: "Important for documenting the hadith narrations associated with Imam Abu Hanifa. Shows the hadith knowledge of the Hanafi school's founder, compiled by a Shafi'i scholar showing inter-madhhab respect.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1213,7 +1210,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "Works that collect narrations which Abu Nu'aym judged to meet the standards of Sahih al-Bukhari and Sahih Muslim but which are not in those canonical collections. Useful to hadith critics and historians of transmission.",
     uniqueAspects: "Provides alternative chains (isnads) for hadiths in the two Sahihs, demonstrating the breadth of authentic transmission. Essential for advanced hadith criticism and understanding transmission networks.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1239,7 +1236,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A collection of prophetic medical reports and therapeutic advice derived from hadith and praxis. Later literature on prophetic medicine references earlier compilers including Abu Nu'aym.",
     uniqueAspects: "One of the early compilations on prophetic medicine, documenting therapeutic traditions attributed to the Prophet. Influenced later works in this genre.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1265,7 +1262,7 @@ export const books = [
     scholarEra: "10th-11th Century Hijri",
     description: "A generational work classifying hadith scholars and transmitters by generation. Useful to specialists reconstructing chains and networks of transmission.",
     uniqueAspects: "Important biographical reference for hadith scholars (rijal). Organizes narrators by generation (tabaqat), essential for understanding the chronology of hadith transmission.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1291,19 +1288,19 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "A concise but influential lexicon that analyzes Quranic vocabulary by root and meaning. Raghib combines philological discussion with semantic and ethical observations; entries often include Quranic occurrences and moral or theological remarks.",
     uniqueAspects: "One of the most important single-author lexica focused specifically on Quranic diction. Essential for understanding rarer Quranic terms and for semantic readings of the text. Often cited as a standard reference for Quranic vocabulary.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
-      {
-        publisher: "Dar al-Qalam",
-        location: "Damascus, Syria",
-        year: "2009",
-        volumes: 1,
-        verified: true,
-        link: null
-      }
+          {
+                "publisher": "Dar al-Qalam",
+                "location": "Damascus, Syria",
+                "year": "2009",
+                "volumes": 1,
+                "verified": true,
+                "link": null
+          }
     ]
   },
   {
@@ -1326,7 +1323,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "The work collects moral exhortations and ethical teachings with a view to demonstrating the moral aims of shari'ah. It places scriptural and prophetic material within a programme of moral formation.",
     uniqueAspects: "Ties personal ethics to revealed law, showing how shari'ah aims at moral excellence. Typical of normative adab literature that integrates legal and ethical dimensions.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1352,7 +1349,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "This work assembles lectures and dialogues on literary topics, rhetoric and the art of eloquence. It shows Raghib's engagement with Arabic literary culture, and helps place his semantic and moral reflections within a broader rhetorical and stylistic context.",
     uniqueAspects: "Demonstrates the connection between Quranic semantics and broader Arabic literary culture. Shows how understanding eloquence aids in understanding the Quran's linguistic miracles.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1378,7 +1375,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "This short treatise offers practical guidance on social conduct and etiquette. It typifies the classical Islamic concern with appropriate social behaviour, instructing readers on how to behave in mixed company, emphasizing decorum grounded in religious and cultural norms.",
     uniqueAspects: "Practical guide to Islamic social ethics. Shows how religious principles translate into everyday social interactions and proper conduct.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
@@ -1404,7 +1401,7 @@ export const books = [
     scholarEra: "11th Century Hijri",
     description: "A systematic treatment of two modes of spiritual and life development and the attainment of blessedness. The work connects moral practice to ultimate felicity, showing the path to happiness in this world and the next.",
     uniqueAspects: "Integrates philosophical reflection on human nature with Islamic spiritual guidance. Shows the relationship between worldly and otherworldly success through moral cultivation.",
-    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
