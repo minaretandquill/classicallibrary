@@ -2077,7 +2077,7 @@ export const books = [
     uniqueAspects: "Notable for its rigorous argumentation and incorporation of variant Hanafi opinions.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 58, title: "Multaqā al-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" }",
+    commentaryOf: "Multaqā al-Abḥur",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2129,7 +2129,7 @@ export const books = [
     uniqueAspects: "Integrates multiple prior commentaries, consolidating legal reasoning for practical application.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 59, title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār", author: "Shams al-Dīn Muḥammad al-Tumurtāshī" }",
+    commentaryOf: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2155,7 +2155,7 @@ export const books = [
     uniqueAspects: "Serves as a standard reference in South Asian and Middle Eastern Hanafi fiqh teaching, often studied alongside practical fatāwā.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" }",
+    commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2181,7 +2181,7 @@ export const books = [
     uniqueAspects: "Widely referenced by scholars to understand Nūr al-Īdāḥ and related Hanafi positions.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 60, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2207,7 +2207,7 @@ export const books = [
     uniqueAspects: "Highly regarded in South Asia; clarifies ambiguities and reconciles differences among prior Hanafi commentaries.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" }",
+    commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2233,7 +2233,7 @@ export const books = [
     uniqueAspects: "Condenses complex arguments while preserving detailed reasoning, widely used in advanced Hanafi studies.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "al-Kitāb", author: "Unknown" }",
+    commentaryOf: "al-Kitāb",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2259,7 +2259,7 @@ export const books = [
     uniqueAspects: "Essential for students aiming to master the Hanafi legal tradition, bridging multiple prior works.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 62, title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār", author: "Ibn ʿĀbidīn al-Shāmī" }",
+    commentaryOf: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2285,7 +2285,7 @@ export const books = [
     uniqueAspects: "Serves as a bridge between classical texts and practical legal reasoning for contemporary students.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "Jāmiʿ al-Ṣaghīr", author: "al-Qāḍī Abū Naṣr al-Isbījābī" }",
+    commentaryOf: "Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2311,7 +2311,7 @@ export const books = [
     uniqueAspects: "Complements al-Nāfiʿ al-Kabīr, offering additional insights and resolving ambiguities for advanced students.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 67, title: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr", author: "ʿAbd al-Ḥayy al-Laknawī" }",
+    commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2337,7 +2337,7 @@ export const books = [
     uniqueAspects: "Focuses on practical application and problem-solving for complex Hanafi rulings, often paired with ʿUmdat al-Riʿāyah in study.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 67, title: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr", author: "ʿAbd al-Ḥayy al-Laknawī" }",
+    commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2363,7 +2363,7 @@ export const books = [
     uniqueAspects: "Provides a bridge between classical fiqh and codified Ottoman law, offering practical guidance for judges and scholars.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "Majallat al-Aḥkām", author: "Unknown" }",
+    commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2389,7 +2389,7 @@ export const books = [
     uniqueAspects: "Often used as a reference for advanced Hanafi jurisprudence, particularly in South Asia.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 61, title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī" }",
+    commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2415,7 +2415,7 @@ export const books = [
     uniqueAspects: "Widely referenced in modern Hanafi scholarship for understanding codified legal texts.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "Majallat al-Aḥkām", author: "Unknown" }",
+    commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2441,7 +2441,7 @@ export const books = [
     uniqueAspects: "Bridges classical Hanafi jurisprudence with modern questions, often cited in contemporary studies of Shurunbulālī’s works.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2467,7 +2467,7 @@ export const books = [
     uniqueAspects: "Provides additional examples and jurisprudential reasoning not found in the original matn, often studied alongside Marāqī al-Falāḥ.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2493,7 +2493,7 @@ export const books = [
     uniqueAspects: "Synthesizes multiple commentaries into a single work, serving as a master reference for advanced students of Shurunbulālī.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 63, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2519,7 +2519,7 @@ export const books = [
     uniqueAspects: "Combines practical examples with classical reasoning, widely cited in Hanafi advanced studies.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" }",
+    commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2545,7 +2545,7 @@ export const books = [
     uniqueAspects: "Combines clarity with depth, making it a primary reference for advanced students studying Multaqā ʾl-Abḥur.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" }",
+    commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2571,7 +2571,7 @@ export const books = [
     uniqueAspects: "Focuses on hidden nuances and practical implications of rulings, supplementing previous commentaries.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 61, title: "Kanz al-Daqāʾiq", author: "Abū ʾl-Barakāt Aḥmad ibn Maḥmūd al-Nasafī" }",
+    commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2597,7 +2597,7 @@ export const books = [
     uniqueAspects: "Focuses on precision in derivation of rulings and practical guidance for scholars and students.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "Kifāyat al-Ghulām", author: "??" }",
+    commentaryOf: "Kifāyat al-Ghulām",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2623,7 +2623,7 @@ export const books = [
     uniqueAspects: "Enhances accessibility of the core text for advanced students, connecting rulings to practical application.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 79, title: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār", author: "Muḥammad ibn ʿAli al-Ḥaṣkafī" }",
+    commentaryOf: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2649,7 +2649,7 @@ export const books = [
     uniqueAspects: "Synthesizes prior commentaries while adding practical guidance, making it a central reference for scholars.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 66, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2675,7 +2675,7 @@ export const books = [
     uniqueAspects: "Provides a practical guide for contemporary application while remaining rooted in classical Hanafi jurisprudence.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: "??", title: "Majallat al-Aḥkām", author: "??" }",
+    commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -2701,7 +2701,7 @@ export const books = [
     uniqueAspects: "Integrates classical knowledge with modern concerns, making it accessible for contemporary scholars and students.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "{ id: 66, title: "Nūr al-Īdāḥ", author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī" }",
+    commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
     publishedEditions: []
   },
