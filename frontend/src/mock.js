@@ -1,4 +1,4 @@
-// Mock data for Islamic classical library - Focus on Hanafi madhab works
+// Mock data for Islamic classical library
 
 export const books = [
   {
@@ -69,7 +69,6 @@ export const books = [
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-hidaya.jpg",
     isPlaceholder: false,
-    commentaryOf: null,
     hasCommentaries: [{"id":11,"title":"Sharh Fath al-Qadir","author":"Ibn al-Humam"},{"id":4,"title":"Al-Ikhtiyar li Ta'lil al-Mukhtar","author":"Imam Abdullah ibn Mahmud al-Mawsili"}],
     publishedEditions: [
           {
@@ -1021,7 +1020,6 @@ export const books = [
     uniqueAspects: "Its combination of hadith transmission apparatus and hagiographical narrative makes it a primary bridge between hadith scholarship and early Sufi literature. Abu Nu'aym composed it partly to rebut critics who painted all ascetics as heterodox. One of the foundational sources for the history of early Sufism and renunciation (zuhd).",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           {
@@ -1056,7 +1054,6 @@ export const books = [
     uniqueAspects: "One of the early compendia devoted solely to the Prophet's merits and signs. The work was later expanded and reworked by other scholars including al-Bayhaqi who produced a larger work on similar themes.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1082,7 +1079,6 @@ export const books = [
     uniqueAspects: "One of the earliest comprehensive local histories of an Islamic city. Provides invaluable information about the scholarly networks and intellectual life of Isfahan during the classical period.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1108,7 +1104,6 @@ export const books = [
     uniqueAspects: "Essential reference for hadith criticism (ilm al-rijal). Provides critical assessments of narrators whose reliability was questioned, helping scholars evaluate the authenticity of hadith chains.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1134,7 +1129,6 @@ export const books = [
     uniqueAspects: "Provides balanced treatment of all four rightly-guided caliphs, useful for understanding early Islamic history and the virtues literature genre (fada'il).",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1160,7 +1154,6 @@ export const books = [
     uniqueAspects: "One of the earliest comprehensive biographical dictionaries of the Prophet's companions. Became a foundational reference for later works on the Sahaba.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1186,7 +1179,6 @@ export const books = [
     uniqueAspects: "Important for documenting the hadith narrations associated with Imam Abu Hanifa. Shows the hadith knowledge of the Hanafi school's founder, compiled by a Shafi'i scholar showing inter-madhhab respect.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1212,7 +1204,6 @@ export const books = [
     uniqueAspects: "Provides alternative chains (isnads) for hadiths in the two Sahihs, demonstrating the breadth of authentic transmission. Essential for advanced hadith criticism and understanding transmission networks.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1238,7 +1229,6 @@ export const books = [
     uniqueAspects: "One of the early compilations on prophetic medicine, documenting therapeutic traditions attributed to the Prophet. Influenced later works in this genre.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1264,7 +1254,6 @@ export const books = [
     uniqueAspects: "Important biographical reference for hadith scholars (rijal). Organizes narrators by generation (tabaqat), essential for understanding the chronology of hadith transmission.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1290,7 +1279,6 @@ export const books = [
     uniqueAspects: "One of the most important single-author lexica focused specifically on Quranic diction. Essential for understanding rarer Quranic terms and for semantic readings of the text. Often cited as a standard reference for Quranic vocabulary.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           {
@@ -1325,7 +1313,6 @@ export const books = [
     uniqueAspects: "Ties personal ethics to revealed law, showing how shari'ah aims at moral excellence. Typical of normative adab literature that integrates legal and ethical dimensions.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1351,7 +1338,6 @@ export const books = [
     uniqueAspects: "Demonstrates the connection between Quranic semantics and broader Arabic literary culture. Shows how understanding eloquence aids in understanding the Quran's linguistic miracles.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1377,7 +1363,6 @@ export const books = [
     uniqueAspects: "Practical guide to Islamic social ethics. Shows how religious principles translate into everyday social interactions and proper conduct.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1403,7 +1388,6 @@ export const books = [
     uniqueAspects: "Integrates philosophical reflection on human nature with Islamic spiritual guidance. Shows the relationship between worldly and otherworldly success through moral cultivation.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   }
