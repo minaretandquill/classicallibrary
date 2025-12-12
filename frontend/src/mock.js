@@ -25,7 +25,6 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries:   [
-
                         ]
     publishedEditions: []
   },
@@ -142,7 +141,10 @@ export const books = [
         { id: "??", title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
         { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
   ],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 6,
@@ -171,7 +173,10 @@ export const books = [
             { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
             { id: "??", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
     ],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 7,
@@ -280,10 +285,15 @@ export const books = [
       { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
       { id: "??", title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
       { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
-     title: "Al-Lubab fi Sharh al-Kitab",
-    arabicTitle: "اللباب في شرح الكتاب",
-    author: "Imam al-Maydani",
-    publishedEditions: []
+     
+    publishedEditions: [
+            publisher: "Dar al-Kotob al-Ilmiyah",
+      location: "Beirut, Lebanon",
+      year: "2003",
+      volumes: 1,
+      verified: true,
+      link: null
+    ]
   },
   {
     id: 11,
@@ -385,12 +395,8 @@ export const books = [
     uniqueAspects: "Synthesizes multiple classical texts into one accessible work. Popular in Ottoman institutions for its balance between detail and readability. Includes both established positions and practical applications.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [
-        commentaryOf: { id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" },
-
-      
-    ],
+    commentaryOf: "Multaqā ʾl-Abḥur",
+    hasCommentaries: [],
     publishedEditions: []
   },
   {
@@ -759,7 +765,10 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Fikr", location: "Damascus", year: "2016", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 29,
@@ -785,7 +794,10 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 30,
@@ -893,9 +905,15 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-          { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
+           { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
           { id: "??", title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
+    ],
+    publishedEditions: [
+     { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
+
+    ]
   },
+    
   {
     id: 34,
     title: "Majma' al-Bahrayn wa Multaqa al-Nahrayn",
@@ -2314,7 +2332,16 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1360 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 88,
@@ -2366,7 +2393,16 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1345 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 90,
@@ -2392,7 +2428,16 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿArabiyyah",
+      location: "Cairo, Egypt",
+      year: "1348 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 91,
@@ -2418,7 +2463,16 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1365 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 92,
@@ -2444,7 +2498,16 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1375 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 93,
@@ -2781,8 +2844,19 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-tahawi.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+          { id: "??", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
+    ],
+    publishedEditions: [
+          {
+      publisher: "Dar al-Basha'ir",
+      location: "Damascus, Syria",
+      year: "1999",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 106,
@@ -2808,7 +2882,16 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Maktabat al-Rushd",
+      location: "Riyadh, Saudi Arabia",
+      year: "2015",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 107,
@@ -2887,8 +2970,19 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/tuhfat-al-fuqaha.jpg",
     isPlaceholder: false,
     commentaryOf: "Mukhtasar al-Karkhi",
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+      { id: "??", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
+    ],
+    publishedEditions: [
+          {
+      publisher: "Dar al-Fikr",
+      location: "Beirut, Lebanon",
+      year: "1997",
+      volumes: 3,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 110,
@@ -2913,7 +3007,7 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mubtadi.jpg",
     isPlaceholder: false,
     commentaryOf: "Tuhfat al-Fuqaha",
-    hasCommentaries: [],
+    hasCommentaries: { id: "??", title: "Al-Hidayah", author: "Al-Marghinani" },
     publishedEditions: []
   },
   {
@@ -2993,7 +3087,9 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/al-mukhtar-li-al-fatwa.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+      { id: ?, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+    ],
     publishedEditions: []
   },
     /*
@@ -3048,7 +3144,10 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2005", volumes: 2, verified: true }
+
+    ]
   },
     /*
   {
@@ -3078,7 +3177,7 @@ id: 64,
     publishedEditions: []
   },
   */
-    /*
+   
   {
     id: 117,
     title: "Al-Nuqayah Mukhtasar al-Wiqayah",
@@ -3103,9 +3202,12 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: "Wiqayat al-Riwayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Fikr", location: "Beirut", year: "2008", volumes: 1, verified: true }
+
+    ]
   },
-    */
+  
   {
     id: 118,
     title: "ʿUyun al-Madhahib",
@@ -3130,7 +3232,10 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Nawadir", location: "Beirut", year: "2014", volumes: 2, verified: true }
+
+    ]
   },
   {
     id: 119,
@@ -3156,7 +3261,10 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Maktabat al-Quds", location: "Cairo", year: "2011", volumes: 2, verified: true }
+
+    ]
   },
   {
     id: 120,
@@ -3182,7 +3290,10 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Haramayn", location: "Pakistan", year: "1985", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 121,
@@ -3208,7 +3319,9 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Matbaʿat al-ʿIlmiyyah", location: "Istanbul", year: "1912", volumes: 1, verified: true }
+    ]
   },
   {
     id: 122,
