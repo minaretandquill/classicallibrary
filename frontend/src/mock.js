@@ -2189,7 +2189,6 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
   {
     id: 83,
     title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
