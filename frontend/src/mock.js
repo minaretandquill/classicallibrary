@@ -77,7 +77,6 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: "Bidayat al-Mubtadi",
     hasCommentaries: [
-    { id: "??", title: "Fath al Qadir", author: "Ibn Humam" },
     { id: 66, title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
     { id: 111, title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
     publishedEditions: []
@@ -168,7 +167,6 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [
-            { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
             { id: 128, title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
     ],
     publishedEditions: [
@@ -626,7 +624,6 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Hidaya",
     hasCommentaries: [
-       { id: "??", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
     ],
     publishedEditions: []
   },
@@ -900,7 +897,6 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-           { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
           { id: 71, title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
     ],
     publishedEditions: [
@@ -1950,7 +1946,6 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
     hasCommentaries: [
-          { id: "??", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
 
     ],
     publishedEditions: []
@@ -3002,7 +2997,7 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mubtadi.jpg",
     isPlaceholder: false,
     commentaryOf: "Tuhfat al-Fuqaha",
-    hasCommentaries: { id: "??", title: "Al-Hidayah", author: "Al-Marghinani" },
+    hasCommentaries: [],
     publishedEditions: []
   },
   {
@@ -3695,7 +3690,6 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [
-    { id: "??", title: "Sharh al-Asl", author: "Unknown" }
   ],
   publishedEditions: [
     { publisher: "Abu Al-Wafa' Al-Afghani Edition", location: "India", year: "Unknown", volumes: "Unknown", verified: true, link: null }
@@ -3725,7 +3719,6 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [
-    { id: "??", title: "al-Nafi al-Kabir", author: "Abd al-Hayy al-Laknawi" }
   ],
   publishedEditions: [
     { publisher: "Dar al-Bashair", location: "Beirut", year: "Unknown", volumes: 1, verified: true, link: null }
