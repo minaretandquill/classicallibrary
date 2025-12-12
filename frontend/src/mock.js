@@ -78,8 +78,8 @@ export const books = [
     commentaryOf: "Bidayat al-Mubtadi",
     hasCommentaries: [
     { id: "??", title: "Fath al Qadir", author: "Ibn Humam" },
-    { id: "??", title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
-    { id: "??", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
+    { id: 66, title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
+    { id: 111, title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
     publishedEditions: []
   },
   {
@@ -132,12 +132,12 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-        { id: "??", title: "Kashf al-Ramz ʿan Khabāyā al-Kanz", author: "al-Ḥamawī" } ,
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "al-Maqdisī" },
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
-        { id: "??", title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Zayn al-Dīn Ibn Nujaym" },
-        { id: "??", title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
+        { id: 99, title: "Kashf al-Ramz ʿan Khabāyā al-Kanz", author: "al-Ḥamawī" } ,
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "al-Maqdisī" },
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: 69, title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Zayn al-Dīn Ibn Nujaym" },
+        { id: 72, title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
   ],
     publishedEditions: [
           { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
@@ -169,7 +169,7 @@ export const books = [
     commentaryOf: null,
     hasCommentaries: [
             { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
-            { id: "??", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
+            { id: 128, title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
     ],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
@@ -200,7 +200,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-                  { id: "??", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
+                  { id: 87, title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
     ],
     publishedEditions: []
   },
@@ -280,9 +280,9 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [
-      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
-      { id: "??", title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
-      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
+      { id: 60, title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
+      { id: 32, title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
+      { id: 60, title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
      ],
     publishedEditions: 
       [  {       
@@ -901,7 +901,7 @@ export const books = [
     commentaryOf: null,
     hasCommentaries: [
            { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
-          { id: "??", title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
+          { id: 71, title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
     ],
     publishedEditions: [
      { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
@@ -2840,7 +2840,7 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [
-          { id: "??", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
+          { id: 58, title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
     ],
     publishedEditions: [
           {
@@ -2966,7 +2966,7 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: "Mukhtasar al-Karkhi",
     hasCommentaries: [
-      { id: "??", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
+      { id: 110, title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
     ],
     publishedEditions: [
           {
@@ -3782,7 +3782,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [
-    { id: "??", title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
+    { id: 62, title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
   ],
   publishedEditions: [
   ]
