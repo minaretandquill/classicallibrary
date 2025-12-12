@@ -76,10 +76,9 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/al-hidaya.jpg",
     isPlaceholder: false,
     commentaryOf: "Bidayat al-Mubtadi",
-    hasCommentaries: [
-    { id: "??", title: "Fath al Qadir", author: "Ibn Humam" },
-    { id: "??", title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
-    { id: "??", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
+    hasCommentaries: [ author: "Ibn Humam" },
+    { id: 66, title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
+    { id: 111, title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
     publishedEditions: []
   },
   {
@@ -132,12 +131,12 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-        { id: "??", title: "Kashf al-Ramz ʿan Khabāyā al-Kanz", author: "al-Ḥamawī" } ,
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "al-Maqdisī" },
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
-        { id: "??", title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Zayn al-Dīn Ibn Nujaym" },
-        { id: "??", title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
-        { id: "??", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
+        { id: 99, title: "Kashf al-Ramz ʿan Khabāyā al-Kanz", author: "al-Ḥamawī" } ,
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "al-Maqdisī" },
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: 69, title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Zayn al-Dīn Ibn Nujaym" },
+        { id: 72, title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: 68, title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
   ],
     publishedEditions: [
           { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
@@ -167,9 +166,8 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/nur-al-idah.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [
-            { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
-            { id: "??", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
+    hasCommentaries: [ author: "Hasan al-Shurunbulali" },
+            { id: 128, title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
     ],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
@@ -200,7 +198,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-                  { id: "??", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
+                  { id: 87, title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
     ],
     publishedEditions: []
   },
@@ -280,9 +278,9 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [
-      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
-      { id: "??", title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
-      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
+      { id: 60, title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
+      { id: 32, title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
+      { id: 60, title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
      ],
     publishedEditions: 
       [  {       
@@ -625,8 +623,7 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: "Hidaya",
-    hasCommentaries: [
-       { id: "??", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
+    hasCommentaries: [ author: "Sadr al-Shari'ah" }
     ],
     publishedEditions: []
   },
@@ -732,7 +729,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [
-      { id: ??, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
+      { id: 30, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
      ],
     publishedEditions: []
   },
@@ -787,7 +784,7 @@ export const books = [
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
     isPlaceholder: false,
-    commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
+    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
@@ -899,9 +896,8 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [
-           { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
-          { id: "??", title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
+    hasCommentaries: [ author: "Muhammad Ala-ud-Din Haskafi " },
+          { id: 71, title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
     ],
     publishedEditions: [
      { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
@@ -1949,8 +1945,7 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/fath-bab-al-inayah-sharh-kitab-al-nuqayah.jpg",
     isPlaceholder: false,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
-    hasCommentaries: [
-          { id: "??", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
+    hasCommentaries: [ author: "Ibn al-Humam" }
 
     ],
     publishedEditions: []
@@ -2840,7 +2835,7 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [
-          { id: "??", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
+          { id: 58, title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
     ],
     publishedEditions: [
           {
@@ -2966,7 +2961,7 @@ id: 64,
     isPlaceholder: false,
     commentaryOf: "Mukhtasar al-Karkhi",
     hasCommentaries: [
-      { id: "??", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
+      { id: 110, title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
     ],
     publishedEditions: [
           {
@@ -3002,7 +2997,7 @@ id: 64,
     coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mubtadi.jpg",
     isPlaceholder: false,
     commentaryOf: "Tuhfat al-Fuqaha",
-    hasCommentaries: { id: "??", title: "Al-Hidayah", author: "Al-Marghinani" },
+    hasCommentaries: , author: "Al-Marghinani" },
     publishedEditions: []
   },
   {
@@ -3694,8 +3689,7 @@ id: 64,
   coverImage: "https://library.minaretandquill.com/book_covers/al-asl-shaybani.jpg",
   isPlaceholder: true,
   commentaryOf: null,
-  hasCommentaries: [
-    { id: "??", title: "Sharh al-Asl", author: "Unknown" }
+  hasCommentaries: [ author: "Unknown" }
   ],
   publishedEditions: [
     { publisher: "Abu Al-Wafa' Al-Afghani Edition", location: "India", year: "Unknown", volumes: "Unknown", verified: true, link: null }
@@ -3724,8 +3718,7 @@ id: 64,
   coverImage: "https://library.minaretandquill.com/book_covers/al-jami-al-saghir.jpg",
   isPlaceholder: true,
   commentaryOf: null,
-  hasCommentaries: [
-    { id: "??", title: "al-Nafi al-Kabir", author: "Abd al-Hayy al-Laknawi" }
+  hasCommentaries: [ author: "Abd al-Hayy al-Laknawi" }
   ],
   publishedEditions: [
     { publisher: "Dar al-Bashair", location: "Beirut", year: "Unknown", volumes: 1, verified: true, link: null }
@@ -3782,7 +3775,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [
-    { id: "??", title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
+    { id: 62, title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
   ],
   publishedEditions: [
   ]
