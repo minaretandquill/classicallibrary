@@ -24,7 +24,9 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/al-mabsut.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries:   [
+
+                        ]
     publishedEditions: []
   },
   {
@@ -165,7 +167,10 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/nur-al-idah.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+            { id: "??", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
+            { id: "??", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
+    ],
     publishedEditions: []
   },
   {
@@ -191,7 +196,9 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+                  { id: "??", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
+    ],
     publishedEditions: []
   },
   {
@@ -269,7 +276,13 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-quduri.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
+      { id: "??", title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
+      { id: "??", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
+     title: "Al-Lubab fi Sharh al-Kitab",
+    arabicTitle: "اللباب في شرح الكتاب",
+    author: "Imam al-Maydani",
     publishedEditions: []
   },
   {
@@ -373,7 +386,11 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+        commentaryOf: { id: 66, title: "Multaqā ʾl-Abḥur", author: "Ibrāhīm ibn Muḥammad al-Ḥalabī" },
+
+      
+    ],
     publishedEditions: []
   },
   {
@@ -586,9 +603,9 @@ export const books = [
   },
   {
     id: 23,
-    title: "Sharh al-Wiqayah",
+    title: "Al-Wiqayah",
     arabicTitle: "شرح الوقاية",
-    author: "Various Commentators",
+    author: "Mahmud ibn Ahmad al-Mahbubi",
     authorArabic: "عدة من الشُراح",
     authorBirthYear: 700,
     category: "Fiqh",
@@ -606,8 +623,10 @@ export const books = [
     uniqueAspects: "Known for its systematic approach to explaining legal principles. Widely studied in South Asian madrasas. Bridges the gap between intermediate and advanced study.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Hidaya",
+    hasCommentaries: [
+       { id: "??", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
+    ],
     publishedEditions: []
   },
   {
@@ -710,8 +729,10 @@ export const books = [
     uniqueAspects: "Perfect combination of brevity and detail. The author explains his own matn, ensuring accuracy. Widely studied as the next step after Nur al-Idah. Essential for understanding worship acts.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Nur al-Idah",
+    hasCommentaries: [
+        commentaryOf: { id: ??, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" },
+      ],
     publishedEditions: []
   },
   {
@@ -762,7 +783,7 @@ export const books = [
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
     isPlaceholder: false,
-    commentaryOf: null,
+    commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -788,10 +809,14 @@ export const books = [
     uniqueAspects: "Bridges classical text with modern understanding. Addresses questions that arose after the original commentary. Essential for advanced students studying Maraqi al-Falah.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Maraqi al-Falah",
+    hasCommentaries: [
+
+      
+    ],
     publishedEditions: []
   },
+      
   {
     id: 31,
     title: "Al-Durar al-Mubaha fi al-Hazr wa al-Ibaha",
@@ -840,7 +865,7 @@ export const books = [
     uniqueAspects: "One of the earliest and most respected commentaries on Quduri. Known for its balanced approach and clear explanations. Foundation for later commentaries.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
+    commentaryOf: "Quduri",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -867,8 +892,9 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+          { id: "??", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
+          { id: "??", title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
   },
   {
     id: 34,
@@ -1650,8 +1676,9 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
-  {
-    id: 64,
+  
+/* {
+id: 64,
     title: "Al-Hidayah Sharh Bidayat al-Mubtadi",
     arabicTitle: "الهداية شرح بداية المبتدي",
     author: "Burhan al-Din al-Marghinani",
@@ -1676,6 +1703,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+      */
   {
     id: 65,
     title: "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq",
@@ -1750,7 +1778,7 @@ export const books = [
     uniqueAspects: "Combines meticulous textual criticism with practical fatwa orientation; frequently cited by later Ottoman and South Asian jurists.",
     coverImage: "https://library.minaretandquill.com/book_covers/fath-al-qadir-fi-sharh-al-muqaddima-al-hadramiyya.jpg",
     isPlaceholder: false,
-    commentaryOf: "Al-Hidayah / earlier core texts (context dependent)",
+    commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1806,7 +1834,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
-  {
+/*  {
     id: 70,
     title: "Majrā al-Anhūr ʿalā Multaqā al-Abḥur",
     arabicTitle: "مجرى الأنهر على منتخب الأبحر",
@@ -1832,11 +1860,12 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 71,
     title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
     arabicTitle: "منحة الغفار في شرح تنوير الأبصار",
-    author: "Al-Tumurtashi (editorial commentary)",
+    author: "Al-Tumurtashi",
     authorArabic: "التمرطاشي",
     authorBirthYear: 950,
     category: "Fiqh",
@@ -1907,9 +1936,13 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/fath-bab-al-inayah-sharh-kitab-al-nuqayah.jpg",
     isPlaceholder: false,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
-    hasCommentaries: [],
+    hasCommentaries: [
+          { id: "??", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
+
+    ],
     publishedEditions: []
   },
+      /*
   {
     id: 74,
     title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -1936,6 +1969,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+      */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -1989,6 +2023,7 @@ export const books = [
     publishedEditions: []
   },
   {
+    /*
     id: 77,
     title: "Majmaʿ al-Anhūr Sharḥ Multaqā al-Abḥūr",
     arabicTitle: "مجمع الأنهر شرح ملتقى الأبحر",
@@ -2014,6 +2049,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
@@ -2040,6 +2076,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+/*
   {
     id: 79,
     title: "Multaqā al-Abḥur",
@@ -2066,6 +2103,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 80,
     title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
@@ -2092,6 +2130,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 81,
     title: "Nūr al-Īdāḥ",
@@ -2144,6 +2183,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   {
     id: 83,
     title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
@@ -2222,6 +2262,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 86,
     title: "al-Lubāb fī Sharḥ al-Kitāb",
@@ -2248,6 +2289,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 87,
     title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
@@ -2794,6 +2836,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 108,
     title: "Mukhtasar al-Karkhi",
@@ -2820,6 +2863,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 109,
     title: "Tuhfat al-Fuqaha",
@@ -2898,6 +2942,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 112,
     title: "Kanz al-Daqaiq",
@@ -2924,6 +2969,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
@@ -2950,6 +2996,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 114,
     title: "Majma' al-Bahrayn",
@@ -2976,6 +3023,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 115,
     title: "Al-Wafi",
@@ -3002,6 +3050,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 116,
     title: "Kanz al-Daqaʾiq",
@@ -3028,6 +3077,8 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
+    /*
   {
     id: 117,
     title: "Al-Nuqayah Mukhtasar al-Wiqayah",
@@ -3054,6 +3105,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    */
   {
     id: 118,
     title: "ʿUyun al-Madhahib",
@@ -3184,6 +3236,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  /*
   {
     id: 123,
     title: "Tanwir al-Absar wa Jamiʿ al-Bihar",
@@ -3210,6 +3263,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 124,
     title: "Maraqi al-Saʿadat",
@@ -3236,6 +3290,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 125,
     title: "Ithaf al-Talib",
