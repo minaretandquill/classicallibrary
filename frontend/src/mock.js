@@ -1686,3 +1686,237 @@ export const books = [
     publishedEditions: []
   },
   
+];
+export const categories = [
+  "All",
+  "Tafsir",
+  "Hadith",
+  "Aqeedah",
+  "Fiqh",
+  "Seerah",
+  "Tassawuf",
+  "Arabic Language",
+  "Usul al-Fiqh",
+  "Usul al-Hadith",
+  "Ulum al-Qur'an",
+  "History",
+  "Miscellaneous",
+  "Reference"
+];
+
+export const authors = [
+  "All",
+  "Imam al-Sarakhsi",
+  "Imam al-Kasani",
+  "Imam al-Marghinani",
+  "Imam Abdullah ibn Mahmud al-Mawsili",
+  "Imam al-Nasafi",
+  "Imam al-Shurunbulali",
+  "Ibn 'Abidin",
+  "Dr. Wahbah al-Zuhayli",
+  "Imam al-Quduri",
+  "Ibn al-Humam",
+  "Multiple Scholars (Commissioned)",
+  "Imam al-Zayla'i",
+  "Shaykh Zada (Damad Afandi)",
+  "Imam Muhammad al-Shaybani",
+  "Imam al-Bukhari",
+  "Imam Muslim ibn al-Hajjaj",
+  "Imam al-Qurtubi",
+  "Imam al-Shafi'i",
+  "Ibn Rushd al-Hafid (Averroes)"
+];
+
+// Subjects organized by category
+export const subjectsByCategory = {
+  "Fiqh": [
+    "All",
+    "Comprehensive",
+    "Evidences",
+    "Concise Text",
+    "Encyclopedia",
+    "Selected Topics",
+    "Advanced Commentary",
+    "Ritual Worship",
+    "Muamalaat",
+    "Other",
+    "Contemporary Issues"
+  ],
+  "Hadith": [
+    "All",
+    "Sahih Siita",
+    "Other Collections",
+    "Hadith Commentary",
+    "Hadith with Fiqh"
+  ],
+  "Tafsir": [
+    "All",
+    "Comprehensive",
+    "bil-Riwaya",
+    "bil-Dirayah",
+    "Linguistic",
+    "Juridical",
+    "Mystical"
+  ],
+  "Usul al-Fiqh": [
+    "All",
+    "Legal Theory",
+    "Legal Maxims",
+    "Ifta"
+  ],
+  "Aqeedah": [
+    "All",
+    "Creed",
+    "Kalaam",
+    "Usul ad-din"
+  ],
+  "Seerah": [
+    "All",
+    "Prophetic Biography",
+    "Prophetic Descriptions",
+    "Prophetic Maghazi"
+  ],
+  "History": [
+    "All",
+    "Islamic History",
+    "Biographical Works"
+  ],
+  "Arabic Language": [
+    "All",
+    "Sarf",
+    "Nahv",
+    "Balagha",
+    "Mantiq",
+    "Dictionary",
+    "Kalaam",
+    "Qiraa'"
+  ],
+  "Tassawuf": [
+    "All",
+    "Purification",
+    "Mysticism"
+  ]
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Miscellaneous": [
+    "All",
+    "Principles"
+  ]
+  "Reference": [
+    "All",
+    "Dictionary"
+  ]
+];
+
+
+// Legacy flat list for backwards compatibility
+export const subjects = [
+  "All",
+  "Hanafi Jurisprudence - Comprehensive",
+  "Hanafi Jurisprudence - Evidences",
+  "Hanafi Jurisprudence - Concise Text",
+  "Hanafi Jurisprudence - Ritual Worship",
+  "Hanafi Jurisprudence - Muamalaat",
+  "Hanafi Jurisprudence - Encyclopedia",
+  "Hanafi Jurisprudence - Selected Topics",
+  "Hanafi Jurisprudence - Advanced Commentary",
+  "Comparative Jurisprudence - Contemporary",
+  "Prophetic Traditions - Most Authentic",
+  "Prophetic Traditions - Authentic Collection",
+  "Quranic Exegesis - Jurisprudential Focus",
+  "Shafi'i Jurisprudence - Foundational Text",
+  "Comparative Jurisprudence"
+];
+
+// Commentary base texts for filtering
+export const commentaryOfOptions = [
+  "All",
+  "Mukhtasar al-Quduri",
+  "Al-Hidaya",
+  "Kanz al-Daqa'iq",
+  "Nur al-Idah",
+  "Maraqi al-Falah",
+  "Al-Wiqayah",
+  "Tanwir al-Absar"
+];
+
+export const madhabs = [
+  "All",
+  "Hanafi",
+  "Maliki",
+  "Shafi'i",
+  "Hanbali",
+  "Comparative",
+  "Independent",
+  "Salafi",
+  "N/A"
+];
+
+export const languages = [
+  "All",
+  "Arabic",
+  "English",
+  "Urdu",
+  "Persian",
+  "Turkish"
+];
+
+export const creeds = [
+  "All",
+  "Athari",
+  "Ash'ari",
+  "Maturidi",
+  "N/A"
+];
+
+export const eras = [
+  "All",
+  "Salaf",
+  "Khalaf",
+  "Classical",
+  "Post-Classical",
+  "Modern"
+];
+
+export const bookTypes = [
+  "All",
+  "Core text (Matn)",
+  "Commentary (Sharh)",
+  "Gloss (Haashiya)",
+  "Summary (Mukhtasar)",
+  "Risala (Epistle)",
+  "Takhreej (Referenced Edition)",
+  "Tahqeeq (Critical Edition)",
+  "Fatawa (Legal Verdicts)",
+  "Tarjama (Translation)",
+  "Majmu (Collection)",
+  "Mawsua (Reference)"
+];
+
+export const studyLevels = [
+  "All",
+  "Elementary",
+  "Beginner",
+  "Intermediate",
+  "Upper Intermediate",
+  "Advanced",
+  "Specialist"
+];
+
+export const sortOptions = [
+  { value: 'scholarBirthYear', label: 'Scholar Birth Year (Default)' },
+  { value: 'publicationYear', label: 'Publication Year' },
+  { value: 'title', label: 'Title (A-Z)' },
+  { value: 'author', label: 'Author Name' },
+  { value: 'studyLevel', label: 'Study Level' }
+];
