@@ -784,7 +784,7 @@ export const books = [
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
     isPlaceholder: false,
-    commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
+    commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
