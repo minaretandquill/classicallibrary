@@ -3046,7 +3046,6 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-    */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
