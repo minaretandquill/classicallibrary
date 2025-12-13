@@ -4551,6 +4551,7 @@ export const studyLevels = [
   "Specialist"
 ];
 
+*/
 export const sortOptions = [
   { value: 'scholarBirthYear', label: 'Scholar Birth Year (Default)' },
   { value: 'publicationYear', label: 'Publication Year' },
