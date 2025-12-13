@@ -1,4 +1,4 @@
-// Mock data for Islamic classical library
+// Data for Islamic classical library
 
 export const books = [
   {
@@ -24,7 +24,7 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/al-mabsut.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries:   [],
     publishedEditions: []
   },
   {
@@ -75,8 +75,11 @@ export const books = [
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-hidaya.jpg",
     isPlaceholder: false,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Bidayat al-Mubtadi",
+    hasCommentaries: [
+    { id: "00", title: "Fath al Qadir", author: "Ibn Humam" },
+    { id: "00", title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
+    { id: "00", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
     publishedEditions: []
   },
   {
@@ -101,7 +104,7 @@ export const books = [
     uniqueAspects: "Distinguished by its focus on explaining the 'why' behind rulings rather than just stating them. Provides scriptural evidences and rational arguments, making it essential for students who want to understand jurisprudential reasoning.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
+    commentaryOf: "Al-Mukhtar li al-Fatwa",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -128,8 +131,18 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+        { id: "00", title: "Kashf al-Ramz ʿan Khabāyā al-Kanz", author: "al-Ḥamawī" } ,
+        { id: "00", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "al-Maqdisī" },
+        { id: "00", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: "00", title: "Al-Baḥr al-Rāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Zayn al-Dīn Ibn Nujaym" },
+        { id: "00", title: "Al-Nahr al-Fāʾiq Sharḥ Kanz al-Daqāʾiq", author: "Badr al-Dīn al-ʿAynī" },
+        { id: "00", title: "Ramz al-Ḥaqāʾiq fī Sharḥ Kanz al-Daqāʾiq", author: "Sirāj al-Dīn ʿUmar Ibn Nujaym" } 
+  ],
+    publishedEditions: [
+          { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 6,
@@ -154,8 +167,14 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/nur-al-idah.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+            { id: "00", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
+            { id: "00", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
+    ],
+    publishedEditions: [
+          { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 7,
@@ -180,7 +199,9 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+                  { id: "00", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
+    ],
     publishedEditions: []
   },
   {
@@ -240,7 +261,7 @@ export const books = [
     title: "Mukhtasar al-Quduri",
     arabicTitle: "مختصر القدوري",
     author: "Imam al-Quduri",
-    authorArabic: "الإمام القدوري",
+     authorArabic: "الإمام القدوري",
     authorBirthYear: 362,
     category: "Fiqh",
     subject: "Hanafi Jurisprudence - Foundational Text",
@@ -258,8 +279,16 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-quduri.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+      { id: "00", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
+      { id: "00", title: "Al-Lubab fi Sharh al-Kitab", author: "Abd al-Ghani al-Ghunaymi Maydani" },
+      { id: "00", title: "Sharh Mukhtasar al-Quduri", author: "Isma'il al-Zahid" }
+     ],
+    publishedEditions: 
+      [  {       
+      publisher: "Dar al-Kotob al-Ilmiyah",      location: "Beirut, Lebanon",      year: "2003",      volumes: 1,      verified: true,      link: null
+      }
+    ]
   },
   {
     id: 11,
@@ -361,7 +390,7 @@ export const books = [
     uniqueAspects: "Synthesizes multiple classical texts into one accessible work. Popular in Ottoman institutions for its balance between detail and readability. Includes both established positions and practical applications.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
+    commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -575,9 +604,9 @@ export const books = [
   },
   {
     id: 23,
-    title: "Sharh al-Wiqayah",
+    title: "Al-Wiqayah",
     arabicTitle: "شرح الوقاية",
-    author: "Various Commentators",
+    author: "Mahmud ibn Ahmad al-Mahbubi",
     authorArabic: "عدة من الشُراح",
     authorBirthYear: 700,
     category: "Fiqh",
@@ -595,8 +624,10 @@ export const books = [
     uniqueAspects: "Known for its systematic approach to explaining legal principles. Widely studied in South Asian madrasas. Bridges the gap between intermediate and advanced study.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Hidaya",
+    hasCommentaries: [
+       { id: "00", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
+    ],
     publishedEditions: []
   },
   {
@@ -699,8 +730,10 @@ export const books = [
     uniqueAspects: "Perfect combination of brevity and detail. The author explains his own matn, ensuring accuracy. Widely studied as the next step after Nur al-Idah. Essential for understanding worship acts.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Nur al-Idah",
+    hasCommentaries: [
+      { id: 00, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
+     ],
     publishedEditions: []
   },
   {
@@ -727,7 +760,10 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Fikr", location: "Damascus", year: "2016", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 29,
@@ -751,9 +787,12 @@ export const books = [
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
     isPlaceholder: false,
-    commentaryOf: null,
+    commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 30,
@@ -777,10 +816,14 @@ export const books = [
     uniqueAspects: "Bridges classical text with modern understanding. Addresses questions that arose after the original commentary. Essential for advanced students studying Maraqi al-Falah.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
-    hasCommentaries: [],
+    commentaryOf: "Maraqi al-Falah",
+    hasCommentaries: [
+
+      
+    ],
     publishedEditions: []
   },
+      
   {
     id: 31,
     title: "Al-Durar al-Mubaha fi al-Hazr wa al-Ibaha",
@@ -829,7 +872,7 @@ export const books = [
     uniqueAspects: "One of the earliest and most respected commentaries on Quduri. Known for its balanced approach and clear explanations. Foundation for later commentaries.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: null,
+    commentaryOf: "Quduri",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -856,9 +899,16 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+           { id: "00", title: "Al-Durr al-Mukhtar", author: "Muhammad Ala-ud-Din Haskafi " },
+          { id: "00", title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār", author: "Al-Tumurtashi" }
+    ],
+    publishedEditions: [
+     { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
+
+    ]
   },
+    
   {
     id: 34,
     title: "Majma' al-Bahrayn wa Multaqa al-Nahrayn",
@@ -1639,8 +1689,9 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
-  {
-    id: 64,
+  
+/* {
+id: 64,
     title: "Al-Hidayah Sharh Bidayat al-Mubtadi",
     arabicTitle: "الهداية شرح بداية المبتدي",
     author: "Burhan al-Din al-Marghinani",
@@ -1665,6 +1716,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+      */
   {
     id: 65,
     title: "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq",
@@ -1739,7 +1791,7 @@ export const books = [
     uniqueAspects: "Combines meticulous textual criticism with practical fatwa orientation; frequently cited by later Ottoman and South Asian jurists.",
     coverImage: "https://library.minaretandquill.com/book_covers/fath-al-qadir-fi-sharh-al-muqaddima-al-hadramiyya.jpg",
     isPlaceholder: false,
-    commentaryOf: "Al-Hidayah / earlier core texts (context dependent)",
+    commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -1795,7 +1847,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
-  {
+/*  {
     id: 70,
     title: "Majrā al-Anhūr ʿalā Multaqā al-Abḥur",
     arabicTitle: "مجرى الأنهر على منتخب الأبحر",
@@ -1821,11 +1873,12 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 71,
     title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
     arabicTitle: "منحة الغفار في شرح تنوير الأبصار",
-    author: "Al-Tumurtashi (editorial commentary)",
+    author: "Al-Tumurtashi",
     authorArabic: "التمرطاشي",
     authorBirthYear: 950,
     category: "Fiqh",
@@ -1896,9 +1949,13 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/fath-bab-al-inayah-sharh-kitab-al-nuqayah.jpg",
     isPlaceholder: false,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
-    hasCommentaries: [],
+    hasCommentaries: [
+          { id: "00", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
+
+    ],
     publishedEditions: []
   },
+      /*
   {
     id: 74,
     title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -1925,6 +1982,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+      */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -1978,6 +2036,7 @@ export const books = [
     publishedEditions: []
   },
   {
+    /*
     id: 77,
     title: "Majmaʿ al-Anhūr Sharḥ Multaqā al-Abḥūr",
     arabicTitle: "مجمع الأنهر شرح ملتقى الأبحر",
@@ -2003,6 +2062,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
@@ -2029,6 +2089,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+/*
   {
     id: 79,
     title: "Multaqā al-Abḥur",
@@ -2055,6 +2116,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 80,
     title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
@@ -2081,6 +2143,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 81,
     title: "Nūr al-Īdāḥ",
@@ -2133,6 +2196,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   {
     id: 83,
     title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
@@ -2211,6 +2275,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 86,
     title: "al-Lubāb fī Sharḥ al-Kitāb",
@@ -2237,6 +2302,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 87,
     title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
@@ -2261,7 +2327,16 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1360 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 88,
@@ -2313,7 +2388,16 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1345 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 90,
@@ -2339,7 +2423,16 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "al-Nāfiʿ al-Kabīr li man Yuṭāliʿ al-Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿArabiyyah",
+      location: "Cairo, Egypt",
+      year: "1348 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 91,
@@ -2365,7 +2458,16 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Fikr",
+      location: "Cairo, Egypt",
+      year: "1365 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 92,
@@ -2391,7 +2493,16 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Dār al-Kutub al-ʿIlmiyyah",
+      location: "Beirut, Lebanon",
+      year: "1375 AH",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 93,
@@ -2728,8 +2839,19 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-tahawi.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+          { id: "00", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
+    ],
+    publishedEditions: [
+          {
+      publisher: "Dar al-Basha'ir",
+      location: "Damascus, Syria",
+      year: "1999",
+      volumes: 1,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 106,
@@ -2755,7 +2877,16 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          {
+      publisher: "Maktabat al-Rushd",
+      location: "Riyadh, Saudi Arabia",
+      year: "2015",
+      volumes: 2,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 107,
@@ -2783,6 +2914,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 108,
     title: "Mukhtasar al-Karkhi",
@@ -2809,6 +2941,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 109,
     title: "Tuhfat al-Fuqaha",
@@ -2832,8 +2965,19 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/tuhfat-al-fuqaha.jpg",
     isPlaceholder: false,
     commentaryOf: "Mukhtasar al-Karkhi",
-    hasCommentaries: [],
-    publishedEditions: []
+    hasCommentaries: [
+      { id: "00", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
+    ],
+    publishedEditions: [
+          {
+      publisher: "Dar al-Fikr",
+      location: "Beirut, Lebanon",
+      year: "1997",
+      volumes: 3,
+      verified: true,
+      link: null
+    }
+    ]
   },
   {
     id: 110,
@@ -2858,7 +3002,7 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mubtadi.jpg",
     isPlaceholder: false,
     commentaryOf: "Tuhfat al-Fuqaha",
-    hasCommentaries: [],
+    hasCommentaries: { id: "00", title: "Al-Hidayah", author: "Al-Marghinani" },
     publishedEditions: []
   },
   {
@@ -2887,6 +3031,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    /*
   {
     id: 112,
     title: "Kanz al-Daqaiq",
@@ -2913,6 +3058,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+    */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
@@ -2936,9 +3082,12 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/al-mukhtar-li-al-fatwa.jpg",
     isPlaceholder: false,
     commentaryOf: null,
-    hasCommentaries: [],
+    hasCommentaries: [
+      { id: ?, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+    ],
     publishedEditions: []
   },
+    /*
   {
     id: 114,
     title: "Majma' al-Bahrayn",
@@ -2965,6 +3114,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 115,
     title: "Al-Wafi",
@@ -2989,8 +3139,12 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2005", volumes: 2, verified: true }
+
+    ]
   },
+    /*
   {
     id: 116,
     title: "Kanz al-Daqaʾiq",
@@ -3017,6 +3171,8 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
+   
   {
     id: 117,
     title: "Al-Nuqayah Mukhtasar al-Wiqayah",
@@ -3041,8 +3197,12 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: "Wiqayat al-Riwayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Fikr", location: "Beirut", year: "2008", volumes: 1, verified: true }
+
+    ]
   },
+  
   {
     id: 118,
     title: "ʿUyun al-Madhahib",
@@ -3067,7 +3227,10 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Nawadir", location: "Beirut", year: "2014", volumes: 2, verified: true }
+
+    ]
   },
   {
     id: 119,
@@ -3093,7 +3256,10 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Maktabat al-Quds", location: "Cairo", year: "2011", volumes: 2, verified: true }
+
+    ]
   },
   {
     id: 120,
@@ -3119,7 +3285,10 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Dar al-Haramayn", location: "Pakistan", year: "1985", volumes: 1, verified: true }
+
+    ]
   },
   {
     id: 121,
@@ -3145,7 +3314,9 @@ export const books = [
     isPlaceholder: false,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [
+          { publisher: "Matbaʿat al-ʿIlmiyyah", location: "Istanbul", year: "1912", volumes: 1, verified: true }
+    ]
   },
   {
     id: 122,
@@ -3173,6 +3344,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  /*
   {
     id: 123,
     title: "Tanwir al-Absar wa Jamiʿ al-Bihar",
@@ -3199,6 +3371,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  
   {
     id: 124,
     title: "Maraqi al-Saʿadat",
@@ -3225,6 +3398,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
+  */
   {
     id: 125,
     title: "Ithaf al-Talib",
@@ -3328,20 +3502,842 @@ export const books = [
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [],
     publishedEditions: []
-  }
+  },
+{
+  id: 129,
+  title: "Kitab al-Athar (Transmission of Zufar)",
+  arabicTitle: "كتاب الآثار رواية زفر",
+  author: "Zufar ibn al-Hudhayl",
+  authorArabic: "زفر بن الهذيل",
+  authorBirthYear: "Unknown",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "158 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A foundational transmission preserving early Hanafi juridical reasoning through the narrations of Zufar ibn al-Hudhayl.",
+  uniqueAspects: "Contains variant legal reasoning that occasionally diverges from the dominant positions of Abū Ḥanīfa’s other students.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-athar-zufar.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+
+  ]
+},
+{
+  id: 130,
+  title: "Ikhtilaf Abi Hanifa wa Ibn Abi Layla",
+  arabicTitle: "اختلاف أبي حنيفة وابن أبي ليلى",
+  author: "Abu Yusuf al-Qadi",
+  authorArabic: "أبو يوسف القاضي",
+  authorBirthYear: "113 AH",
+  category: "Fiqh",
+  subject: "Evidences",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "182 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A comparative study documenting the points of disagreement between Abu Hanifa and the judge Ibn Abi Layla, presenting reasoning behind each view.",
+  uniqueAspects: "One of the earliest surviving works in comparative fiqh within the Hanafi tradition.",
+  coverImage: "https://library.minaretandquill.com/book_covers/ikhtilaf-abi-hanifa-ibn-abi-layla.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+     
+  ]
+},
+{
+  id: 131,
+  title: "Kitab al-Kharaj",
+  arabicTitle: "كتاب الخراج",
+  author: "Abu Yusuf al-Qadi",
+  authorArabic: "أبو يوسف القاضي",
+  authorBirthYear: "113 AH",
+  category: "Fiqh",
+  subject: "Muamalaat",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "182 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A legal, fiscal, and administrative treatise presented to Caliph Harun al-Rashid outlining principles of taxation and governance.",
+  uniqueAspects: "A primary source for Islamic fiscal policy and statecraft across centuries.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-kharaj-abu-yusuf.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Ma'rifah", location: "Beirut, Lebanon", year: "Unknown", volumes: 1, verified: true, link: null }
+  ]
+},
+{
+  id: 132,
+  title: "Kitab al-Athar (Transmission of Abu Yusuf)",
+  arabicTitle: "كتاب الآثار رواية أبي يوسف",
+  author: "Abu Yusuf al-Qadi",
+  authorArabic: "أبو يوسف القاضي",
+  authorBirthYear: "113 AH",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "182 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A pivotal collection of early Hanafi traditions and rulings preserved through the transmission of Abu Yusuf.",
+  uniqueAspects: "Highlights the juristic method of Abu Yusuf in relation to his teacher Abu Hanifa.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-athar-abu-yusuf.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+ 
+  ]
+},
+{
+  id: 133,
+  title: "Adab al-Qadi",
+  arabicTitle: "آداب القاضي",
+  author: "Abu Yusuf al-Qadi",
+  authorArabic: "أبو يوسف القاضي",
+  authorBirthYear: "113 AH",
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "182 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "One of the earliest works outlining judicial ethics, courtroom procedure, and the conduct required of judges.",
+  uniqueAspects: "A key reference for the development of Islamic judicial principles.",
+  coverImage: "https://library.minaretandquill.com/book_covers/adab-al-qadi-abu-yusuf.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+    { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut, Lebanon", year: "Unknown", volumes: 1, verified: true, link: null }
+  ]
+},
+{
+  id: 134,
+  title: "al-Amali",
+  arabicTitle: "الأمالي",
+  author: "Abu Yusuf al-Qadi",
+  authorArabic: "أبو يوسف القاضي",
+  authorBirthYear: "113 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Majmu (Collection)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "182 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A transmitted collection of legal dictations and discussions reflecting the applied juristic method of Abu Yusuf.",
+  uniqueAspects: "Provides insight into early Hanafi pedagogical transmission.",
+  coverImage: "https://library.minaretandquill.com/book_covers/amali-abu-yusuf.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+
+  ]
+},
+{
+  id: 135,
+  title: "al-Asl (al-Mabsut)",
+  arabicTitle: "الأصل",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "The largest and most foundational juristic work of al-Shaybani, forming the backbone of classical Hanafi law.",
+  uniqueAspects: "The earliest extensive codification of the Hanafi school.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-asl-shaybani.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "00", title: "Sharh al-Asl", author: "Unknown" }
+  ],
+  publishedEditions: [
+    { publisher: "Abu Al-Wafa' Al-Afghani Edition", location: "India", year: "Unknown", volumes: "Unknown", verified: true, link: null }
+  ]
+},
+{
+  id: 136,
+  title: "al-Jami al-Saghir",
+  arabicTitle: "الجامع الصغير",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Concise Text",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A concise compilation of legal rulings arranged without chains of transmission, widely used in the early Hanafi curriculum.",
+  uniqueAspects: "Forms the basis for many later commentaries, including al-Nafi al-Kabir.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-jami-al-saghir.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "00", title: "al-Nafi al-Kabir", author: "Abd al-Hayy al-Laknawi" }
+  ],
+  publishedEditions: [
+    { publisher: "Dar al-Bashair", location: "Beirut", year: "Unknown", volumes: 1, verified: true, link: null }
+  ]
+},
+{
+  id: 137,
+  title: "al-Jami al-Kabir",
+  arabicTitle: "الجامع الكبير",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A broad legal compendium covering a wide range of jurisprudential issues with structured presentation.",
+  uniqueAspects: "Complements al-Jami al-Saghir by addressing topics in greater depth.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-jami-al-kabir.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+  ]
+},
+{
+  id: 138,
+  title: "al-Siyar al-Kabir",
+  arabicTitle: "السير الكبير",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "The earliest systematic treatise on Islamic international law and conduct in war, peace, and treaties.",
+  uniqueAspects: "Influenced the later organisation of siyar in Islamic legal literature.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-siyar-al-kabir.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [
+    { id: "00", title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
+  ],
+  publishedEditions: [
+  ]
+},
+{
+  id: 139,
+  title: "al-Ziyadat",
+  arabicTitle: "الزيادات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A supplementary compilation to al-Shaybani’s foundational texts, addressing additional legal issues not covered elsewhere.",
+  uniqueAspects: "Completes the canonical set of al-Shaybani’s major juristic works.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-ziyadat-shaybani.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: [
+  ]
+},
+{
+  id: 140,
+  title: "al-Hujjah ala Ahl al-Madinah",
+  arabicTitle: "الحجة على أهل المدينة",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Evidences",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A structured rebuttal of the legal methodology of the scholars of Madinah and a defence of the Kufan juristic approach.",
+  uniqueAspects: "One of the earliest sustained methodological critiques in Islamic legal history.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-hujjah-ala-ahl-al-madinah.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+  ]
+},
+  {
+  id: 141,
+  title: "Kitab al-Athar (al-Lu'lu'i)",
+  arabicTitle: "كتاب الآثار (اللؤلئي)",
+  author: "Al-Lu'lu'i (student of Abu Yusuf)",
+  authorArabic: "اللؤلئي",
+  authorBirthYear: "Unknown",
+  category: "Fiqh",
+  subject: "Evidences",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "2nd Century AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A transmission of hadith-based legal proofs from Abu Yusuf, reflecting early Hanafi evidential reasoning.",
+  uniqueAspects: "Represents an important Kufan hadith corpus connected to Hanafi legal method.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-athar-lu-lu-i.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+  {
+  id: 142,
+  title: "Kitab al-Mujarrad",
+  arabicTitle: "كتاب المجرد",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Evidences",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A legal text distilling core positions of the early Hanafi school with supporting argumentation.",
+  uniqueAspects: "One of the earliest records of the legal reasoning of Abu Hanifa’s students.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-mujarrad.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEdititions: []
+}
+,
+  {
+  id: 143,
+  title: "al-Amali (al-Lu'lu'i)",
+  arabicTitle: "الأمالي (اللؤلئي)",
+  author: "Al-Lu'lu'i",
+  authorArabic: "اللؤلئي",
+  authorBirthYear: "Unknown",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "2nd Century AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A dictated collection of legal transmissions from Abu Yusuf as preserved by his student al-Lu'lu'i.",
+  uniqueAspects: "One of the few surviving dictated works linking directly to the earliest Hanafi authorities.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-amali-lu-lu-i.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 144,
+  title: "Adab al-Qadi (al-Lu'lu'i)",
+  arabicTitle: "آداب القاضي (اللؤلئي)",
+  author: "Al-Lu'lu'i",
+  authorArabic: "اللؤلئي",
+  authorBirthYear: "Unknown",
+  category: "Fiqh",
+  subject: "Muamalaat",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "2nd Century AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A seminal early work outlining judicial ethics, courtroom conduct, and responsibilities of the judge in Islamic law.",
+  uniqueAspects: "Among the earliest Hanafi articulations of judicial procedure and ethical norms.",
+  coverImage: "https://library.minaretandquill.com/book_covers/adab-al-qadi-lu-lu-i.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+  {
+  id: 145,
+  title: "al-Khisaal",
+  arabicTitle: "الخصال",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A treatise outlining legal principles and classifications important to early Hanafi jurisprudence.",
+  uniqueAspects: "Preserves foundational legal distinctions employed by the students of Abu Hanifa.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-khisaal.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 146,
+  title: "Ma‘ani al-Iman",
+  arabicTitle: "معاني الإيمان",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Aqeedah",
+  subject: "Creed",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A theological exposition addressing the definition and components of faith within Hanafi thought.",
+  uniqueAspects: "Reflects the earliest discussions on iman and its linguistic and legal implications.",
+  coverImage: "https://library.minaretandquill.com/book_covers/maani-al-iman.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 147,
+  title: "al-Nafaqat",
+  arabicTitle: "النفَقات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Muamalaat",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A legal text detailing financial maintenance obligations in family law.",
+  uniqueAspects: "Among the earliest dedicated works on the fiqh of household financial rights.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-nafaqat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+{
+  id: 148,
+  title: "al-Kharaj",
+  arabicTitle: "الخراج",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Muamalaat",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A foundational work on Islamic taxation, fiscal governance, and public revenue.",
+  uniqueAspects: "One of the earliest systematic writings on financial administration in Islam.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-kharaj.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 149,
+  title: "al-Faraid",
+  arabicTitle: "الفرائض",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A treatise on the laws of inheritance according to the early Hanafi school.",
+  uniqueAspects: "One of the earliest surviving works focused entirely on faraid calculations.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-faraid.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 150,
+  title: "al-Wasaya",
+  arabicTitle: "الوصايا",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Selected Topics",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Intermediate",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A legal treatment of wills, bequests, and the distribution of assets after death.",
+  uniqueAspects: "Offers detailed rulings on testamentary instructions within early Hanafi law.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-wasaya.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+  {
+  id: 151,
+  title: "al-Nawadir",
+  arabicTitle: "النوادر",
+  author: "Al-Mu‘alla ibn Mansur",
+  authorArabic: "المُعلى بن منصور",
+  authorBirthYear: "Unknown",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Risala (Epistle)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "2nd Century AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A collection of rare legal transmissions and variant Hanafi opinions preserved by al-Mu‘alla ibn Mansur.",
+  uniqueAspects: "Preserves many early opinions not found in the major canonical texts.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-nawadir-mualla.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+,
+
+{
+  id: 152,
+  title: "Kitab al-Athar",
+  arabicTitle: "كتاب الآثار",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Comprehensive",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A compilation of legal transmissions and rulings attributed to the Kufan school, preserved through Muhammad ibn al-Hasan.",
+  uniqueAspects: "One of the earliest Hanafi texts collecting Kufan opinions; foundational for subsequent Sharh works.",
+  coverImage: "https://library.minaretandquill.com/book_covers/kitab-al-athar-shaybani.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 153,
+  title: "Muwatta Malik",
+  arabicTitle: "موطأ مالك",
+  author: "Malik ibn Anas",
+  authorArabic: "مالك بن أنس",
+  authorBirthYear: "93 AH",
+  category: "Hadith",
+  subject: "Sahih Siita",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH (transmission by Muhammad ibn al-Hasan al-Shaybani)",
+  scholarEra: "2nd Century Hijri",
+  description: "The canonical Hadith collection of Imam Malik, transmitted via Muhammad ibn al-Hasan al-Shaybani.",
+  uniqueAspects: "Represents the intersection of Maliki and early Kufan Hanafi transmissions.",
+  coverImage: "https://library.minaretandquill.com/book_covers/muwatta-malik-shaybani.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 154,
+  title: "Ziyadat al-Ziyadat",
+  arabicTitle: "زيادات الزيادات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A supplementary text expanding on rulings in the Kitab al-Athar and related Hanafi collections.",
+  uniqueAspects: "Preserves variant opinions and additional evidences not found in earlier compilations.",
+  coverImage: "https://library.minaretandquill.com/book_covers/ziyadat-al-ziyadat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 155,
+  title: "al-Kaysaniyyat",
+  arabicTitle: "الكيْسانيات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A collection of legal opinions transmitted from the Kaysani faction within early Hanafi circles.",
+  uniqueAspects: "Captures minority viewpoints and rare opinions within the Kufan school.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-kaysaniyyat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 156,
+  title: "al-Haruniyyat",
+  arabicTitle: "الهارونيات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "Collection of rulings and opinions associated with early Hanafi jurists under the Haruni period.",
+  uniqueAspects: "Preserves lesser-known opinions and debates from the Kufan tradition.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-haruniyyat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 157,
+  title: "al-Jurjaniyyat",
+  arabicTitle: "الجرجانيات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A compilation of Kufan Hanafi opinions associated with the scholar al-Jurjani.",
+  uniqueAspects: "Highlights regional variations and rare legal evidence.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-jurjaniyyat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+},
+{
+  id: 158,
+  title: "al-Raqqiyyat",
+  arabicTitle: "الرقيات",
+  author: "Muhammad ibn al-Hasan al-Shaybani",
+  authorArabic: "محمد بن الحسن الشيباني",
+  authorBirthYear: "132 AH",
+  category: "Fiqh",
+  subject: "Other",
+  madhab: "Hanafi",
+  language: "Arabic",
+  creed: "Maturidi",
+  era: "Salaf",
+  bookType: "Core text (Matn)",
+  studyLevel: "Advanced",
+  pages: "Unknown",
+  publicationYear: "189 AH",
+  scholarEra: "2nd Century Hijri",
+  description: "A text containing additional Kufan Hanafi legal opinions, often clarifying or supplementing earlier works.",
+  uniqueAspects: "Preserves rare rulings and variant opinions valuable for historical study.",
+  coverImage: "https://library.minaretandquill.com/book_covers/al-raqqiyyat.jpg",
+  isPlaceholder: true,
+  commentaryOf: null,
+  hasCommentaries: [],
+  publishedEditions: []
+}
+
+
 ];
 
 export const categories = [
   "All",
   "Tafsir",
   "Hadith",
-  "Fiqh",
   "Aqeedah",
+  "Fiqh",
   "Seerah",
+  "Tassawuf",
   "Arabic Language",
   "Usul al-Fiqh",
+  "Usul al-Hadith",
+  "Ulum al-Qur'an",
   "History",
-  "Sufism & Spirituality"
+  "Miscellaneous",
+  "Reference"
 ];
 
 export const authors = [
@@ -3372,54 +4368,49 @@ export const subjectsByCategory = {
   "Fiqh": [
     "All",
     "Comprehensive",
-    "Systematic",
-    "Intermediate Text",
     "Evidences",
     "Concise Text",
-    "Ritual Worship",
     "Encyclopedia",
     "Selected Topics",
-    "Foundational Text",
     "Advanced Commentary",
-    "Legal Encyclopedia",
-    "Commentary with Hadith",
-    "Ottoman Standard",
-    "Primary Source",
-    "Comparative Jurisprudence",
-    "Transactions",
-    "Women's Issues",
+    "Ritual Worship",
+    "Muamalaat",
+    "Other",
     "Contemporary Issues"
   ],
   "Hadith": [
     "All",
-    "Most Authentic",
-    "Authentic Collection",
+    "Sahih Siita",
+    "Other Collections",
     "Hadith Commentary",
-    "Ethics & Spirituality",
-    "Hadith with Fiqh Application"
+    "Hadith with Fiqh"
   ],
   "Tafsir": [
     "All",
-    "Comprehensive Exegesis",
-    "Hadith-based Exegesis",
-    "Jurisprudential Focus"
+    "Comprehensive",
+    "bil-Riwaya",
+    "bil-Dirayah",
+    "Linguistic",
+    "Juridical",
+    "Mystical"
   ],
   "Usul al-Fiqh": [
     "All",
-    "Principles of Jurisprudence",
+    "Legal Theory",
     "Legal Maxims",
-    "Guidelines for Issuing Fatwas"
+    "Ifta"
   ],
   "Aqeedah": [
     "All",
-    "Islamic Creed",
-    "Theological Principles"
+    "Creed",
+    "Kalaam",
+    "Usul ad-din"
   ],
   "Seerah": [
     "All",
     "Prophetic Biography",
-    "Prophetic Guidance",
-    "Prophetic Excellence"
+    "Prophetic Descriptions",
+    "Prophetic Maghazi"
   ],
   "History": [
     "All",
@@ -3428,34 +4419,53 @@ export const subjectsByCategory = {
   ],
   "Arabic Language": [
     "All",
-    "Arabic Grammar",
-    "Arabic Lexicon",
-    "Morphology"
+    "Sarf",
+    "Nahv",
+    "Balagha",
+    "Mantiq",
+    "Dictionary",
+    "Kalaam",
+    "Qiraa'"
   ],
-  "Sufism & Spirituality": [
+  "Tassawuf": [
     "All",
-    "Inner Dimensions",
-    "Spiritual Purification"
+    "Purification",
+    "Mysticism"
   ]
-};
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Usul al-Hadith": [
+    "All",
+    "Principles",
+    "Asma Rijaal",
+    "Classification"
+  ]
+  "Miscellaneous": [
+    "All",
+    "Principles"
+  ]
+  "Reference": [
+    "All",
+    "Dictionary"
+  ]
+];
+
 
 // Legacy flat list for backwards compatibility
 export const subjects = [
   "All",
   "Hanafi Jurisprudence - Comprehensive",
-  "Hanafi Jurisprudence - Systematic",
-  "Hanafi Jurisprudence - Intermediate Text",
   "Hanafi Jurisprudence - Evidences",
   "Hanafi Jurisprudence - Concise Text",
   "Hanafi Jurisprudence - Ritual Worship",
+  "Hanafi Jurisprudence - Muamalaat",
   "Hanafi Jurisprudence - Encyclopedia",
   "Hanafi Jurisprudence - Selected Topics",
-  "Hanafi Jurisprudence - Foundational Text",
   "Hanafi Jurisprudence - Advanced Commentary",
-  "Hanafi Jurisprudence - Legal Encyclopedia",
-  "Hanafi Jurisprudence - Commentary with Hadith",
-  "Hanafi Jurisprudence - Ottoman Standard",
-  "Hanafi Jurisprudence - Primary Source",
   "Comparative Jurisprudence - Contemporary",
   "Prophetic Traditions - Most Authentic",
   "Prophetic Traditions - Authentic Collection",
@@ -3484,6 +4494,7 @@ export const madhabs = [
   "Hanbali",
   "Comparative",
   "Independent",
+  "Salafi",
   "N/A"
 ];
 
@@ -3492,9 +4503,8 @@ export const languages = [
   "Arabic",
   "English",
   "Urdu",
-  "Turkish",
   "Persian",
-  "Malay"
+  "Turkish"
 ];
 
 export const creeds = [
@@ -3516,16 +4526,22 @@ export const eras = [
 
 export const bookTypes = [
   "All",
-  "Matn",
-  "Commentary",
-  "Translation",
-  "Epistle",
-  "Compilation",
-  "Reference"
+  "Core text (Matn)",
+  "Commentary (Sharh)",
+  "Gloss (Haashiya)",
+  "Summary (Mukhtasar)",
+  "Risala (Epistle)",
+  "Takhreej (Referenced Edition)",
+  "Tahqeeq (Critical Edition)",
+  "Fatawa (Legal Verdicts)",
+  "Tarjama (Translation)",
+  "Majmu (Collection)",
+  "Mawsua (Reference)"
 ];
 
 export const studyLevels = [
   "All",
+  "Elementary",
   "Beginner",
   "Intermediate",
   "Upper Intermediate",
@@ -3538,6 +4554,5 @@ export const sortOptions = [
   { value: 'publicationYear', label: 'Publication Year' },
   { value: 'title', label: 'Title (A-Z)' },
   { value: 'author', label: 'Author Name' },
-  { value: 'studyLevel', label: 'Study Level' },
-  { value: 'pages', label: 'Number of Pages' }
+  { value: 'studyLevel', label: 'Study Level' }
 ];
