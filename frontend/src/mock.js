@@ -1873,7 +1873,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 71,
     title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
@@ -2062,7 +2062,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
@@ -2302,7 +2302,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 87,
     title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
@@ -2941,7 +2941,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 109,
     title: "Tuhfat al-Fuqaha",
@@ -3114,7 +3114,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 115,
     title: "Al-Wafi",
@@ -3398,7 +3398,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  */
+  /* */
   {
     id: 125,
     title: "Ithaf al-Talib",
