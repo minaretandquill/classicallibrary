@@ -3817,8 +3817,7 @@ id: 64,
   commentaryOf: null,
   hasCommentaries: [],
   publishedEditions: []
-  }
-],
+},
 {
   id: 141,
   title: "Kitab al-Athar (al-Lu'lu'i)",
