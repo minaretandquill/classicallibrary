@@ -3819,7 +3819,7 @@ id: 64,
   publishedEditions: []
   }
 ],
-  {
+{
   id: 141,
   title: "Kitab al-Athar (al-Lu'lu'i)",
   arabicTitle: "كتاب الآثار (اللؤلئي)",
