@@ -732,7 +732,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [
-      { id: 30, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
+      { id: 00, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
      ],
     publishedEditions: []
   },
@@ -787,7 +787,7 @@ export const books = [
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
     isPlaceholder: false,
-    commentaryOf: null,
+    commentaryOf: "Kanz", "Wiqayah", "Mukhtar", "Quduri",
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
@@ -1716,8 +1716,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-      /* */
+      */
   {
     id: 65,
     title: "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq",
@@ -1874,8 +1873,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 71,
     title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
@@ -1984,8 +1982,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+      */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -2065,8 +2062,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
@@ -2306,8 +2302,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 87,
     title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
@@ -2946,8 +2941,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 109,
     title: "Tuhfat al-Fuqaha",
@@ -3064,8 +3058,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+    */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
@@ -3121,8 +3114,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 115,
     title: "Al-Wafi",
@@ -3406,8 +3398,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-*/
-  /* */
+  */
   {
     id: 125,
     title: "Ithaf al-Talib",
@@ -4558,7 +4549,6 @@ export const studyLevels = [
   "Specialist"
 ];
 
-*/
 export const sortOptions = [
   { value: 'scholarBirthYear', label: 'Scholar Birth Year (Default)' },
   { value: 'publicationYear', label: 'Publication Year' },
