@@ -4426,8 +4426,8 @@ export const subjectsByCategory = {
   "Reference": [
     "All",
     "Dictionary"
-  ],
-];
+  ]
+};
 
 
 // Legacy flat list for backwards compatibility
