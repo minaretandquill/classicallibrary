@@ -265,7 +265,7 @@ const BookDetail = ({ book, open, onClose }) => {
                 {book.isPlaceholder && (
                   <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 mt-4">
                     <p className="text-xs text-blue-800">
-                      📌 Note: This is a placeholder image. Upload custom cover via admin panel.
+                      📌 Note: This is a placeholder image.
                     </p>
                   </div>
                 )}
