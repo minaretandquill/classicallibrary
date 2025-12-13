@@ -4406,7 +4406,7 @@ export const subjectsByCategory = {
     "All",
     "Purification",
     "Mysticism"
-  ]
+  ],
   "Usul al-Hadith": [
     "All",
     "Principles",
