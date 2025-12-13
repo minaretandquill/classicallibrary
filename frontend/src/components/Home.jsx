@@ -34,10 +34,10 @@ const Home = () => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
   const [sortBy, setSortBy] = useState('scholarBirthYear');
   const [filters, setFilters] = useState({
-    category: 'All',
+    category: 'Fiqh',
     author: 'All',
     subject: 'All',
-    madhab: 'All',
+    madhab: 'Hanafi',
     language: 'All',
     creed: 'All',
     era: 'All',
