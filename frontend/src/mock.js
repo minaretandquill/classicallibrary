@@ -3074,7 +3074,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-      { id: ?, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+      { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
     ],
     publishedEditions: []
   },
