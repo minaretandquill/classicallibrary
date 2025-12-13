@@ -1957,8 +1957,6 @@ export const books = [
     publishedEditions: []
   },
   {
-    
-  {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     arabicTitle: "الدُرّ المُختار في شرح تنوير الأبصار",
