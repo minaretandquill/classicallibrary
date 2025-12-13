@@ -22,7 +22,7 @@ export const books = [
     description: "One of the most comprehensive and detailed works in Hanafi jurisprudence. Al-Sarakhsi dictated this monumental 30-volume work from memory while imprisoned, covering virtually every aspect of Islamic law.",
     uniqueAspects: "Unique for being dictated entirely from memory during imprisonment. Known for its extensive legal reasoning and detailed analysis of jurisprudential principles. Considered the encyclopedic reference for advanced Hanafi fiqh.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-mabsut.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries:   [],
     publishedEditions: []
@@ -74,12 +74,13 @@ export const books = [
     description: "The most widely taught intermediate text in Hanafi jurisprudence. It has been the primary textbook in Islamic seminaries for centuries and has numerous commentaries written on it.",
     uniqueAspects: "The gold standard for intermediate Hanafi studies. Its concise yet comprehensive coverage makes it ideal for students transitioning to advanced topics. Has over 100 commentaries written on it, showing its enduring importance.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-hidaya.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Bidayat al-Mubtadi",
     hasCommentaries: [
     { id: "00", title: "Fath al Qadir", author: "Ibn Humam" },
     { id: "00", title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
-    { id: "00", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }    ],
+    { id: "00", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }
+    ],
     publishedEditions: []
   },
   {
@@ -141,7 +142,6 @@ export const books = [
   ],
     publishedEditions: [
           { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
-
     ]
   },
   {
@@ -165,15 +165,14 @@ export const books = [
     description: "A clear and accessible primer on ritual worship according to the Hanafi school. Widely used as a first text for beginning students.",
     uniqueAspects: "The most popular beginner text in Hanafi fiqh globally. Its clarity and focus on practical matters of worship make it perfect for new students. Covers prayer, fasting, zakat, and hajj in clear, simple language.",
     coverImage: "https://library.minaretandquill.com/book_covers/nur-al-idah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
             { id: "00", title: "Maraqi al-Falah", author: "Hasan al-Shurunbulali" },
-            { id: "00", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" },
+            { id: "00", title: "Al-Khulasat al-Bahiyyah", author: "Husayn Abd al-Rahman al-Banjawi" }
     ],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
-
     ]
   },
   {
@@ -200,7 +199,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-                  { id: "00", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" },
+                  { id: "00", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" }
     ],
     publishedEditions: []
   },
@@ -277,7 +276,7 @@ export const books = [
     description: "The foundational primer in Hanafi jurisprudence. For centuries, this has been the first fiqh text studied by students in the Hanafi tradition.",
     uniqueAspects: "The starting point for Hanafi fiqh education. Its simple language and clear structure make it perfect for beginners. Despite its brevity, it covers all essential rulings. Al-Hidaya was actually written as a commentary on this text.",
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-quduri.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
       { id: "00", title: "Sharh Mukhtasar al-Quduri", author: "Abu Nasr al-Aqta" },
@@ -286,8 +285,7 @@ export const books = [
      ],
     publishedEditions: 
       [  {       
-      publisher: "Dar al-Kotob al-Ilmiyah",      location: "Beirut, Lebanon",      year: "2003",      volumes: 1,      verified: true,      link: null
-      }
+      publisher: "Dar al-Kotob al-Ilmiyah",      location: "Beirut, Lebanon",      year: "2003",      volumes: 1,      verified: true,      link: null      }
     ]
   },
   {
@@ -311,7 +309,7 @@ export const books = [
     description: "An advanced commentary on al-Hidaya, combining fiqh with usul al-fiqh. Known for its depth and analytical rigor.",
     uniqueAspects: "Unique for integrating jurisprudential principles (usul) with applied law (furu'). Ibn al-Humam critically examines evidences and provides independent analysis, making this essential for scholars who want to understand the reasoning behind rulings.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-fath-al-qadir.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Hidaya",
     hasCommentaries: [],
     publishedEditions: []
@@ -732,7 +730,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [
-      { id: 30, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
+      { id: 11, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
      ],
     publishedEditions: []
   },
@@ -762,7 +760,6 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Fikr", location: "Damascus", year: "2016", volumes: 1, verified: true }
-
     ]
   },
   {
@@ -786,12 +783,11 @@ export const books = [
     description: "A comprehensive legal manual that became the basis for Ottoman legal codes. Synthesizes multiple earlier Hanafi works into one coherent text.",
     uniqueAspects: "Served as the foundation for Ottoman civil law (Mecelle). Combines opinions from various Hanafi authorities. Highly influential in shaping Islamic law application in the Ottoman Empire.",
     coverImage: "https://library.minaretandquill.com/book_covers/multaqa-al-abhur.jpg",
-    isPlaceholder: false,
-    commentaryOf: null,
+    isPlaceholder: true,
+    commentaryOf: "Kanz/Wiqayah/Mukhtar/Quduri",
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
-
     ]
   },
   {
@@ -817,10 +813,7 @@ export const books = [
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
     commentaryOf: "Maraqi al-Falah",
-    hasCommentaries: [
-
-      
-    ],
+    hasCommentaries: [],
     publishedEditions: []
   },
       
@@ -872,7 +865,7 @@ export const books = [
     uniqueAspects: "One of the earliest and most respected commentaries on Quduri. Known for its balanced approach and clear explanations. Foundation for later commentaries.",
     coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
     isPlaceholder: true,
-    commentaryOf: "Quduri",
+    commentaryOf: "Mukhtasar al-Quduri",
     hasCommentaries: [],
     publishedEditions: []
   },
@@ -905,10 +898,8 @@ export const books = [
     ],
     publishedEditions: [
      { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
-
     ]
   },
-    
   {
     id: 34,
     title: "Majma' al-Bahrayn wa Multaqa al-Nahrayn",
@@ -1554,7 +1545,7 @@ export const books = [
     description: "A detailed juristic expansion of Mukhtasar al-Tahawi, explaining evidences, qiyas applications, and legal reasoning within early Hanafi doctrine.",
     uniqueAspects: "One of the earliest surviving extended Hanafi legal commentaries integrating usul and furūʿ in a single work.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-mukhtasar-al-tahawi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Tahawi",
     hasCommentaries: [],
     publishedEditions: []
@@ -1580,7 +1571,7 @@ export const books = [
     description: "A juristic commentary on Mukhtasar al-Karkhi that systematizes early Iraqi Hanafi legal positions.",
     uniqueAspects: "It bridges the early unrestricted riwayah period with structured Hanafi legal codification.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-mukhtasar-al-karkhi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Karkhi",
     hasCommentaries: [],
     publishedEditions: []
@@ -1606,7 +1597,7 @@ export const books = [
     description: "A comprehensive early commentary on Mukhtasar al-Quduri expanding terse legal rulings with evidences.",
     uniqueAspects: "Preserves some early Hanafi legal transmissions lost in later commentarial traditions.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-mukhtasar-al-quduri.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Quduri",
     hasCommentaries: [],
     publishedEditions: []
@@ -1632,7 +1623,7 @@ export const books = [
     description: "An explanatory work on Muhammad ibn al-Hasan’s foundational collection of Hanafi legal doctrines.",
     uniqueAspects: "One of the earliest full commentaries on al-Jamiʿ al-Saghir shaping later Hanafi jurisprudence.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-al-jami-al-saghir.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "al-Jami' al-Saghir",
     hasCommentaries: [],
     publishedEditions: []
@@ -1658,7 +1649,7 @@ export const books = [
     description: "A master commentary on Muhammad ibn al-Hasan’s international law treatise covering jihad, treaties, diplomacy, and warfare ethics.",
     uniqueAspects: "The earliest fully developed Islamic international law theory preserved in a single juristic framework.",
     coverImage: "https://library.minaretandquill.com/book_covers/sharh-al-siyar-al-kabir.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Siyar al-Kabir",
     hasCommentaries: [],
     publishedEditions: []
@@ -1684,13 +1675,39 @@ export const books = [
     description: "A systematic and philosophically ordered presentation of Hanafi fiqh based on his teacher's Tuhfat al-Fuqaha.",
     uniqueAspects: "Renowned for logical structure, conceptual clarity, and its integration of qiyas into legal arrangement.",
     coverImage: "https://library.minaretandquill.com/book_covers/bada-i-al-sana-i-fi-tartib-al-shara-i.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Tuhfat al-Fuqaha",
     hasCommentaries: [],
     publishedEditions: []
   },
   
-
+/* {
+id: 64,
+    title: "Al-Hidayah Sharh Bidayat al-Mubtadi",
+    arabicTitle: "الهداية شرح بداية المبتدي",
+    author: "Burhan al-Din al-Marghinani",
+    authorArabic: "برهان الدين المرغيناني",
+    authorBirthYear: 530,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "Maturidi",
+    era: "Khalaf",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Advanced",
+    pages: 3800,
+    publicationYear: "593 AH",
+    scholarEra: "6th Century Hijri",
+    description: "The most influential commentary on Bidayat al-Mubtadi, synthesising Hanafi transmission with evidential reasoning.",
+    uniqueAspects: "Became the central reference point for all later Hanafi legal commentary for over six centuries.",
+    coverImage: "https://library.minaretandquill.com/book_covers/al-hidayah-sharh-bidayat-al-mubtadi.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Bidayat al-Mubtadi",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+      */
   {
     id: 65,
     title: "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq",
@@ -1712,7 +1729,7 @@ export const books = [
     description: "A deep analytical commentary on Kanz al-Daqa'iq that integrates fiqh reasoning with textual evidence.",
     uniqueAspects: "Frequently paired with Ibn Nujaym’s marginalia and used as a court reference in Ottoman lands.",
     coverImage: "https://library.minaretandquill.com/book_covers/tabyin-al-haqa-iq-sharh-kanz-al-daqa-iq.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Kanz al-Daqa'iq",
     hasCommentaries: [],
     publishedEditions: []
@@ -1738,7 +1755,7 @@ export const books = [
     description: "A vast comparative commentary on al-Hidayah with extensive hadith analysis and cross-madhhab discussion.",
     uniqueAspects: "One of the most detailed integrations of hadith criticism into Hanafi furūʿ literature.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-binayah-sharh-al-hidayah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
     publishedEditions: []
@@ -1764,7 +1781,7 @@ export const books = [
     description: "A major juristic commentary by Ibn al-Humām, famed for its deep analysis of evidences and for clarifying complex points in the canonical Hanafi corpus.",
     uniqueAspects: "Combines meticulous textual criticism with practical fatwa orientation; frequently cited by later Ottoman and South Asian jurists.",
     coverImage: "https://library.minaretandquill.com/book_covers/fath-al-qadir-fi-sharh-al-muqaddima-al-hadramiyya.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
     publishedEditions: []
@@ -1790,7 +1807,7 @@ export const books = [
     description: "Al-ʿAyni’s deep analytical gloss on Kanz al-Daqāʾiq; explores legal subtleties and reconciles apparent divergences in the Hanafi corpus.",
     uniqueAspects: "Famous for its dense marginalia and for being a go-to explanatory apparatus for Kanz readers in Ottoman madrasas.",
     coverImage: "https://library.minaretandquill.com/book_covers/ramz-al-haqaiq-fi-sharh-kanz-al-daqaiq.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
     publishedEditions: []
@@ -1816,12 +1833,38 @@ export const books = [
     description: "Ibn Nujaym’s magisterial commentary that became central to Ottoman Hanafi pedagogy; a detailed running explanation of Kanz and related matns.",
     uniqueAspects: "Often printed alongside Kanz and Ibn ʿĀbidīn’s Radd; key for mufti-level reasoning in the Ottoman tradition.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-bahr-al-raiq-sharh-kanz-al-daqaiq.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
     publishedEditions: []
   },
-
+/*  {
+    id: 70,
+    title: "Majrā al-Anhūr ʿalā Multaqā al-Abḥur",
+    arabicTitle: "مجرى الأنهر على منتخب الأبحر",
+    author: "Al-Bāqānī",
+    authorArabic: "الباقاني",
+    authorBirthYear: 940,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "Maturidi",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Specialist",
+    pages: 1800,
+    publicationYear: "1003 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A detailed commentary on the Multaqā al-Abḥur focusing on reconciling sources and practical judicial application.",
+    uniqueAspects: "Sought to harmonise multivalent rulings for judicial use in the later Ottoman courts.",
+    coverImage: "https://library.minaretandquill.com/book_covers/majra-al-anhur-ala-multaqa-al-abhur.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Multaqā al-Abḥur",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 71,
     title: "Minḥat al-Ghaffār fī Sharḥ Tanwīr al-Abṣār",
@@ -1843,7 +1886,7 @@ export const books = [
     description: "An explanatory work amplifying Tanwīr al-Abṣār and making it accessible for juristic application and teaching.",
     uniqueAspects: "Bridges the text-to-fatwa transition for Ottoman madrasa instruction.",
     coverImage: "https://library.minaretandquill.com/book_covers/minhat-al-ghaffar-fi-sharh-tanwir-al-absar.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
@@ -1869,7 +1912,7 @@ export const books = [
     description: "A dense, jurisprudential explanation building on earlier commentators of Kanz and Wiqāyah, tailored to jurists and judges.",
     uniqueAspects: "Valued for its synthesis of earlier commentaries and clear fatwa-relevant rulings.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-nahr-al-faiq-sharh-kanz-al-daqaiq.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
     publishedEditions: []
@@ -1895,15 +1938,41 @@ export const books = [
     description: "Al-Qari’s clarifying chapter-level commentary on the Nuqāyah (Mukhtasar al-Wiqāyah), used heavily in South Asian and Ottoman scholarship.",
     uniqueAspects: "Combines pedagogical clarity with juristic precision, making it popular in madrasas.",
     coverImage: "https://library.minaretandquill.com/book_covers/fath-bab-al-inayah-sharh-kitab-al-nuqayah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
     hasCommentaries: [
-          { id: "00", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
-
+          { id: "55", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
     ],
     publishedEditions: []
   },
-      
+      /*
+  {
+    id: 74,
+    title: "Marāqī al-Falāḥ bi Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
+    arabicTitle: "مراقي الفلاح بإمداد الفتاح شرح نور الإيضاح",
+    author: "Abū al-Ikhlāṣ al-Shurunbulālī (editor/ commentator)",
+    authorArabic: "أبو الإخلاص الشرنبلالي",
+    authorBirthYear: 1000,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "Maturidi",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Advanced",
+    pages: 900,
+    publicationYear: "1069 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A commentary expanding Nur al-Idāḥ into a fuller reasoning text for students and muftis.",
+    uniqueAspects: "It turns a short practical matn into an evidence-based teaching text widely used in the Maghreb and Ottoman lands.",
+    coverImage: "https://library.minaretandquill.com/book_covers/maraqi-al-falah-bi-imdad-al-fattah-sharh-nur-al-idah.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Nur al-Idāḥ",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+      */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -1925,7 +1994,7 @@ export const books = [
     description: "A fuller sharḥ on Nur al-Idāḥ expanding explanations and providing practical rulings for worship and transactions.",
     uniqueAspects: "Serves as one of the more complete clarifications of an otherwise concise matn, preferred by instructors.",
     coverImage: "https://library.minaretandquill.com/book_covers/imdad-al-fattah-sharh-nur-al-idah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Nur al-Idāḥ",
     hasCommentaries: [],
     publishedEditions: []
@@ -1951,11 +2020,40 @@ export const books = [
     description: "A practical explanatory commentary on a didactic poem (naẓm) used to teach inheritance and other precise jurisprudential rules.",
     uniqueAspects: "Transforms mnemonic poetry into practical juridical instruction; widely taught in madrasas.",
     coverImage: "https://library.minaretandquill.com/book_covers/taysir-al-maqasid-sharh-nazm-al-faraid.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Naẓm al-Farāʾid / related didactic poem",
     hasCommentaries: [],
     publishedEditions: []
   },
+  
+    /* 
+    {
+    id: 77,
+    title: "Majmaʿ al-Anhūr Sharḥ Multaqā al-Abḥūr",
+    arabicTitle: "مجمع الأنهر شرح ملتقى الأبحر",
+    author: "ʿAbd al-Raḥmān ibn Muḥammad Shaykhī Zādah (Dāmād Zādah)",
+    authorArabic: "عبد الرحمن بن محمد شيخى زادة (دٓماد زادة)",
+    authorBirthYear: 1020,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "Maturidi",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Specialist",
+    pages: 2600,
+    publicationYear: "1078 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A major commentary on the Multaqā al-Abḥur synthesising earlier glosses and adapting them for Ottoman judicial needs.",
+    uniqueAspects: "Highly regarded in Ottoman curricula for its systematic cross-references and citation of precedent.",
+    coverImage: "https://library.minaretandquill.com/book_covers/majma-al-anhur-sharh-multaqa-al-abhur.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Multaqā al-Abḥur",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 78,
     title: "Al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
@@ -1977,12 +2075,119 @@ export const books = [
     description: "Al-Ḥaṣkafī’s authoritative commentary on Tanwīr al-Abṣār, rich in evidence, comparative discussion and juristic synthesis.",
     uniqueAspects: "Served as a primary reference for later commentators including al-Ḥaṣkafī’s own students and Ottoman jurists.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-durr-al-mukhtar-fi-sharh-tanwir-al-absar.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Tanwīr al-Abṣār",
     hasCommentaries: [],
     publishedEditions: []
   },
-
+/*
+  {
+    id: 79,
+    title: "Multaqā al-Abḥur",
+    arabicTitle: "ملتقى البحور",
+    author: "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+    authorArabic: "إبراهيم بن محمد الحلبي",
+    authorBirthYear: 956,
+    category: "Fiqh",
+    subject: "Comprehensive",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Core text (Matn)",
+    studyLevel: "Upper Intermediate",
+    pages: 600,
+    publicationYear: "1000 AH",
+    scholarEra: "10th-11th Century Hijri",
+    description: "A comprehensive compendium of Hanafi jurisprudence, synthesising multiple prior authorities into a practical legal manual.",
+    uniqueAspects: "Brings together earlier Hanafi positions with practical applications, widely studied in Ottoman and South Asian madrasas.",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  
+  {
+    id: 80,
+    title: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
+    arabicTitle: "تنوير الأبصار وجامع البحار",
+    author: "Shams al-Dīn Muḥammad al-Tumurtāshī",
+    authorArabic: "شمس الدين محمد التمرطاشي",
+    authorBirthYear: 1004,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Advanced",
+    pages: 700,
+    publicationYear: "1030 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A detailed commentary on Multaqā al-Abḥur, clarifying difficult points and elaborating evidences.",
+    uniqueAspects: "Notable for its rigorous argumentation and incorporation of variant Hanafi opinions.",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Multaqā al-Abḥur",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  
+  {
+    id: 81,
+    title: "Nūr al-Īdāḥ",
+    arabicTitle: "نور الإيضاح",
+    author: "Abū ʾl-Ikhlāṣ Ḥasan al-Shurunbulālī",
+    authorArabic: "أبو الإخلاص حسن الشورنبلالي",
+    authorBirthYear: 1069,
+    category: "Fiqh",
+    subject: "Comprehensive",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Core text (Matn)",
+    studyLevel: "Advanced",
+    pages: 800,
+    publicationYear: "1080 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A major reference work in Hanafi fiqh, covering ritual, transactions, and personal law.",
+    uniqueAspects: "Synthesises previous commentaries and incorporates the author’s critical insights.",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  {
+    id: 82,
+    title: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
+    arabicTitle: "الدُّرّ المُختار في شرح تنوير الأبصار",
+    author: "Muḥammad ibn ʿAlī al-Ḥaṣkafī",
+    authorArabic: "محمد بن علي الحسكافي",
+    authorBirthYear: 1088,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Advanced",
+    pages: 750,
+    publicationYear: "1100 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A detailed commentary on Tanwīr al-Abṣār, clarifying difficult points, discussing juristic reasoning, and reconciling variant opinions within the Hanafi school.",
+    uniqueAspects: "Integrates multiple prior commentaries, consolidating legal reasoning for practical application.",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+*/
   {
     id: 83,
     title: "Radd al-Muḥtār ʿalā ʾl-Durr al-Mukhtār",
@@ -2061,7 +2266,34 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: []
   },
-    
+    /*
+  {
+    id: 86,
+    title: "al-Lubāb fī Sharḥ al-Kitāb",
+    arabicTitle: "اللُبّ في شرح الكتاب",
+    author: "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
+    authorArabic: "عبد الغني الغنيمي الميداني",
+    authorBirthYear: 1298,
+    category: "Fiqh",
+    subject: "Advanced Commentary",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Specialist",
+    pages: 400,
+    publicationYear: "1350 AH",
+    scholarEra: "13th Century Hijri",
+    description: "A commentary on al-Kitāb, focusing on legal methodology and practical rulings, with references to prior Hanafi authorities.",
+    uniqueAspects: "Condenses complex arguments while preserving detailed reasoning, widely used in advanced Hanafi studies.",
+    coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+    isPlaceholder: true,
+    commentaryOf: "al-Kitāb",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 87,
     title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār",
@@ -2596,7 +2828,7 @@ export const books = [
     description: "A dense legal summary reflecting early Iraqi Hanafi transmission with strong reliance on hadith-based reasoning.",
     uniqueAspects: "It preserves early Hanafi jurisprudence prior to later systematic codification.",
     coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-tahawi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
           { id: "00", title: "Sharh Mukhtasar al-Tahawi", author: "Al-Jassas" }
@@ -2633,7 +2865,7 @@ export const books = [
     description: "One of the earliest comprehensive compilations of established Hanafi fiqh positions.",
     uniqueAspects: "Its structure directly influenced later canonical Hanafi manuals including al-Hidayah.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-kafi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
@@ -2668,12 +2900,39 @@ export const books = [
     description: "A distilled selection of authoritative Hanafi rulings derived from early transmission sources.",
     uniqueAspects: "Acts as a legal bridge between early Iraqi transmission and later Samarqand codification.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-muntakhab.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
-    
+    /*
+  {
+    id: 108,
+    title: "Mukhtasar al-Karkhi",
+    arabicTitle: "مختصر الكرخي",
+    author: "Abu al-Hasan Ubayd Allah al-Karkhi",
+    authorArabic: "أبو الحسن عبيد الله الكرخي",
+    authorBirthYear: 260,
+    category: "Fiqh",
+    subject: "Concise Text",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Salaf",
+    bookType: "Core text (Matn)",
+    studyLevel: "Intermediate",
+    pages: 300,
+    publicationYear: "340 AH",
+    scholarEra: "4th Century Hijri",
+    description: "A structured legal manual representing early Hanafi jurisprudential formulation.",
+    uniqueAspects: "Formed the backbone of Iraqi Hanafi legal principles before Transoxanian reformulation.",
+    coverImage: "https://library.minaretandquill.com/book_covers/mukhtasar-al-karkhi.jpg",
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 109,
     title: "Tuhfat al-Fuqaha",
@@ -2695,7 +2954,7 @@ export const books = [
     description: "A detailed analytical expansion of foundational Hanafi rulings.",
     uniqueAspects: "Serves as the primary source for al-Hidayah’s legal synthesis.",
     coverImage: "https://library.minaretandquill.com/book_covers/tuhfat-al-fuqaha.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Karkhi",
     hasCommentaries: [
       { id: "00", title: "Bidayat al-Mubtadi", author: "Al-Marghinani" }
@@ -2732,7 +2991,7 @@ export const books = [
     description: "A harmonized digest of Tuhfat al-Fuqaha and al-Jami' al-Saghir.",
     uniqueAspects: "Serves as the direct base text for al-Hidayah.",
     coverImage: "https://library.minaretandquill.com/book_covers/bidayat-al-mubtadi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Tuhfat al-Fuqaha",
     hasCommentaries: { id: "00", title: "Al-Hidayah", author: "Al-Marghinani" },
     publishedEditions: []
@@ -2758,12 +3017,39 @@ export const books = [
     description: "A highly refined digest of al-Hidayah.",
     uniqueAspects: "Later became the base text for Kanz al-Daqaiq.",
     coverImage: "https://library.minaretandquill.com/book_covers/wiqayat-al-riwayah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
     publishedEditions: []
   },
-    
+    /*
+  {
+    id: 112,
+    title: "Kanz al-Daqaiq",
+    arabicTitle: "كنز الدقائق",
+    author: "Abd Allah ibn Ahmad al-Nasafi",
+    authorArabic: "عبد الله بن أحمد النسفي",
+    authorBirthYear: 630,
+    category: "Fiqh",
+    subject: "Concise Text",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Khalaf",
+    bookType: "Core text (Matn)",
+    studyLevel: "Advanced",
+    pages: 600,
+    publicationYear: "710 AH",
+    scholarEra: "7th Century Hijri",
+    description: "The most precise Hanafi legal matn for fatwa usage.",
+    uniqueAspects: "Became the backbone of Ottoman judicial law.",
+    coverImage: "https://library.minaretandquill.com/book_covers/kanz-al-daqaiq.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Wiqayat al-Riwayah",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+    */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
@@ -2785,14 +3071,41 @@ export const books = [
     description: "A fatwa-oriented legal manual.",
     uniqueAspects: "Its commentary became the most taught fatwa manual in South Asia.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-mukhtar-li-al-fatwa.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-      { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+      { id: 65, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
     ],
     publishedEditions: []
   },
-    
+    /*
+  {
+    id: 114,
+    title: "Majma' al-Bahrayn",
+    arabicTitle: "مجمع البحرين",
+    author: "Muzaffar al-Din Ahmad Ibn al-Sa'ati",
+    authorArabic: "مظفر الدين أحمد بن الساعاتي",
+    authorBirthYear: 640,
+    category: "Fiqh",
+    subject: "Comparative",
+    madhab: "Comparative",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Khalaf",
+    bookType: "Majmu (Collection)",
+    studyLevel: "Specialist",
+    pages: 1200,
+    publicationYear: "694 AH",
+    scholarEra: "7th Century Hijri",
+    description: "A comparative synthesis of Hanafi and Shafi'i jurisprudence.",
+    uniqueAspects: "One of the earliest systematic bi-madhhab legal harmonizations.",
+    coverImage: "https://library.minaretandquill.com/book_covers/majma-al-bahrayn.jpg",
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 115,
     title: "Al-Wafi",
@@ -2814,17 +3127,42 @@ export const books = [
     description: "A comprehensive Hanafi legal compendium consolidating the madhhab’s authoritative positions.",
     uniqueAspects: "It systematised Hanafi fiqh at the peak of Transoxanian scholarship.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-wafi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2005", volumes: 2, verified: true }
-
     ]
   },
-    
-   
+    /*
   {
+    id: 116,
+    title: "Kanz al-Daqaʾiq",
+    arabicTitle: "كنز الدقائق",
+    author: "Abu al-Barakat Ahmad ibn Mahmud al-Nasafi",
+    authorArabic: "أبو البركات أحمد بن محمود النسفي",
+    authorBirthYear: 640,
+    category: "Fiqh",
+    subject: "Concise Text",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Khalaf",
+    bookType: "Core text (Matn)",
+    studyLevel: "Advanced",
+    pages: 600,
+    publicationYear: "710 AH",
+    scholarEra: "7th Century Hijri",
+    description: "A highly precise fatwa-oriented Hanafi legal matn distilled from Wiqayat al-Riwayah.",
+    uniqueAspects: "It became the legal backbone of the Ottoman Empire.",
+    coverImage: "https://library.minaretandquill.com/book_covers/kanz-al-daqaiq.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Wiqayat al-Riwayah",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
+     {
     id: 117,
     title: "Al-Nuqayah Mukhtasar al-Wiqayah",
     arabicTitle: "النقاية مختصر الوقاية",
@@ -2845,12 +3183,11 @@ export const books = [
     description: "A compressed student-level digest of Wiqāyat al-Riwāyah used widely in madrasah curricula.",
     uniqueAspects: "It became the teaching core for later Ottoman fiqh education.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-nuqayah-mukhtasar-al-wiqayah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Wiqayat al-Riwayah",
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Fikr", location: "Beirut", year: "2008", volumes: 1, verified: true }
-
     ]
   },
   
@@ -2875,12 +3212,11 @@ export const books = [
     description: "A comparative survey of Sunni madhahib with a strong Hanafi analytical base.",
     uniqueAspects: "It preserves early inter-madhhab reasoning.",
     coverImage: "https://library.minaretandquill.com/book_covers/uyun-al-madhahib.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Nawadir", location: "Beirut", year: "2014", volumes: 2, verified: true }
-
     ]
   },
   {
@@ -2904,12 +3240,11 @@ export const books = [
     description: "A judicial Hanafi code synthesised for Ottoman court application.",
     uniqueAspects: "It shifted Hanafi fiqh into imperial governance.",
     coverImage: "https://library.minaretandquill.com/book_covers/ghurar-al-ahkam.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Maktabat al-Quds", location: "Cairo", year: "2011", volumes: 2, verified: true }
-
     ]
   },
   {
@@ -2933,12 +3268,11 @@ export const books = [
     description: "A short primer on purity, prayer and daily worship.",
     uniqueAspects: "Used for mosque-level public instruction.",
     coverImage: "https://library.minaretandquill.com/book_covers/khulasat-al-kaydani.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Haramayn", location: "Pakistan", year: "1985", volumes: 1, verified: true }
-
     ]
   },
   {
@@ -2962,7 +3296,7 @@ export const books = [
     description: "A structured mid-level Hanafi reference manual for jurists.",
     uniqueAspects: "Balances judiciary usage with teaching needs.",
     coverImage: "https://library.minaretandquill.com/book_covers/mawahib-al-rahman-fi-madhhab-abi-hanifah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: [
@@ -2990,12 +3324,66 @@ export const books = [
     description: "A massive Hanafi legal encyclopedia.",
     uniqueAspects: "Among the largest post-classical Hanafi reference works.",
     coverImage: "https://library.minaretandquill.com/book_covers/makhzan-al-fiqh.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
+    commentaryOf: null,
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  /*
+  {
+    id: 123,
+    title: "Tanwir al-Absar wa Jamiʿ al-Bihar",
+    arabicTitle: "تنوير الأبصار وجامع البحار",
+    author: "Shams al-Din Muhammad al-Tumurtashi",
+    authorArabic: "شمس الدين محمد التمرتاشي",
+    authorBirthYear: 950,
+    category: "Fiqh",
+    subject: "Concise Text",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Core text (Matn)",
+    studyLevel: "Advanced",
+    pages: 700,
+    publicationYear: "1004 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A refined Ottoman-era Hanafi legal textbook.",
+    uniqueAspects: "Serves as the base text for Radd al-Muhtar.",
+    coverImage: "https://library.minaretandquill.com/book_covers/tanwir-al-absar-wa-jami-al-bihar.jpg",
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
   },
   
+  {
+    id: 124,
+    title: "Maraqi al-Saʿadat",
+    arabicTitle: "مراقي السعادات",
+    author: "Hasan al-Shurunbulali",
+    authorArabic: "حسن الشرنبلالي",
+    authorBirthYear: 1020,
+    category: "Fiqh",
+    subject: "Ritual Worship",
+    madhab: "Hanafi",
+    language: "Arabic",
+    creed: "N/A",
+    era: "Post-Classical",
+    bookType: "Commentary (Sharh)",
+    studyLevel: "Intermediate",
+    pages: 450,
+    publicationYear: "1069 AH",
+    scholarEra: "11th Century Hijri",
+    description: "A pedagogical commentary on Nur al-Idah.",
+    uniqueAspects: "Transforms a basic worship manual into a juristically reasoned guide.",
+    coverImage: "https://library.minaretandquill.com/book_covers/maraqi-al-saadat.jpg",
+    isPlaceholder: true,
+    commentaryOf: "Nur al-Idah",
+    hasCommentaries: [],
+    publishedEditions: []
+  },
+  */
   {
     id: 125,
     title: "Ithaf al-Talib",
@@ -3017,7 +3405,7 @@ export const books = [
     description: "A simplified Hanafi worship primer.",
     uniqueAspects: "Designed for non-specialist learners.",
     coverImage: "https://library.minaretandquill.com/book_covers/ithaf-al-talib.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
@@ -3043,7 +3431,7 @@ export const books = [
     description: "An instructional Hanafi fiqh guide for beginners.",
     uniqueAspects: "Designed for mosque teaching circles.",
     coverImage: "https://library.minaretandquill.com/book_covers/tuhfat-al-mubtadi.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
@@ -3069,7 +3457,7 @@ export const books = [
     description: "A specialized Hanafi epistle dealing with applied legal issues.",
     uniqueAspects: "Reflects late Ottoman legal reform pressures.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-hadiyyah-al-ala-iyyah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
     publishedEditions: []
@@ -3095,7 +3483,7 @@ export const books = [
     description: "An instructional Hanafi fiqh teaching text in Urdu.",
     uniqueAspects: "Part of South Asian Hanafi fiqh standardization.",
     coverImage: "https://library.minaretandquill.com/book_covers/al-khulasat-al-bahiyyah.jpg",
-    isPlaceholder: false,
+    isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [],
     publishedEditions: []
@@ -3124,9 +3512,7 @@ export const books = [
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: [
-
-  ]
+  publishedEditions: []
 },
 {
   id: 130,
@@ -3152,9 +3538,7 @@ export const books = [
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: [
-     
-  ]
+  publishedEditions: []
 },
 {
   id: 131,
@@ -3352,8 +3736,7 @@ export const books = [
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: [
-  ]
+  publishedEditions: []
 },
 {
   id: 138,
@@ -3381,8 +3764,7 @@ export const books = [
   hasCommentaries: [
     { id: "00", title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
   ],
-  publishedEditions: [
-  ]
+  publishedEditions: []
 },
 {
   id: 139,
@@ -3408,9 +3790,9 @@ export const books = [
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: [
-  ]
+  publishedEditions: []
 },
+
 {
   id: 140,
   title: "al-Hujjah ala Ahl al-Madinah",
@@ -3436,7 +3818,6 @@ export const books = [
   commentaryOf: null,
   hasCommentaries: [],
   publishedEditions: []
-  ]
 },
   {
   id: 141,
@@ -3916,8 +4297,6 @@ export const books = [
   hasCommentaries: [],
   publishedEditions: []
 }
-
-
 ];
 
 export const categories = [
@@ -3975,6 +4354,7 @@ export const subjectsByCategory = {
     "Other",
     "Contemporary Issues"
   ],
+
   "Hadith": [
     "All",
     "Sahih Siita",
@@ -4028,28 +4408,28 @@ export const subjectsByCategory = {
     "All",
     "Purification",
     "Mysticism"
-  ]
+  ],
   "Usul al-Hadith": [
     "All",
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ]
+  ],
   "Usul al-Hadith": [
     "All",
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ]
+  ],
   "Miscellaneous": [
     "All",
     "Principles"
-  ]
+  ],
   "Reference": [
     "All",
     "Dictionary"
   ]
-];
+};
 
 
 // Legacy flat list for backwards compatibility
