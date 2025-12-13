@@ -25,7 +25,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries:   [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 3,
@@ -81,7 +81,7 @@ export const books = [
     { id: "00", title: "Al-Binayah Sharh al-Hidayah", author: "Badr al-Din al-Ayni" },
     { id: "00", title: "Wiqayat al-Riwayah", author: "Mahmud ibn Ahmad al-Mahbubi" }
     ],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Al-Mukhtar li al-Fatwa",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 5,
@@ -142,7 +142,7 @@ export const books = [
   ],
     publishedEditions: [
           { publisher: "Dar al-Basha'ir", location: "Damascus", year: "1998", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 6,
@@ -173,7 +173,7 @@ export const books = [
     ],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2019", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 7,
@@ -201,7 +201,7 @@ export const books = [
     hasCommentaries: [
                   { id: "00", title: "Qurrat ʿUyūn al-Akhyār li Takmilat Radd al-Muḥtār", author: "Muḥammad ʿAlā al-Dīn Ibn ʿĀbidīn" }
     ],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 8,
@@ -227,7 +227,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 9,
@@ -253,7 +253,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 10,
@@ -286,7 +286,7 @@ export const books = [
     publishedEditions: 
       [  {       
       publisher: "Dar al-Kotob al-Ilmiyah",      location: "Beirut, Lebanon",      year: "2003",      volumes: 1,      verified: true,      link: null      }
-    ]
+    ],
   },
   {
     id: 11,
@@ -312,7 +312,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Al-Hidaya",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 12,
@@ -338,7 +338,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 13,
@@ -364,7 +364,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 14,
@@ -390,7 +390,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 15,
@@ -416,7 +416,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 16,
@@ -442,7 +442,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 17,
@@ -468,7 +468,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 18,
@@ -494,7 +494,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 19,
@@ -520,7 +520,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 20,
@@ -546,7 +546,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 21,
@@ -572,7 +572,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 22,
@@ -598,7 +598,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 23,
@@ -626,7 +626,7 @@ export const books = [
     hasCommentaries: [
        { id: "00", title: "Sharh al-Wiqayah", author: "Sadr al-Shari'ah" }
     ],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 24,
@@ -652,7 +652,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 25,
@@ -678,7 +678,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 26,
@@ -704,7 +704,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 27,
@@ -732,7 +732,7 @@ export const books = [
     hasCommentaries: [
       { id: 30, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
      ],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 28,
@@ -760,7 +760,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Fikr", location: "Damascus", year: "2016", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 29,
@@ -788,7 +788,7 @@ export const books = [
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar Ibn Hazm", location: "Beirut", year: "2004", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 30,
@@ -814,7 +814,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Maraqi al-Falah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
       
   {
@@ -841,7 +841,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 32,
@@ -867,7 +867,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Quduri",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 33,
@@ -898,7 +898,7 @@ export const books = [
     ],
     publishedEditions: [
      { publisher: "Dar al-Fikr", location: "Damascus", year: "2002", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 34,
@@ -924,7 +924,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 35,
@@ -950,7 +950,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 36,
@@ -976,7 +976,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 37,
@@ -1002,7 +1002,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 38,
@@ -1028,7 +1028,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 39,
@@ -1054,7 +1054,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 40,
@@ -1080,7 +1080,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 41,
@@ -1106,7 +1106,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 42,
@@ -1132,7 +1132,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 43,
@@ -1158,7 +1158,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 44,
@@ -1184,7 +1184,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 45,
@@ -1210,7 +1210,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 46,
@@ -1236,7 +1236,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 47,
@@ -1262,7 +1262,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 48,
@@ -1288,7 +1288,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 49,
@@ -1314,7 +1314,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 50,
@@ -1340,7 +1340,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 51,
@@ -1366,7 +1366,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 52,
@@ -1392,7 +1392,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 53,
@@ -1418,7 +1418,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 54,
@@ -1444,7 +1444,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 55,
@@ -1470,7 +1470,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 56,
@@ -1496,7 +1496,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 57,
@@ -1522,7 +1522,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 58,
@@ -1548,7 +1548,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Tahawi",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 59,
@@ -1574,7 +1574,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Karkhi",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 60,
@@ -1600,7 +1600,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Mukhtasar al-Quduri",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 61,
@@ -1626,7 +1626,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "al-Jami' al-Saghir",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 62,
@@ -1652,7 +1652,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Al-Siyar al-Kabir",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 63,
@@ -1678,7 +1678,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Tuhfat al-Fuqaha",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   
 /* {
@@ -1705,7 +1705,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Bidayat al-Mubtadi",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
       */
   {
@@ -1732,7 +1732,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kanz al-Daqa'iq",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 66,
@@ -1758,7 +1758,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 67,
@@ -1784,7 +1784,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 68,
@@ -1810,7 +1810,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 69,
@@ -1836,7 +1836,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
 /*  {
     id: 70,
@@ -1862,7 +1862,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Multaqā al-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -1889,7 +1889,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 72,
@@ -1915,7 +1915,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 73,
@@ -1943,7 +1943,7 @@ id: 64,
     hasCommentaries: [
           { id: "00", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
     ],
-    publishedEditions: []
+    publishedEditions: [],
   },
       /*
   {
@@ -1970,7 +1970,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nur al-Idāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
       */
   {
@@ -1997,7 +1997,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nur al-Idāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 76,
@@ -2023,7 +2023,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Naẓm al-Farāʾid / related didactic poem",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   
     /* 
@@ -2051,7 +2051,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Multaqā al-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -2078,7 +2078,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
 /*
   {
@@ -2105,7 +2105,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   
   {
@@ -2132,7 +2132,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Multaqā al-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   
   {
@@ -2159,7 +2159,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 82,
@@ -2185,7 +2185,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Tanwīr al-Abṣār wa Jāmiʿ al-Biḥār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
 */
   {
@@ -2212,7 +2212,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 84,
@@ -2238,7 +2238,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 85,
@@ -2264,7 +2264,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
     /*
   {
@@ -2291,7 +2291,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "al-Kitāb",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -2327,7 +2327,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 88,
@@ -2353,7 +2353,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Jāmiʿ al-Ṣaghīr",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 89,
@@ -2388,7 +2388,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 90,
@@ -2423,7 +2423,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 91,
@@ -2458,7 +2458,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 92,
@@ -2493,7 +2493,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 93,
@@ -2519,7 +2519,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 94,
@@ -2545,7 +2545,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 95,
@@ -2571,7 +2571,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 96,
@@ -2597,7 +2597,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 97,
@@ -2623,7 +2623,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 98,
@@ -2649,7 +2649,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Multaqā ʾl-Abḥur",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 99,
@@ -2675,7 +2675,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kanz al-Daqāʾiq",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 100,
@@ -2701,7 +2701,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Kifāyat al-Ghulām",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 101,
@@ -2727,7 +2727,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 102,
@@ -2753,7 +2753,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 103,
@@ -2779,7 +2779,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Majallat al-Aḥkām",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 104,
@@ -2805,7 +2805,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nūr al-Īdāḥ",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 105,
@@ -2842,7 +2842,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 106,
@@ -2877,7 +2877,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 107,
@@ -2903,7 +2903,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
     /*
   {
@@ -2930,7 +2930,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -2968,7 +2968,7 @@ id: 64,
       verified: true,
       link: null
     }
-    ]
+    ],
   },
   {
     id: 110,
@@ -2994,7 +2994,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Tuhfat al-Fuqaha",
     hasCommentaries: { id: "00", title: "Al-Hidayah", author: "Al-Marghinani" },
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 111,
@@ -3020,7 +3020,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Al-Hidayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
     /*
   {
@@ -3047,7 +3047,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Wiqayat al-Riwayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
     */
   {
@@ -3076,7 +3076,7 @@ id: 64,
     hasCommentaries: [
       { id: 4, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
     ],
-    publishedEditions: []
+    publishedEditions: [],
   },
     /*
   {
@@ -3103,7 +3103,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -3132,7 +3132,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut", year: "2005", volumes: 2, verified: true }
-    ]
+    ],
   },
     /*
   {
@@ -3159,7 +3159,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Wiqayat al-Riwayah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
      {
@@ -3188,7 +3188,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Fikr", location: "Beirut", year: "2008", volumes: 1, verified: true }
-    ]
+    ],
   },
   
   {
@@ -3217,7 +3217,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Nawadir", location: "Beirut", year: "2014", volumes: 2, verified: true }
-    ]
+    ],
   },
   {
     id: 119,
@@ -3245,7 +3245,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Maktabat al-Quds", location: "Cairo", year: "2011", volumes: 2, verified: true }
-    ]
+    ],
   },
   {
     id: 120,
@@ -3273,7 +3273,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Dar al-Haramayn", location: "Pakistan", year: "1985", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 121,
@@ -3301,7 +3301,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: [
           { publisher: "Matbaʿat al-ʿIlmiyyah", location: "Istanbul", year: "1912", volumes: 1, verified: true }
-    ]
+    ],
   },
   {
     id: 122,
@@ -3327,7 +3327,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   /*
   {
@@ -3354,7 +3354,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   
   {
@@ -3381,7 +3381,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   */
   {
@@ -3408,7 +3408,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 126,
@@ -3434,7 +3434,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 127,
@@ -3460,7 +3460,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
   {
     id: 128,
@@ -3486,7 +3486,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [],
-    publishedEditions: []
+    publishedEditions: [],
   },
 {
   id: 129,
@@ -3512,7 +3512,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 130,
@@ -3538,7 +3538,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 131,
@@ -3566,7 +3566,7 @@ id: 64,
   hasCommentaries: [],
   publishedEditions: [
     { publisher: "Dar al-Ma'rifah", location: "Beirut, Lebanon", year: "Unknown", volumes: 1, verified: true, link: null }
-  ]
+  ],
 },
 {
   id: 132,
@@ -3594,7 +3594,7 @@ id: 64,
   hasCommentaries: [],
   publishedEditions: [
  
-  ]
+  ],
 },
 {
   id: 133,
@@ -3622,7 +3622,7 @@ id: 64,
   hasCommentaries: [],
   publishedEditions: [
     { publisher: "Dar al-Kutub al-Ilmiyyah", location: "Beirut, Lebanon", year: "Unknown", volumes: 1, verified: true, link: null }
-  ]
+  ],
 },
 {
   id: 134,
@@ -3650,7 +3650,7 @@ id: 64,
   hasCommentaries: [],
   publishedEditions: [
 
-  ]
+  ],
 },
 {
   id: 135,
@@ -3680,7 +3680,7 @@ id: 64,
   ],
   publishedEditions: [
     { publisher: "Abu Al-Wafa' Al-Afghani Edition", location: "India", year: "Unknown", volumes: "Unknown", verified: true, link: null }
-  ]
+  ],
 },
 {
   id: 136,
@@ -3710,7 +3710,7 @@ id: 64,
   ],
   publishedEditions: [
     { publisher: "Dar al-Bashair", location: "Beirut", year: "Unknown", volumes: 1, verified: true, link: null }
-  ]
+  ],
 },
 {
   id: 137,
@@ -3736,7 +3736,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 138,
@@ -3764,7 +3764,7 @@ id: 64,
   hasCommentaries: [
     { id: "00", title: "Sharh al-Siyar al-Kabir", author: "Al-Shafi'i" }
   ],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 139,
@@ -3790,7 +3790,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 140,
@@ -3816,7 +3816,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 141,
@@ -3842,7 +3842,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
   {
   id: 142,
@@ -3868,7 +3868,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEdititions: []
+  publishedEdititions: [],
 }
 ,
   {
@@ -3895,7 +3895,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -3922,7 +3922,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
   {
   id: 145,
@@ -3948,7 +3948,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -3975,7 +3975,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -4002,7 +4002,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
 {
@@ -4029,7 +4029,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -4056,7 +4056,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -4083,7 +4083,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
   {
@@ -4110,7 +4110,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ,
 
@@ -4138,7 +4138,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 153,
@@ -4164,7 +4164,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 154,
@@ -4190,7 +4190,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 155,
@@ -4216,7 +4216,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 156,
@@ -4242,7 +4242,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 157,
@@ -4268,7 +4268,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 },
 {
   id: 158,
@@ -4294,7 +4294,7 @@ id: 64,
   isPlaceholder: true,
   commentaryOf: null,
   hasCommentaries: [],
-  publishedEditions: []
+  publishedEditions: [],
 }
 ];
 
@@ -4412,21 +4412,21 @@ export const subjectsByCategory = {
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ]
+  ],
   "Usul al-Hadith": [
     "All",
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ]
+  ],
   "Miscellaneous": [
     "All",
     "Principles"
-  ]
+  ],
   "Reference": [
     "All",
     "Dictionary"
-  ]
+  ],
 ];
 
 
