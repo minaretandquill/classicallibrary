@@ -1984,7 +1984,8 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-      /* */
+*/
+  /* */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
@@ -2064,6 +2065,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   /* */
   {
     id: 78,
@@ -2304,6 +2306,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   /* */
   {
     id: 87,
@@ -2943,6 +2946,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   /* */
   {
     id: 109,
@@ -3060,7 +3064,8 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-    /* */
+*/
+  /* */
   {
     id: 113,
     title: "Al-Mukhtar li al-Fatwa",
@@ -3116,6 +3121,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   /* */
   {
     id: 115,
@@ -3400,6 +3406,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+*/
   /* */
   {
     id: 125,
