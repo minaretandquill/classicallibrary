@@ -730,7 +730,7 @@ export const books = [
     isPlaceholder: true,
     commentaryOf: "Nur al-Idah",
     hasCommentaries: [
-      { id: 11, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
+      { id: 00, title: "Hashiyat al-Tahtawi 'ala Maraqi al-Falah", author: "Ahmad al-Tahtawi" }
      ],
     publishedEditions: []
   },
@@ -1941,7 +1941,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: "Al-Nuqāyah (Mukhtasar al-Wiqāyah)",
     hasCommentaries: [
-          { id: "55", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
+          { id: "00", title: "Sharh al-Nuqayah", author: "Ibn al-Humam" }
     ],
     publishedEditions: []
   },
@@ -3074,7 +3074,7 @@ id: 64,
     isPlaceholder: true,
     commentaryOf: null,
     hasCommentaries: [
-      { id: 65, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
+      { id: ?, title: "Al-Ikhtiyar li Ta'lil al-Mukhtar", author: "Abd Allah al-Mawsili" }
     ],
     publishedEditions: []
   },
@@ -3792,7 +3792,6 @@ id: 64,
   hasCommentaries: [],
   publishedEditions: []
 },
-
 {
   id: 140,
   title: "al-Hujjah ala Ahl al-Madinah",
@@ -3818,6 +3817,7 @@ id: 64,
   commentaryOf: null,
   hasCommentaries: [],
   publishedEditions: []
+  ]
 },
   {
   id: 141,
@@ -4354,7 +4354,6 @@ export const subjectsByCategory = {
     "Other",
     "Contemporary Issues"
   ],
-
   "Hadith": [
     "All",
     "Sahih Siita",
@@ -4408,28 +4407,28 @@ export const subjectsByCategory = {
     "All",
     "Purification",
     "Mysticism"
-  ],
+  ]
   "Usul al-Hadith": [
     "All",
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ],
+  ]
   "Usul al-Hadith": [
     "All",
     "Principles",
     "Asma Rijaal",
     "Classification"
-  ],
+  ]
   "Miscellaneous": [
     "All",
     "Principles"
-  ],
+  ]
   "Reference": [
     "All",
     "Dictionary"
   ]
-};
+];
 
 
 // Legacy flat list for backwards compatibility
