@@ -1716,7 +1716,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-      */
+      /* */
   {
     id: 65,
     title: "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq",
@@ -1982,7 +1982,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-      */
+      /* */
   {
     id: 75,
     title: "Imdād al-Fattāḥ Sharḥ Nūr al-Īḍāḥ",
