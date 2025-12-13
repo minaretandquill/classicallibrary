@@ -2035,9 +2035,9 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
+   /*
   {
-    /*
-    id: 77,
+       id: 77,
     title: "Majmaʿ al-Anhūr Sharḥ Multaqā al-Abḥūr",
     arabicTitle: "مجمع الأنهر شرح ملتقى الأبحر",
     author: "ʿAbd al-Raḥmān ibn Muḥammad Shaykhī Zādah (Dāmād Zādah)",
@@ -2089,8 +2089,7 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-/*
-  {
+  
     id: 79,
     title: "Multaqā al-Abḥur",
     arabicTitle: "ملتقى البحور",
@@ -3344,8 +3343,6 @@ id: 64,
     hasCommentaries: [],
     publishedEditions: []
   },
-  /*
-  {
     id: 123,
     title: "Tanwir al-Absar wa Jamiʿ al-Bihar",
     arabicTitle: "تنوير الأبصار وجامع البحار",
