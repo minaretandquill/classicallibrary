@@ -73,6 +73,8 @@ agenthub/agents/youtube/db
 *.deb
 *.dylib
 
+.jfm
+
 # Build caches
 .cache/
 
@@ -117,3 +119,4 @@ android-sdk/ -e
 # Environment files
 *.env
 *.env.*
+/.vs
