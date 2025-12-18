@@ -10061,6 +10061,7 @@ export const books = [
 		isPlaceholder: true,
 		publishedEditions: []
 	}
+
 ];
 
 export const categories = [
