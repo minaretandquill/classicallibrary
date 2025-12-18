@@ -9600,13 +9600,13 @@ export const books = [
 		description: "A concise yet foundational statement of Maturidi creed, widely studied in classical Islamic seminaries.",
 		uniqueAspects: "Combines theological principles with clarity and brevity, making it ideal for memorization and commentary.",
 		commentaryOf: NULL,
+		coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
 		hasCommentaries: [{
 			id: "00",
 			title: "Sharḥ ʿAqīdat al-Nasafī",
 			author: "al-Taftazānī"
-		}],
-		coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg
-}, {
+		}]
+},{
 		id: 370,
 		title: "Bad’ al-Amali",
 		arabicTitle: "بدء الأمالي",
@@ -10050,7 +10050,7 @@ export const books = [
 		era: "Modern",
 		bookType: "Core text",
 		studyLevel: "Intermediate",
-		pages: 150 + ,
+		pages: "150+",
 		publicationYear: "N/A",
 		scholarEra: "N/A",
 		description: "Covers essential principles of hadith criticism and terminology.",
