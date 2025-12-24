@@ -32,8 +32,8 @@
 # Preparing build files for deployment
 ## You cannot switch branches yet, because the build folder is not committed and would disappear. So you must temporarily store the build output outside the repository.
 
-	mkdir ..\_prod_build
-	Copy-Item build\* ..\_prod_build -Recurse
+	mkdir C:\temp\prod_build
+	Copy-Item build\* C:\temp\prod_build -Recurse -Force
 
 # Switch to prod
 
@@ -48,7 +48,7 @@
 
 # Copy new build files into prod
 
-	Copy-Item ..\_prod_build\* . -Recurse
+	Copy-Item C:\temp\prod_build\* . -Recurse -Force
 
 ## Verify contents:
 
@@ -79,7 +79,7 @@
 
 # Remove the temporary folder:
 
-	rmdir ..\_prod_build -Recurse
+	rmdir C:\temp\ -Recurse
 
 # Deploying on the server (Plesk)
 
