@@ -4487,14 +4487,11 @@ export const books = [
         isPlaceholder: true,
         commentaryOf: null,
         hasCommentaries: [],
-        publishedEditions: [{
-            publisher: "Matabi‘ al-Dawhah",
-            location: "Doha",
-            year: "2006",
-            volumes: 1,
-            verified: true
-        }]
-    }, {
+        publishedEditions: [
+            {publisher: "Matabi‘ al-Dawhah", location: "Doha", year: "2006", volumes: 1, verified: true}
+        ]
+    },
+    {
         id: 166,
         title: "Al-Mīzān fī Uṣūl al-Fiqh",
         arabicTitle: "الميزان في أصول الفقه",
@@ -4519,7 +4516,8 @@ export const books = [
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
-    }, {
+    },
+    {
         id: 167,
         title: "Al-Mughnī fī Uṣūl al-Fiqh",
         arabicTitle: "المغني في أصول الفقه",
