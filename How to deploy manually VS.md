@@ -35,13 +35,6 @@
 	mkdir ..\_prod_build
 	Copy-Item build\* ..\_prod_build -Recurse
 
-
-# Committ changes
-
-	git add .
-	git commit -m "Describe your change"
-	git push origin main
-
 # Switch to prod
 
 	git checkout prod
