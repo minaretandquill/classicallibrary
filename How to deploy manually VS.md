@@ -4,6 +4,8 @@
 
 	git checkout main
 
+	Manually comitt changes in Git Changes
+
 # Install dependenciy in Main Branch 
 
 	yarn install
@@ -24,23 +26,17 @@
 
 	dir build
 
-	You should see:
+# You should see:
 
 		index.html
 		static/
 
-# Preparing build files for deployment
 ## You cannot switch branches yet, because the build folder is not committed and would disappear. So you must temporarily store the build output outside the repository.
 
+	rmdir C:\temp\ -Recurse
 	mkdir C:\temp\prod_build
 	Copy-Item build\* C:\temp\prod_build -Recurse -Force
 
-
-# Committ changes
-
-	git add .
-	git commit -m "Describe your change"
-	git push origin main
 
 # Switch to prod
 
