@@ -14,7 +14,8 @@ const BookDetail = ({ book, open, onClose }) => {
   if (!book) return null;
 
   const getLevelColor = (level) => {
-    switch(level) {
+      switch (level) {
+      case 'Elementary': return 'bg-green-100 text-green-700 border-green-300';
       case 'Beginner': return 'bg-green-100 text-green-800 border-green-300';
       case 'Intermediate': return 'bg-blue-100 text-blue-800 border-blue-300';
       case 'Upper Intermediate': return 'bg-indigo-100 text-indigo-800 border-indigo-300';

@@ -12,7 +12,7 @@ import { Button } from './ui/button';
 
 const FilterPanel = ({ 
   categories, 
-  authors, 
+  
   subjects,
   availableSubjects,
   madhabs,
@@ -92,25 +92,7 @@ const FilterPanel = ({
           </Select>
         </div>
 
-        {/* Author Filter */}
-        <div className="space-y-2">
-          <Label className="text-sm font-medium text-gray-700">Author</Label>
-          <Select
-            value={selectedFilters.author}
-            onValueChange={(value) => onFilterChange('author', value)}
-          >
-            <SelectTrigger className="border-emerald-200 focus:ring-emerald-500">
-              <SelectValue placeholder="Select author" />
-            </SelectTrigger>
-            <SelectContent className="max-h-60">
-              {authors.map((author) => (
-                <SelectItem key={author} value={author}>
-                  {author}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
+      
 
         {/* Study Level Filter */}
         <div className="space-y-2">

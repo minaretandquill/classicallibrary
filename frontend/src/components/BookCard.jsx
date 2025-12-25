@@ -5,7 +5,8 @@ import { Badge } from './ui/badge';
 
 const BookCard = ({ book, onClick }) => {
   const getLevelColor = (level) => {
-    switch(level) {
+      switch (level) {
+      case 'Elementary': return 'bg-green-100 text-green-700';
       case 'Beginner': return 'bg-green-100 text-green-700';
       case 'Intermediate': return 'bg-blue-100 text-blue-700';
       case 'Upper Intermediate': return 'bg-indigo-100 text-indigo-700';
