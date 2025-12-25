@@ -12,7 +12,7 @@
 
 # Make changes to the files e.g.mock.js
 
-# Committ changes
+# Committ changes to main 
 
 	git add .
 	git commit -m "Describe your change"
@@ -31,11 +31,19 @@
 		index.html
 		static/
 
+# Committ changes to main again so latest build is saved
+
+	git add .
+	git commit -m "Describe your change"
+	git push origin main
+
 ## You cannot switch branches yet, because the build folder is not committed and would disappear. So you must temporarily store the build output outside the repository.
 
 	rmdir C:\temp\ -Recurse
 	mkdir C:\temp\prod_build
 	Copy-Item build\* C:\temp\prod_build -Recurse -Force
+
+
 
 
 # Switch to prod
