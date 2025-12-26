@@ -36,7 +36,7 @@ const BookDetail = ({ book, open, onClose }) => {
               alt={book.title}
               className="w-full h-full object-cover"
               onError={(e) => {
-                e.target.src = 'https://images.unsplash.com/photo-1599493758737-31c5be444eff';
+                  e.target.src = 'https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg';
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />

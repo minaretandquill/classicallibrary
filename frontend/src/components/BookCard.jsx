@@ -27,7 +27,7 @@ const BookCard = ({ book, onClick }) => {
           alt={book.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           onError={(e) => {
-            e.target.src = 'https://images.unsplash.com/photo-1599493758737-31c5be444eff';
+              e.target.src = 'https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg';
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
