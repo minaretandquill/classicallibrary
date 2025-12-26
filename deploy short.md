@@ -15,6 +15,7 @@
 	Copy-Item build\* C:\temp\prod_build -Recurse -Force
 
 	git checkout prod
+
 	git rm -rf .
 	Copy-Item C:\temp\prod_build\* . -Recurse -Force
 	git add .
