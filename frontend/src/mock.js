@@ -419,6 +419,7 @@ export const books = [
         hasCommentaries: [],
         publishedEditions: [],
     },
+    /*
     {
         id: 16,
         title: "Sahih al-Bukhari",
@@ -433,7 +434,7 @@ export const books = [
         creed: "Athari",
         era: "Salaf",
         bookType: "Matn",
-        studyLevel: "Intermediate",
+        studyLevel: "Advanced",
         pages: 7563,
         publicationYear: "256 AH",
         scholarEra: "3rd Century Hijri",
@@ -445,7 +446,8 @@ export const books = [
         hasCommentaries: [],
         publishedEditions: [],
     },
-    {
+    */
+    /*{
         id: 17,
         title: "Sahih Muslim",
         arabicTitle: "صحيح مسلم",
@@ -470,7 +472,7 @@ export const books = [
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: [],
-    },
+    },*/
     {
         id: 18,
         title: "Tafsir al-Qurtubi",
@@ -5380,7 +5382,11 @@ export const books = [
         commentaryOf: "Al-Tawḍīḥ",
         hasCommentaries: [],
         publishedEditions: []
-    }, {
+    },
+
+    // Hadith 
+
+    {
         id: 198,
         title: "Ṣaḥīḥ al-Bukhārī",
         arabicTitle: "صحيح البخاري",
@@ -5388,11 +5394,11 @@ export const books = [
         authorArabic: "الإمام البخاري",
         authorBirthYear: 194,
         category: "Hadith",
-        subject: "Sahih Siita",
+        subject: "Sahih Sitta",
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5400,10 +5406,26 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "The most rigorously authenticated collection of prophetic hadith, arranged primarily by fiqh chapters.",
         uniqueAspects: "Introduced the strictest criteria of authenticity and subtle fiqh deductions embedded in chapter headings.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sahih-bukhari.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 213, title: "Fatḥ al-Bārī bi Sharḥ Ṣaḥīḥ al-Bukhāri", author: "Ibn Hajar al-ʿAsqalani" },
+            { id: 214, title: "ʿUmdat al-Qārī Sharḥ Ṣaḥīḥ al-Bukhārī", author: "Badr al-Din al-ʿAyni" },
+            { id: 215, title: "Irshād al-Sārī li Sharḥ Ṣaḥīḥ al-Bukhārī", author: "Shihab al-Din al-Qastallani" },
+            { id: 263, title: "An-Naṣīḥah fī Sharḥ al-Bukhārī", author: "Abū Jaʿfar Aḥmad al-Asadī ad-Dāwūdī" },
+            { id: 264, title: "Sharḥ Ṣaḥīḥ al-Bukhārī", author: "Ibn Baṭṭāl al-Mālikī" },
+            { id: 265, title: "Aʿlām al-Ḥadīth fī Sharḥ Ṣaḥīḥ al-Bukhārī", author: "Abū Sulaymān al-Khaṭṭābī" },
+            { id: 266, title: "An-Nīrayn fī Sharḥ aṣ-Ṣaḥīḥayn", author: "Abū Bakr Ibn al-ʿArabī" },
+            { id: 267, title: "Ikhtiṣār Ṣaḥīḥ al-Bukhārī wa Bayān Gharībihi", author: "Abū al-ʿAbbās al-Qurṭubī" },
+            { id: 268, title: "At-Talkhīṣ Sharḥ al-Jāmiʿ aṣ-Ṣaḥīḥ", author: "Yaḥyā ibn Sharaf an-Nawawī" },
+            { id: 269, title: "At-Tanqīḥ li Alfāẓ al-Jāmiʿ aṣ-Ṣaḥīḥ", author: "Badr ad-Dīn az-Zarkashī" },
+            { id: 270, title: "Al-Kawākib ad-Durārī fī Sharḥ Ṣaḥīḥ al-Bukhārī", author: "Muḥammad ibn Yūsuf al-Kirmānī" },
+            { id: 50, title: "Al-Mustakhraj ala al-Bukhari wa Muslim", author: "Abu Nu'aym al-Isfahani" },
+            { id: 271, title: "Nadhir as-Sahih 'ala al-Jami' as-Sahih", author: "Mufaq al-Din ibn sabt ibn al-Ajami" },
+            { id: 216, title: "Misbah as-Sihah", author: "Ibn Al-Barzi" }
+
+        ],
         publishedEditions: []
     }, {
         id: 199,
@@ -5413,22 +5435,33 @@ export const books = [
         authorArabic: "الإمام مسلم",
         authorBirthYear: 206,
         category: "Hadith",
-        subject: "Sahih Siita",
+        subject: "Sahih Sitta",
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
-        pages: 900,
+        pages: 1000,
         publicationYear: "3rd Century AH",
         scholarEra: "3rd Century Hijri",
         description: "A canonical collection of rigorously authenticated hadith arranged with methodological clarity.",
         uniqueAspects: "Distinguished by systematic grouping of narrations and transparency in isnad variation.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sahih-muslim.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 229, title: "Al-Muʿlim bi Fawāʾid Ṣaḥīḥ Muslim", author: "Abu ʿAbdillāh Muhammad ibn ʿAli al-Māzirī" },
+            { id: 230, title: "Al-Mufḥim li Ṣaḥīḥ Muslim", author: "Abu al-Ḥasan ʿAbd al-Ghāfir ibn Ismāʿīl al-Fārisī" },
+            { id: 231, title: "Ikmāl al-Muʿlim bi Fawāʾid Muslim", author: "Qāḍī ʿIyāḍ al-Yaḥṣubī" },
+            { id: 232, title: "Ṣiyānat Ṣaḥīḥ Muslim", author: "Ibn al-Ṣalāḥ al-Shahrazūrī" },
+            { id: 233, title: "Al-Mufhim li mā Ashkala min Talkhīṣ Ṣaḥīḥ Muslim", author: "Abu al-ʿAbbās al-Qurṭubī" },
+            { id: 234, title: "Al-Minhāj fī Sharḥ Ṣaḥīḥ Muslim ibn al-Ḥajjāj", author: "Yaḥyā ibn Sharaf al-Nawawī" },
+            { id: 235, title: "Ikmāl Ikmāl al-Muʿlim bi Fawāʾid Kitāb Muslim", author: "Muḥammad ibn Khalīfah Ubayy al-Mālikī" },
+            { id: 236, title: "Mukammal Ikmāl al-Ikmāl", author: "Muḥammad ibn Muḥammad al-Sanūsī" },
+            { id: 237, title: "Ad-Dībāj ʿalā Ṣaḥīḥ Muslim", author: "Jalal al-Din al-Suyuti" },
+            { id: 266, title: "An-Nīrayn fī Sharḥ aṣ-Ṣaḥīḥayn", author: "Abū Bakr Ibn al-ʿArabī" }
+                ],
         publishedEditions: []
     }, {
         id: 200,
@@ -5438,11 +5471,11 @@ export const books = [
         authorArabic: "الإمام الترمذي",
         authorBirthYear: 209,
         category: "Hadith",
-        subject: "Sahih Siita",
+        subject: "Sahih Sitta",
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5450,10 +5483,20 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A comprehensive hadith collection incorporating legal discussion and narrator evaluation.",
         uniqueAspects: "Explicitly identifies hadith grading and records juristic disagreement.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/jami-tirmidhi.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 238, title: "Sharḥ Jāmiʿ at-Tirmidhī", author: "Ḥusayn ibn Masʿūd ibn Mawdūd al-Baghawī" },
+            { id: 239, title: "ʿĀriḍat al-Aḥwadhī fī Sharḥ at-Tirmidhī", author: "Muḥammad ibn ʿAbdillāh Ibn al-ʿArabī" },
+            { id: 240, title: "An-Nafḥ ash-Shadhī Sharḥ Jāmiʿ at-Tirmidhī", author: "Muḥammad ibn Muḥammad Ibn Sayyid an-Nās" },
+            { id: 241, title: "Takmilat an-Nafḥ ash-Shadhī", author: "ʿAbd ar-Raḥīm ibn al-Ḥusayn al-ʿIrāqī" },
+            { id: 242, title: "Sharḥ Jāmiʿ at-Tirmidhī", author: "ʿAbd ar-Raḥmān ibn Aḥmad Ibn Rajab al-Ḥanbalī" },
+            { id: 243, title: "Qūt al-Mughtadhī ʿalā Jāmiʿ at-Tirmidhī", author: "Jalāl ad-Dīn as-Suyūṭī" },
+            { id: 244, title: "Ḥāshiyat as-Sindī ʿalā Sunan at-Tirmidhī", author: "Muḥammad ibn ʿAbd al-Hādī as-Sindī" },
+            { id: 245, title: "Al-ʿArf ash-Shadhī ʿalā Jāmiʿ at-Tirmidhī", author: "Muḥammad Anwar Shāh al-Kashmīrī" },
+            { id: 246, title: "Tuhfat al-Aḥwadhī bi Sharḥ Jāmiʿ at-Tirmidhī", author: "Muḥammad ʿAbd ar-Raḥmān al-Mubārakpūrī" }
+        ],
         publishedEditions: []
     },
     {
@@ -5464,11 +5507,11 @@ export const books = [
         authorArabic: "الإمام أبو داود",
         authorBirthYear: 202,
         category: "Hadith",
-        subject: "Sahih Siita",
+        subject: "Sahih Sitta",
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5476,10 +5519,18 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A focused collection of legal hadith used directly by jurists.",
         uniqueAspects: "Compiled with explicit intent to support fiqh derivation.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sunan-abu-dawud.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 256, title: "Maʿālim as-Sunan Sharḥ Sunan Abī Dāwūd", author: "Abū Sulaymān al-Khaṭṭābī" },
+            { id: 257, title: "At-Tawassuṭ al-Maḥmūd fī Sharḥ Sunan Abī Dāwūd", author: "Walī ad-Dīn Ibn al-ʿIrāqī" },
+            { id: 258, title: "Sharḥ Sunan Abī Dāwūd", author: "Ibn Raslān" },
+            { id: 259, title: "Sharḥ Sunan Abī Dāwūd", author: "Badr ad-Dīn al-ʿAynī" },
+            { id: 260, title: "Mirqāt aṣ-Ṣuʿūd ilā Sunan Abī Dāwūd", author: "Jalāl ad-Dīn as-Suyūṭī" },
+            { id: 261, title: "Fatḥ al-Wadūd bi Sharḥ Sunan Abī Dāwūd", author: "Muḥammad ibn ʿAbd al-Hādī as-Sindī" },
+            { id: 262, title: "Badhl al-Majhūd fī Ḥalli Sunan Abī Dāwūd", author: "Khalīl Aḥmad Sahāranpūrī" }
+        ],
         publishedEditions: []
     }, {
         id: 202,
@@ -5493,7 +5544,7 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5501,10 +5552,15 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A canonical sunan collection completing the six major hadith books.",
         uniqueAspects: "Preserves narrations not found in the other five collections.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sunan-ibn-majah.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 252, title: "Al-Iʿlām bi Sunnatih ʿalayh as-Ṣalātu wa as-Salām", author: "ʿAlāʾ ad-Dīn Mughulṭāʾī Ibn Qalīj" },
+            { id: 253, title: "Mā Tamassu Ilayhi al-Ḥājat ʿalā Sharḥ Ibn Mājah", author: "ʿUmar ibn ʿAlī Ibn al-Mulaqqin" },
+            { id: 254, title: "Al-Ḥawāshī ʿalā Sunan Ibn Mājah", author: "Sibṭ Ibn al-ʿAjamī" },
+            { id: 255, title: "Misbāḥ az-Zujājat ʿalā Sunan Ibn Mājah", author: "Jalāl ad-Dīn as-Suyūṭī" }
+        ],
         publishedEditions: []
     }, {
         id: 203,
@@ -5518,7 +5574,7 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5526,10 +5582,16 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A rigorously authenticated sunan collection with strong critical standards.",
         uniqueAspects: "Known for stricter narrator scrutiny than most sunan works.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sunan-nisai.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
-        hasCommentaries: [],
+        hasCommentaries: [
+            { id: 247, title: "Sharḥ Sunan an-Nasāʾī", author: "Aḥmad ibn ʿAlī al-Walīd ibn Rushd" },
+            { id: 248, title: "Sharḥ an-Nasāʾī", author: "Muḥammad ibn ʿAlī al-Ḥusaynī" },
+            { id: 249, title: "Sharḥ Sunan an-Nasāʾī", author: "Muḥammad ibn Aḥmad ibn Ayyūb al-Ḥimṣī al-ʿIṣyātī" },
+            { id: 250, title: "Zahr ar-Rubāʾ ʿalā al-Mujtabā", author: "Jalāl ad-Dīn as-Suyūṭī" },
+            { id: 251, title: "Ḥāshiyat as-Sindī ʿalā Sunan an-Nasāʾī", author: "Muḥammad ibn ʿAbd al-Hādī as-Sindī" }
+        ],
         publishedEditions: []
     }, {
         id: 204,
@@ -5543,7 +5605,7 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5551,8 +5613,8 @@ export const books = [
         scholarEra: "4th Century Hijri",
         description: "A major authenticated hadith collection arranged thematically.",
         uniqueAspects: "Employs a unique classification system based on meanings rather than fiqh.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sahih-ibn-hibban.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5568,16 +5630,16 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Khalaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "4th Century AH",
         scholarEra: "4th Century Hijri",
-        description: "A collection of hadith meeting the criteria of Bukhari and Muslim but not included by them.",
+        description: "A collection of hadith meeting the criteria of Bukhari and Muslim but not included by them. Also called Mustadrak Al Hakim.",
         uniqueAspects: "Attempts to supplement the two Sahihs using their own standards.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mustadrak-hakim.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5593,7 +5655,7 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5601,8 +5663,8 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "An early hadith collection combining legal and theological narrations.",
         uniqueAspects: "Preserves early narrations predating the canonical six.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sunan-darimi.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5618,7 +5680,7 @@ export const books = [
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Advanced",
         pages: 1000,
@@ -5626,8 +5688,8 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A major sahih collection based on strict authentication principles.",
         uniqueAspects: "Considered among the earliest attempts at sahih-only compilation.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sahih-ibn-khuzaymah.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5639,20 +5701,20 @@ export const books = [
         authorArabic: "الإمام النووي",
         authorBirthYear: 631,
         category: "Hadith",
-        subject: "Selected Topics",
+        subject: "Hadith Commentary",
         madhab: "Shafi'i",
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Risala (Epistle)",
+        bookType: "Summary (Mukhtasar)",
         studyLevel: "Beginner",
         pages: 400,
         publicationYear: "7th Century AH",
         scholarEra: "7th Century Hijri",
         description: "A selection of forty foundational hadith covering core principles of Islam.",
         uniqueAspects: "Designed as a concise ethical and legal foundation for all Muslims.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/arbaeen-nawawi.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5664,7 +5726,7 @@ export const books = [
         authorArabic: "الإمام النووي",
         authorBirthYear: 631,
         category: "Hadith",
-        subject: "Selected Topics",
+        subject: "Other Collections",
         madhab: "Shafi'i",
         language: "Arabic",
         creed: "Ashʿari",
@@ -5676,8 +5738,8 @@ export const books = [
         scholarEra: "7th Century Hijri",
         description: "A thematic hadith collection focused on ethics, worship, and character.",
         uniqueAspects: "Widely used for public teaching and spiritual cultivation.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/riyad-saliheen.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5689,11 +5751,11 @@ export const books = [
         authorArabic: "الإمام الترمذي",
         authorBirthYear: 209,
         category: "Hadith",
-        subject: "Prophetic Descriptions",
+        subject: "Hadith Commentary",
         madhab: "Independent",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
         studyLevel: "Beginner",
         pages: 400,
@@ -5701,8 +5763,8 @@ export const books = [
         scholarEra: "3rd Century Hijri",
         description: "A hadith collection describing the physical appearance and character of the Prophet ﷺ.",
         uniqueAspects: "Dedicated entirely to prophetic character and daily conduct.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/shamaail-muhammadiya.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5718,16 +5780,16 @@ export const books = [
         madhab: "Hanafi",
         language: "Arabic",
         creed: "N/A",
-        era: "Classical",
+        era: "Salaf",
         bookType: "Majmu (Collection)",
-        studyLevel: "Advanced",
+        studyLevel: "Intermediate",
         pages: 1000,
         publicationYear: "2nd Century AH",
         scholarEra: "2nd Century Hijri",
         description: "The Hanafi transmission of Imam Malik’s Muwaṭṭaʾ with legal commentary.",
         uniqueAspects: "Shows early interaction between Maliki and Hanafi legal thought.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/muwatta-imam-muhammad.jpg",
+        isPlaceholder: false,
         commentaryOf: null,
         hasCommentaries: [],
         publishedEditions: []
@@ -5739,20 +5801,20 @@ export const books = [
         authorArabic: "الخطيب التبريزي",
         authorBirthYear: 737,
         category: "Hadith",
-        subject: "Selected Topics",
-        madhab: "Independent",
+        subject: "Other Collections",
+        madhab: "Hanafi",
         language: "Arabic",
         creed: "N/A",
         era: "Classical",
         bookType: "Majmu (Collection)",
         studyLevel: "Intermediate",
-        pages: 1000,
+        pages: 2000,
         publicationYear: "8th Century AH",
         scholarEra: "8th Century Hijri",
         description: "An expanded and refined version of Masabih al-Sunnah.",
         uniqueAspects: "Integrates grading and source tracing for instructional use.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mishakaat-masabih.jpg",
+        isPlaceholder: false,
         commentaryOf: "Masābīḥ al-Sunnah",
         hasCommentaries: [],
         publishedEditions: []
@@ -5776,8 +5838,8 @@ export const books = [
         scholarEra: "9th Century Hijri",
         description: "The most authoritative and comprehensive commentary on Ṣaḥīḥ al-Bukhārī, covering hadith authentication, fiqh, language, and variant narrations.",
         uniqueAspects: "Universally recognised as the definitive explanation of Bukhārī, resolving textual, legal, and isnād-related complexities.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/fath-al-bari.jpg",
+        isPlaceholder: false,
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
         publishedEditions: [{
@@ -5787,7 +5849,8 @@ export const books = [
             volumes: 15,
             verified: true
         }]
-    }, {
+    },
+    {
         id: 214,
         title: "ʿUmdat al-Qārī Sharḥ Ṣaḥīḥ al-Bukhārī",
         arabicTitle: "عمدة القاري شرح صحيح البخاري",
@@ -5807,8 +5870,8 @@ export const books = [
         scholarEra: "9th Century Hijri",
         description: "A major Hanafi commentary on Ṣaḥīḥ al-Bukhārī engaging extensively with fiqh disagreements.",
         uniqueAspects: "Represents the classical Hanafi engagement with Bukhārī in dialogue with Ibn Ḥajar.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/umdat-qari.jpg",
+        isPlaceholder: false,
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
         publishedEditions: [{
@@ -5818,7 +5881,8 @@ export const books = [
             volumes: 25,
             verified: true
         }]
-    }, {
+    }, //Hadith
+    {
         id: 215,
         title: "Irshād al-Sārī li Sharḥ Ṣaḥīḥ al-Bukhārī",
         arabicTitle: "إرشاد الساري لشرح صحيح البخاري",
@@ -5838,68 +5902,65 @@ export const books = [
         scholarEra: "10th Century Hijri",
         description: "A widely read commentary on Bukhārī synthesising earlier explanations.",
         uniqueAspects: "Accessible presentation while retaining scholarly depth.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/irshaad-bukhari.jpg",
+        isPlaceholder: false,
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
         publishedEditions: []
-    }, {
+    },
+    {
         id: 216,
-        title: "Sharḥ Ṣaḥīḥ Muslim",
-        arabicTitle: "شرح صحيح مسلم",
-        author: "Imam al-Nawawi",
-        authorArabic: "الإمام النووي",
-        authorBirthYear: 631,
+        title: "Misbah as-Sihah",
+        arabicTitle: "مصباح الصحاح لاستضاءة أولي العلم والصلاح في الجمع بين صحيحي البخاري ومسلم",
+        author: "Ibn al-Barizi",
+        authorArabic: "القاضي نجم الدين الشهير بابن البارزي",
+        authorBirthYear: 00,
         category: "Hadith",
         subject: "Hadith Commentary",
-        madhab: "Shafi'i",
+        madhab: "N/A",
         language: "Arabic",
-        creed: "Ashʿari",
-        era: "Classical",
+        creed: "N/A",
+        era: "N/A",
         bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
-        pages: 400,
-        publicationYear: "7th Century AH",
-        scholarEra: "7th Century Hijri",
-        description: "The standard commentary on Ṣaḥīḥ Muslim, explaining wording, legal rulings, and doctrinal points.",
-        uniqueAspects: "Balances hadith explanation, fiqh discussion, and creed with clarity and precision.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
-        commentaryOf: "Ṣaḥīḥ Muslim",
-        hasCommentaries: [],
-        publishedEditions: [{
-            publisher: "Dar Ihya al-Turath al-ʿArabi",
-            location: "Beirut",
-            year: "1996",
-            volumes: 18,
-            verified: true
-        }]
-    }, {
-        id: 217,
-        title: "Ikmāl al-Muʿlim bi Sharḥ Ṣaḥīḥ Muslim",
-        arabicTitle: "إكمال المعلم بشرح صحيح مسلم",
-        author: "Qadi ʿIyad",
-        authorArabic: "القاضي عياض",
-        authorBirthYear: 476,
-        category: "Hadith",
-        subject: "Hadith Commentary",
-        madhab: "Maliki",
-        language: "Arabic",
-        creed: "Ashʿari",
-        era: "Classical",
-        bookType: "Commentary (Sharh)",
-        studyLevel: "Advanced",
-        pages: 1000,
-        publicationYear: "6th Century AH",
-        scholarEra: "6th Century Hijri",
-        description: "An early foundational commentary on Ṣaḥīḥ Muslim.",
-        uniqueAspects: "Served as a major source for later commentaries, including Imam Nawawi.",
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        pages: 1024,
+        publicationYear: "N/A",
+        scholarEra: "N/A",
+        description: "Ibn al-Barizi had a particular interest in Sahih al-Bukhari and Sahih Muslim, so he wanted to present a book that allowed people to read both Sahihs, including the hadiths they agreed upon as well as those narrated individually by each. He based his work on the book Al-Jam' Bayn al-Sahihayn by Abu Abdullah al-Humaydi, using it as his primary source, but he focused solely on the sayings of the Prophet (hadith qawli) without including reports of his actions or approvals (taqrirat).",
+        uniqueAspects: "Brings together the Sahihyns and mentions hadith recorded by both scholars.",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/misbah-al-sahah.jpg",
+        isPlaceholder: false,
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
         publishedEditions: []
-    }, {
+    },
+    {
+        id: 217,
+        title: "Mukhtasar Sahih Muslim",
+        arabicTitle: "مختصر صحيح مسلم",
+        author: "Abdul Azim al-Mundhiri",
+        authorArabic: "الإمام عبد العظيم بن عبد القوي المنذري",
+        authorBirthYear: 656,
+        category: "Hadith",
+        subject: "Hadith Commentary",
+        madhab: "N/A",
+        language: "Arabic",
+        creed: "N/A",
+        era: "Classical",
+        bookType: "Summary (Mukhtasar)",
+        studyLevel: "Advanced",
+        pages: 1000,
+        publicationYear: "7th Century AH",
+        scholarEra: "7th Century Hijri",
+        description: "An early foundational commentary on Ṣaḥīḥ Muslim.",
+        uniqueAspects: "Served as a major source for later commentaries, including Imam Nawawi.",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mukhtasar-sahih-muslim.jpg",
+        isPlaceholder: false,
+        commentaryOf: "Ṣaḥīḥ Muslim",
+        hasCommentaries: [],
+        publishedEditions: []
+    }, 
+    {
         id: 229,
         title: "Al-Muʿlim bi Fawāʾid Ṣaḥīḥ Muslim",
         arabicTitle: "المُعلِم بفوائد صحيح مسلم",
@@ -5921,7 +5982,7 @@ export const books = [
         uniqueAspects: "Forms the foundational layer for later Maliki commentarial tradition on Muslim.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mulim-fawaid-muslim.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -5946,7 +6007,7 @@ export const books = [
         uniqueAspects: "Serves as an important precursor to later comprehensive commentaries.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mufhim-sahih-muslim.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -5971,8 +6032,8 @@ export const books = [
         uniqueAspects: "Central pillar of the Maliki tradition in explaining Ṣaḥīḥ Muslim.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: ["Ikmāl Ikmāl al-Muʿlim", "Mukammal Ikmāl al-Ikmāl"],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/ikmal-muslim.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 232,
@@ -5982,12 +6043,12 @@ export const books = [
         authorArabic: "ابن الصلاح الشهرزوري",
         authorBirthYear: 643,
         category: "Hadith",
-        subject: "Hadith Sciences",
+        subject: "Hadith Commentary",
         madhab: "Shafi'i",
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Critical Study",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 400,
         publicationYear: "7th Century AH",
@@ -5996,7 +6057,7 @@ export const books = [
         uniqueAspects: "Important for understanding early hadith criticism methodology.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/saiyaanat.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6021,8 +6082,8 @@ export const books = [
         uniqueAspects: "Balances linguistic explanation with legal and theological discussion.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mufhim-muslim.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 234,
@@ -6046,8 +6107,8 @@ export const books = [
         uniqueAspects: "Combines hadith explanation, jurisprudence, creed, and language with clarity and balance.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/minhaj-sharh-sahih.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 235,
@@ -6062,7 +6123,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Supplementary Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "9th Century AH",
@@ -6071,7 +6132,7 @@ export const books = [
         uniqueAspects: "Preserves and extends the Maliki interpretive lineage.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: ["Mukammal Ikmāl al-Ikmāl"],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/ikmal-ikmal-mulim.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6087,7 +6148,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Supplementary Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "9th Century AH",
@@ -6096,7 +6157,7 @@ export const books = [
         uniqueAspects: "Represents the culmination of centuries of layered Maliki scholarship.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mukammal-ikmal.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6112,7 +6173,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Concise Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "10th Century AH",
@@ -6121,7 +6182,7 @@ export const books = [
         uniqueAspects: "Designed for students seeking overview rather than exhaustive analysis.",
         commentaryOf: "Ṣaḥīḥ Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/dibaj-muslim.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6146,8 +6207,8 @@ export const books = [
         uniqueAspects: "Represents early engagement with Tirmidhī before the genre fully matured.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-tirmidhi-baghawi.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 239,
@@ -6171,8 +6232,8 @@ export const books = [
         uniqueAspects: "Strong focus on fiqh derivation from hadith, especially Maliki jurisprudence.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/aridat-ahwadhi.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 240,
@@ -6196,7 +6257,7 @@ export const books = [
         uniqueAspects: "Balances hadith criticism with explanatory depth.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: ["Takmilat an-Nafḥ ash-Shadhī"],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/nafh-shadhi-tirmidhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6212,7 +6273,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Supplementary Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 400,
         publicationYear: "9th Century AH",
@@ -6221,7 +6282,7 @@ export const books = [
         uniqueAspects: "Preserves continuity in Shafi'i hadith scholarship on Tirmidhī.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/takmilat-nafh.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6246,7 +6307,7 @@ export const books = [
         uniqueAspects: "Renowned for analytical depth despite being incomplete.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-jami-tirmidhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6262,7 +6323,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Concise Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "10th Century AH",
@@ -6271,8 +6332,8 @@ export const books = [
         uniqueAspects: "Accessible synthesis suitable for students.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/qut-mughtadhi.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 244,
@@ -6282,7 +6343,7 @@ export const books = [
         authorArabic: "محمد بن عبد الهادي السندي",
         authorBirthYear: 1137,
         category: "Hadith",
-        subject: "Hadith Annotation",
+        subject: "Hadith Commentary",
         madhab: "Hanafi",
         language: "Arabic",
         creed: "Athari",
@@ -6296,7 +6357,7 @@ export const books = [
         uniqueAspects: "Widely printed alongside the text of Tirmidhī.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/hashiyat-sindhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6321,7 +6382,7 @@ export const books = [
         uniqueAspects: "Highly technical, emphasising hadith criticism and fiqh reconciliation.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/arf-shadhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6346,7 +6407,7 @@ export const books = [
         uniqueAspects: "Strong emphasis on hadith grading and comparative fiqh.",
         commentaryOf: "Jāmiʿ at-Tirmidhī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/tuhfat-ahwadhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6371,7 +6432,7 @@ export const books = [
         uniqueAspects: "Among the earliest known efforts to systematically explain Nasāʾī’s Sunan.",
         commentaryOf: "Sunan an-Nasāʾī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sarh-nisai-rushd.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6396,7 +6457,7 @@ export const books = [
         uniqueAspects: "Reflects early scholarly engagement despite its fragmentary survival.",
         commentaryOf: "Sunan an-Nasāʾī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-nisai-husayni.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6421,7 +6482,7 @@ export const books = [
         uniqueAspects: "One of the more complete classical commentaries on Nasāʾī.",
         commentaryOf: "Sunan an-Nasāʾī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-sunan-nisai.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6437,7 +6498,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Concise Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "10th Century AH",
@@ -6446,7 +6507,7 @@ export const books = [
         uniqueAspects: "Designed for accessibility while preserving scholarly rigour.",
         commentaryOf: "Sunan an-Nasāʾī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/zahr-ruba.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6457,7 +6518,7 @@ export const books = [
         authorArabic: "محمد بن عبد الهادي السندي",
         authorBirthYear: 1138,
         category: "Hadith",
-        subject: "Hadith Annotation",
+        subject: "Hadith Commentary",
         madhab: "Hanafi",
         language: "Arabic",
         creed: "Athari",
@@ -6471,12 +6532,12 @@ export const books = [
         uniqueAspects: "Commonly printed alongside the hadith text.",
         commentaryOf: "Sunan an-Nasāʾī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/hashiyat-sindhi.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
         id: 252,
-        title: "Al-Iʿlām bi Sunnatih ʿalayh as-Ṣalātu wa ’s-Salām",
+        title: "Al-Iʿlām bi Sunnatih ʿalayh as-Ṣalātu wa as-Salām",
         arabicTitle: "الإعلام بسنته عليه الصلاة والسلام",
         author: "ʿAlāʾ ad-Dīn Mughulṭāʾī Ibn Qalīj",
         authorArabic: "علاء الدين مغلطاي بن قليج",
@@ -6496,7 +6557,7 @@ export const books = [
         uniqueAspects: "Strong attention to narrator analysis and legal implications.",
         commentaryOf: "Sunan Ibn Mājah",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/ilam-bi-sunnat.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6521,7 +6582,7 @@ export const books = [
         uniqueAspects: "Selectively focuses on narrations requiring clarification.",
         commentaryOf: "Sunan Ibn Mājah",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/tamassu.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6532,7 +6593,7 @@ export const books = [
         authorArabic: "سبط ابن العجمي",
         authorBirthYear: 841,
         category: "Hadith",
-        subject: "Hadith Annotation",
+        subject: "Hadith Commentary",
         madhab: "Shafi'i",
         language: "Arabic",
         creed: "Ashʿari",
@@ -6546,8 +6607,8 @@ export const books = [
         uniqueAspects: "Often consulted alongside the base text rather than independently.",
         commentaryOf: "Sunan Ibn Mājah",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/hawashi-ibn-majah.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 255,
@@ -6562,7 +6623,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Concise Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "10th Century AH",
@@ -6571,8 +6632,8 @@ export const books = [
         uniqueAspects: "Frequently printed and relied upon for quick reference.",
         commentaryOf: "Sunan Ibn Mājah",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/misbah-zujajat.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 256,
@@ -6587,7 +6648,7 @@ export const books = [
         language: "Arabic",
         creed: "Athari",
         era: "Classical",
-        bookType: "Analytical Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "4th Century AH",
@@ -6596,7 +6657,7 @@ export const books = [
         uniqueAspects: "Foundational work that influenced later hadith and fiqh commentaries.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/maalim-sunan.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6612,7 +6673,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Moderate Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "9th Century AH",
@@ -6621,7 +6682,7 @@ export const books = [
         uniqueAspects: "Synthesises hadith analysis with fiqh in a measured and accessible way.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/tawassut-mahmud.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6637,7 +6698,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Detailed Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "9th Century AH",
@@ -6646,7 +6707,7 @@ export const books = [
         uniqueAspects: "Frequently cited in later Shafi'i hadith and fiqh works.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-ibn-raslan.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6662,7 +6723,7 @@ export const books = [
         language: "Arabic",
         creed: "Athari",
         era: "Post-Classical",
-        bookType: "Fiqh-Oriented Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "9th Century AH",
@@ -6671,8 +6732,8 @@ export const books = [
         uniqueAspects: "Reflects Hanafi legal methodology while engaging broader hadith scholarship.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-sunan-abi-dawud-ayni.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 260,
@@ -6687,7 +6748,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Concise Commentary",
+        bookType: "Summary (Mukhtasar)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "10th Century AH",
@@ -6696,8 +6757,8 @@ export const books = [
         uniqueAspects: "Often used alongside larger commentaries for quick clarification.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/mirqat-suud.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 261,
@@ -6712,7 +6773,7 @@ export const books = [
         language: "Arabic",
         creed: "Athari",
         era: "Late Classical",
-        bookType: "Marginal Commentary",
+        bookType: "Gloss (Haashiya)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "12th Century AH",
@@ -6720,9 +6781,8 @@ export const books = [
         description: "A commentary and set of marginal notes focusing on linguistic clarification and narrator discussion.",
         uniqueAspects: "Frequently printed as ḥāshiyah alongside the main text.",
         commentaryOf: "Sunan Abī Dāwūd",
-        hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/fath-wadud.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 262,
@@ -6737,7 +6797,7 @@ export const books = [
         language: "Arabic",
         creed: "Maturidi",
         era: "Modern",
-        bookType: "Comprehensive Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "14th Century AH",
@@ -6746,8 +6806,8 @@ export const books = [
         uniqueAspects: "Widely taught in traditional seminaries and regarded as the standard Hanafi commentary.",
         commentaryOf: "Sunan Abī Dāwūd",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/badhl-majhul.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 263,
@@ -6762,7 +6822,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Early Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "5th Century AH",
@@ -6771,7 +6831,7 @@ export const books = [
         uniqueAspects: "Among the earliest complete attempts to comment on al-Bukhārī.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/nasihah-sharh.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6787,7 +6847,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Fiqh-Oriented Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "5th Century AH",
@@ -6796,8 +6856,8 @@ export const books = [
         uniqueAspects: "Heavily relied upon by later commentators, including Ibn Ḥajar.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/sharh-bukhari-battal.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 265,
@@ -6812,7 +6872,7 @@ export const books = [
         language: "Arabic",
         creed: "Athari",
         era: "Classical",
-        bookType: "Analytical Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "4th Century AH",
@@ -6821,7 +6881,7 @@ export const books = [
         uniqueAspects: "Also known as Aʿlām as-Sunan, among the earliest Bukhārī commentaries.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/alam-hadith.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6837,16 +6897,16 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Comparative Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "6th Century AH",
         scholarEra: "6th Century Hijri",
         description: "A comparative commentary on Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim with strong legal and theological discussion.",
         uniqueAspects: "Focuses on reconciling narrations across the two Ṣaḥīḥs.",
-        commentaryOf: "Ṣaḥīḥ al-Bukhārī",
+        commentaryOf: "Ṣaḥīḥ al-Bukhārī/Ṣaḥīḥ al-Muslim",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/nirayn.jpg",
         isPlaceholder: true,
         publishedEditions: []
     }, {
@@ -6862,7 +6922,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Classical",
-        bookType: "Abridgement and Gloss",
+        bookType: "Summary (Mukhtasar)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "7th Century AH",
@@ -6871,10 +6931,12 @@ export const books = [
         uniqueAspects: "Combines summarisation with linguistic clarification.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/ikhtisaar.jpg",
+        isPlaceholder: false,
         publishedEditions: []
-    }, {
+    },
+    /*
+    {
         id: 268,
         title: "At-Talkhīṣ Sharḥ al-Jāmiʿ aṣ-Ṣaḥīḥ",
         arabicTitle: "التلخيص شرح الجامع الصحيح",
@@ -6896,10 +6958,12 @@ export const books = [
         uniqueAspects: "Reflects Nawawī’s hadith methodology despite remaining incomplete.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/talkhis.jpg",
         isPlaceholder: true,
         publishedEditions: []
-    }, {
+    }, */
+
+    {
         id: 269,
         title: "At-Tanqīḥ li Alfāẓ al-Jāmiʿ aṣ-Ṣaḥīḥ",
         arabicTitle: "التنقيح لألفاظ الجامع الصحيح",
@@ -6912,7 +6976,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Lexical Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Intermediate",
         pages: 400,
         publicationYear: "8th Century AH",
@@ -6921,8 +6985,8 @@ export const books = [
         uniqueAspects: "Specialised linguistic analysis of Bukhārī’s terminology.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/tanqih.jpg",
+        isPlaceholder: false,
         publishedEditions: []
     }, {
         id: 270,
@@ -6937,7 +7001,7 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Comprehensive Commentary",
+        bookType: "Commentary (Sharh)",
         studyLevel: "Advanced",
         pages: 1000,
         publicationYear: "8th Century AH",
@@ -6946,15 +7010,17 @@ export const books = [
         uniqueAspects: "Served as a key source for later commentators.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
-        isPlaceholder: true,
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/alkawakib-durari.jpg",
+        isPlaceholder: false,
         publishedEditions: []
-    }, {
+    },
+    
+    {
         id: 271,
-        title: "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
-        arabicTitle: "فتح الباري شرح صحيح البخاري",
-        author: "Ibn Ḥajar al-ʿAsqalānī",
-        authorArabic: "ابن حجر العسقلاني",
+        title: "Nadhir as-Sahih 'ala al-Jami' as-Sahih",
+        arabicTitle: "الناظر الصحيح على الجامع الصحيح",
+        author: "Mufaq al-Din ibn sabt ibn al-Ajami",
+        authorArabic: "موفق الدين ابن سبط ابن العجمي",
         authorBirthYear: 852,
         category: "Hadith",
         subject: "Hadith Commentary",
@@ -6962,19 +7028,22 @@ export const books = [
         language: "Arabic",
         creed: "Ashʿari",
         era: "Post-Classical",
-        bookType: "Definitive Commentary",
+        bookType: "Tahqeeq (Critical Edition)",
         studyLevel: "Advanced",
-        pages: 1000,
+        pages: 2320,
         publicationYear: "9th Century AH",
         scholarEra: "9th Century Hijri",
-        description: "The most authoritative and widely accepted commentary on Ṣaḥīḥ al-Bukhārī.",
-        uniqueAspects: "Universally regarded as the pinnacle of Bukhārī commentary.",
+        description: "A grammatical analysis of sahih al Bukhari.",
+        uniqueAspects: "This author particularly focuses on the grammar of the ahadith in Sahih-al Bukhari.",
         commentaryOf: "Ṣaḥīḥ al-Bukhārī",
         hasCommentaries: [],
-        coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
+        coverImage: "https://library.minaretandquill.com/book_covers/hadith/nadhir-as-sahih-ala-al-jami-as-sahih-grammar-of-sahih-bukhari.jpg",
         isPlaceholder: true,
         publishedEditions: []
-    }, {
+    },
+
+    // Usul al-Hadith Books
+    {
         id: 272,
         title: "Al-Manhal al-Laṭīf fī Uṣūl al-Ḥadīth ash-Sharīf",
         arabicTitle: "المنهل اللطيف في أصول الحديث الشريف",
@@ -7677,7 +7746,9 @@ export const books = [
         coverImage: "https://library.minaretandquill.com/book_covers/pendingfrontcover.jpg",
         isPlaceholder: true,
         publishedEditions: []
-    }, {
+    },
+    //Sarf
+    {
         id: 299,
         title: "Al-Amthilah al-Taṣrīfiyyah",
         arabicTitle: "الأمثلة التصريفية",
@@ -10018,7 +10089,7 @@ export const subjectsByCategory = {
     ],
     "Hadith": [
         "All",
-        "Sahih Siita",
+        "Sahih Sitta",
         "Other Collections",
         "Hadith Commentary",
         "Hadith with Fiqh"
