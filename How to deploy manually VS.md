@@ -43,9 +43,6 @@
 	mkdir C:\temp\prod_build
 	Copy-Item build\* C:\temp\prod_build -Recurse -Force
 
-
-
-
 # Switch to prod
 
 	git checkout prod
