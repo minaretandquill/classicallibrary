@@ -265,6 +265,12 @@ export const eras = [
     "Modern"
 ];
 
+"Salaf" - first three generations 
+"Khalaf", - early scholars after them 300AH - 700AH 
+"Classical", - 700AH - 1000AH 
+"Post-Classical", 1000AH - 1350 
+"Modern" - 1350AH+
+
 export const bookTypes = [
     "All",
     "Core text (Matn)",

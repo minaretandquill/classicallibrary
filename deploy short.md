@@ -7,7 +7,7 @@
 	yarn build
 
 	git add .
-	git commit -m "Describe your change"
+	git commit -m "updated mock.js"
 	git push origin main
 
 	rmdir C:\temp\ -Recurse
