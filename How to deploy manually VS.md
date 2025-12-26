@@ -18,6 +18,8 @@
 	git commit -m "Describe your change"
 	git push origin main
 
+# If remote branch broken, and local one is latest to you, then force push git push -f origin master
+
 # Build site. Open terminal in front end folder and run:
 
 	yarn build
