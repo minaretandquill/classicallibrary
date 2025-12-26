@@ -9,7 +9,6 @@
 /coverage
 
 # production
-/public/book_covers
 
 # misc
 .DS_Store
