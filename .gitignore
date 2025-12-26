@@ -27,7 +27,6 @@ next-env.d.ts
 
 # Production builds
 /build
-/public/book_covers
 dist/
 dist
 
